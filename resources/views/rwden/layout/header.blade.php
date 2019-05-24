@@ -31,10 +31,7 @@
                     <a class="nav-link" href="{{ route('registeren') }}">REGISTRATION</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/">TRADITIONAL CHINESE</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ route('homecn') }}">SIMPLE CHINESE</a>
+                    <a class="nav-link" href="{{ route('index') }}">TRADITIONAL CHINESE</a>
                 </li>
                 <li class="nav-item">
                     <a href="line://ti/p/@skr8724u"><img src="https://img.icons8.com/color/36/000000/line-me.png"></a>

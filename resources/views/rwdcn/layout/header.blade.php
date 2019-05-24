@@ -17,7 +17,7 @@
 <body>
 <div class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
     <div class="container">
-        <a href="{{ route('homecn') }}" class="navbar-brand">全球顶尖红人对决参赛官方网站</a>
+        <a href="/" class="navbar-brand">全球顶尖红人对决参赛官方网站</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -29,15 +29,6 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ route('registercn') }}">开始报名</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="/">繁體中文</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="{{ route('homeen') }}">English</a>
-                </li>
-                <li class="nav-item">
-                    <a href="https://wx.qq.com/wechat?lang=zh_TW"><img src="https://img.icons8.com/color/36/000000/weixing.png"></a>
                 </li>
             </ul>
         </div>

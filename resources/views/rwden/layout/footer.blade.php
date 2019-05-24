@@ -9,110 +9,58 @@
 </div>
 
 <!-- Footer -->
-<footer class="page-footer font-small mdb-color lighten-3 pt-4" style="background-color: #000000;">
-
-    <!-- Footer Elements -->
-    <div class="container">
-
-        <!--Grid row-->
+<footer class="page-footer font-small blue pt-4 footer-background">
+    <div class="container-fluid text-center text-md-left">
         <div class="row">
-
-            <!--Grid column-->
-            <div class="col-lg-2 col-md-12 mb-4">
-
-                <!--Image-->
-                <div class="view overlay z-depth-1-half">
-                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(73).jpg" class="img-fluid" alt="">
-                    <a href="">
-                        <div class="mask rgba-white-light"></div>
-                    </a>
-                </div>
-
+            <hr class="clearfix w-100 d-md-none pb-3 rwd-mt">
+            <div class="col-md-1 mb-md-0 offset-md-1 mb-3">
+                <h5 class="text-ml-1 text-center">The Co-hosting</h5>
+                <img src="images/sponsor/giraffe-logo.png" alt="" class="second-logo">
+                <h5 class="text-ml-1 mt-3 text-center">Event execution</h5>
+                <img src="images/sponsor/maker-logo.jpg" alt="" class="second-logo">
             </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-lg-2 col-md-6 mb-4">
-
-                <!--Image-->
-                <div class="view overlay z-depth-1-half">
-                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(78).jpg" class="img-fluid" alt="">
-                    <a href="">
-                        <div class="mask rgba-white-light"></div>
-                    </a>
-                </div>
-
+            <div class="col-md-1 mb-md-0 mb-3 rwd-mt">
+                <h5 class="text-ml-1 text-center">The Co-organizer</h5>
+                <img src="images/sponsor/phoenixdarts-logo.png" alt="" class="third-logo">
             </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-lg-2 col-md-6 mb-4">
-
-                <!--Image-->
-                <div class="view overlay z-depth-1-half">
-                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(79).jpg" class="img-fluid" alt="">
-                    <a href="">
-                        <div class="mask rgba-white-light"></div>
-                    </a>
-                </div>
-
+            <div class="col-md-2 mb-md-0 mb-3 rwd-mt">
+                <h5 class="text-ml-1">Directed by</h5>
+                <img src="images/sponsor/taipei-government.png" alt="" class="third-logo">
+                <img src="images/sponsor/taipei-department-logo.png" alt="" class="third-logo ml-1">
+                <img src="images/sponsor/taipei-lighport-logo.png" alt="" class="third-logo mt-2">
+                <img src="images/sponsor/city-councilor.png" alt="" class="third-logo mt-2 ml-1">
             </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-lg-2 col-md-12 mb-4">
-
-                <!--Image-->
-                <div class="view overlay z-depth-1-half">
-                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(81).jpg" class="img-fluid" alt="">
-                    <a href="">
-                        <div class="mask rgba-white-light"></div>
-                    </a>
-                </div>
-
+            <div class="col-md-2 mb-md-0 mb-3 rwd-mt">
+                <h5 class="h5-mt text-center">The Organizer</h5>
+                <img src="images/sponsor/quick_pi_logo_company.png" alt="" class="quick-logo">
             </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-lg-2 col-md-6 mb-4">
-
-                <!--Image-->
-                <div class="view overlay z-depth-1-half">
-                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(82).jpg" class="img-fluid" alt="">
-                    <a href="">
-                        <div class="mask rgba-white-light"></div>
-                    </a>
-                </div>
-
+            <div class="col-md-4 mb-md-0 mb-3 rwd-mt">
+                <h5 class="text-ml-1">The Sponsor</h5>
+                <img src="images/sponsor/spa-logo.png" alt="" class="third-logo">
+                <img src="images/sponsor/caco-logo.png" alt="" class="third-logo ml-2">
+                <img src="images/sponsor/ejia-logo.png" alt="" class="third-logo ml-1 mt-rwd-third">
+                <img src="images/sponsor/taiwan-car-logo.png" alt="" class="third-logo ml-2 mt-rwd-third-one">
+                <img src="images/sponsor/mornjoy-logo.png" alt="" class="third-logo mt-2">
+                <img src="images/sponsor/wave-shine-logo.png" alt="" class="third-logo mt-2 ml-2">
             </div>
-            <!--Grid column-->
-
-            <!--Grid column-->
-            <div class="col-lg-2 col-md-6 mb-4">
-
-                <!--Image-->
-                <div class="view overlay z-depth-1-half">
-                    <img src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(84).jpg" class="img-fluid" alt="">
-                    <a href="">
-                        <div class="mask rgba-white-light"></div>
-                    </a>
-                </div>
-
-            </div>
-            <!--Grid column-->
-
         </div>
-        <!--Grid row-->
-
     </div>
-    <!-- Footer Elements -->
-
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2019 Made by:
+    <div class="row rwd-mt">
+        <div class="col-md-3 offset-md-3 mb-3 mt-5 ml-rwd-first-en">
+            <h1 class="quick-pi-h1-en">© Quick-Pi</h1>
+            <p class="p-font-first">Address：No. 24, Lane 2, Lane 118, Section 2, Heping East Road, Daan District, Taipei City<br>
+                Customer Service Hotline:02-2736-1119<br>
+                Fax line:02-2736-1109
+            </p>
+        </div>
+        <div class="col-md-3 mb-3 mt-5 ml-5 ml-rwd-second">
+            <h1 class="quick-pi-h1-en">Contact Us：</h1>
+            <img src="images/Wechat-QRCode.jpg" alt="" class="wechat-qrcode">
+        </div>
+    </div>
+    <div class="footer-copyright text-center py-3">© 2019 Copyright:
         <a href="https://quick-pi.com"> Quick-Pi.com</a>
     </div>
-    <!-- Copyright -->
-
 </footer>
 <!-- Footer -->
 

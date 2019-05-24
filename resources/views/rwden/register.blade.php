@@ -22,6 +22,9 @@
         <div class="form-group">
             <select name="area" id="" class="form-control">
                 <option value="" disabled selected>＊Select area</option>
+                <option value="香港">Hong Kong</option>
+                <option value="澳門">Macao</option>
+                <option value="新加坡">Singapore</option>
                 <option value="馬來西亞">Malaysia</option>
                 <option value="泰國">Thailand</option>
                 <option value="越南">Vietnam</option>

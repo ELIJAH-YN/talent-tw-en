@@ -6,7 +6,7 @@
     <div class="border-1">
         <div class="title-form-purpose">
             <a>
-                The "Global Top Talent Contest" is the frist international talent contest hosting in Taiwan by Quick pi company, the participating regions include Taiwan, Beijing, shanghai, Macau, Hangzhou, shenzhen, Guangzhou and Countries include Thailand, Vietnam and Malaysia.
+                The "Global Top Talent Contest" is the frist international talent contest hosting in Taiwan by Quick pi company, the participating regions include Taiwan-Taipei, Beijing, shanghai, Macau, Hangzhou, shenzhen, Guangzhou and Countries include Thailand, Vietnam and Malaysia.
             </a><br>
             <a>
                 The final contest will be hosting in Singapore at december of 2019 and only top five can win the contest.
@@ -15,9 +15,9 @@
         <h5 class="title-h5"><img src="images/en/entry-rules.gif"></h5>
         <div class="title-form-1">
             <a>
-                1. Open Registration: 2019/5/1 – 2019/5/31<br>
+                1. Open Registration: 2019/08/01 – 2019/08/31<br>
                 2. The registration qualification: age 18 or older, male or female<br>
-                3. The competition prize: the champion will be awarded NT$1,000,000 (including the equivalent prizes) and a trophy. The result of the competition will be announced and issued at the scene of the final, and the results will be announced on the official website of Quick-Pi and fans club of Facebook.
+                3. The competition prize: the champion will be awarded NT$500,000 (including the equivalent prizes) and a trophy. The result of the competition will be announced and issued at the scene of the final, and the results will be announced on the official website of Quick-Pi and fans club of Facebook.
             </a>
         </div>
         <h5 class="title-h5"><img src="images/en/registration-method.gif"></h5>
@@ -30,7 +30,7 @@
                 <li>V. In case of natural disasters and force majeure factors, the organizer may postpone and announce on the official website.</li>
             </ul>
         </div>
-        <h5 class="title-h5"><img src="images/en/other-matters.gif"></h5>
+        <h5 class="title-h5"><img src="images/en/other-matters.gif" class="title-logo-en"></h5>
         <div class="title-form-1">
             <a>Other matters:  The organizer shall have the right to adjust the schedule and supplement or revise the content. The participants shall not have any objection and shall abide by the rules of participation and the assessment of the review.
                 The association reserves the right to collect relevant evidence and take appropriate action in the event of irrational protest (such as insulting the organizer, intent to suspend or hinder the conduct of the competition) and retain the right to legal prosecution.
@@ -61,8 +61,8 @@
             </ul>
         </div>-->
         <div class="title-form-1">
-            <h5 class="title-h5"><img src="images/en/preliminary-selection.gif"></h5><br>
-            <a>&nbsp;&nbsp;Date of contest：first of July, 2019 - 31. August, 2019</a><br>
+            <h5 class="title-h5"><img src="images/en/preliminary-selection.gif" class="title-logo-en"></h5><br>
+            <a>&nbsp;&nbsp;Date of contest：first of September, 2019 - 30. September, 2019</a><br>
             <a>&nbsp;&nbsp;Place：Internet</a>
             <table class="table table-bordered">
                 <tbody>
@@ -86,8 +86,8 @@
             </table>
         </div>
         <div class="title-form-1">
-            <h5 class="title-h5"><img src="images/en/rematch-selection.gif"></h5><br>
-            <a>&nbsp;&nbsp;Date of contest：first of September, 2019 - 31. October, 2019</a><br>
+            <h5 class="title-h5"><img src="images/en/rematch-selection.gif" class="title-logo-en"></h5><br>
+            <a>&nbsp;&nbsp;Date of contest：first of October, 2019 - 31. October, 2019</a><br>
             <a>&nbsp;&nbsp;Place：Internet</a>
             <table class="table table-bordered">
                 <tbody>
@@ -111,8 +111,8 @@
             </table>
         </div>
         <div class="title-form-1">
-            <h5 class="title-h5"><img src="images/en/final-selection.gif"></h5><br>
-            <a>&nbsp;&nbsp;Date of contest：December, 2019</a><br>
+            <h5 class="title-h5"><img src="images/en/final-selection.gif" class="title-logo-en"></h5><br>
+            <a>&nbsp;&nbsp;Date of contest：first of November, 2019 - 30. November, 2019</a><br>
             <a>&nbsp;&nbsp;Place：We will notice you after the selection</a>
             <table class="table table-bordered">
                 <tbody>

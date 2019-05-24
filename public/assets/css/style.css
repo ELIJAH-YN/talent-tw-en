@@ -3,32 +3,406 @@
     src: url("/fonts/poppins/LetterGothicStd.otf");  }
 
 body {
-	background: #000 url("/images/picture_4.jpg") repeat-y;
-	background-size: cover;
-	color: #fff;
-	/*font-family: "Times New Roman", Times, serif;*/
+    background: #000 url("/images/picture_4.jpg") repeat-y;
+    background-size: cover;
+    color: #fff;
 }
 
 .bs-component .logo {
-	/*width: 200px;*/
-	margin-bottom: 30px;
+    /*width: 200px;*/
+    margin-bottom: 30px;
 }
 
-@media (min-width: 800px) {
-	body {
-		background: #000 url("/images/bg.jpg") no-repeat;
-		background-size: cover;
-		color: #fff;
-	}
+@media (max-width: 1920px) {
+    body {
+        background: #000 url("/images/bg.jpg") no-repeat;
+        background-size: cover;
+        color: #fff;
+    }
 
-	.bs-component .logo {
-		margin: 0 auto;
-		/*width: 250px;*/
-	}
+    .bs-component .logo {
+        margin: 0 auto;
+        /*width: 250px;*/
+    }
 
-	.content {
-		padding-top: 40px;
-	}
+    .content {
+        padding-top: 40px;
+    }
+
+    dl {
+        margin-top: 25px;
+        font-size: 1.1em;
+    }
+
+    .red {
+        color: #ff443d;
+        font-weight: bold;
+    }
+
+    ul li {
+        padding: 8px 0;
+    }
+
+    ol li {
+        padding: 8px 0;
+    }
+
+    h6 {
+        font-size: 30px;
+        color: #D61518;
+    }
+
+    h4 {
+        font-size: 40px;
+    }
+
+    .news-p {
+        font-size: 24px;
+        padding: 10px 0 0 0;
+    }
+
+    .title-form-2 {
+        padding: 150px 0 0 20px;
+    }
+
+    .title-form-3 {
+        padding: 40px 40px 0 40px;
+    }
+
+    .title-h5 {
+        font-size: 40px;
+        text-align: center;
+        padding-top: 20px;
+        margin-top: 20px;
+    }
+
+    .global-title {
+        font-size: 36px;
+        font-family: "LetterGothicStd";
+    }
+
+    .global-title-1 {
+        font-size: 36px;
+        font-family: "LetterGothicStd";
+    }
+
+    .form-group-ma {
+        margin-top: 100px;
+    }
+
+    .border-1 {
+        border: solid #6D00BD 1px;
+        background-color: rgba(153,50,204,0.2);
+        padding-bottom: 0px;
+        margin-top: 100px;
+    }
+
+    .title-form-1 {
+        font-size: 18px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 20px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        font-family: Arial, sans-serif;
+    }
+
+    .btn {
+        width: 170px;
+    }
+
+    .form-control-mnp {
+        margin-top: 140px;
+    }
+
+    .form-control-mnp-up {
+        margin-top: 140px;
+    }
+
+    .form-control-mnp-ty {
+        margin-top: 140px;
+    }
+
+    .form-control-mnp-en {
+        margin-top: 170px;
+    }
+
+    .title-form-purpose {
+        font-size: 18px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 60px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        font-family: Arial, sans-serif;
+    }
+
+    .back-color {
+        background-color: rgb(104, 34, 139);
+        color: #fffafa;
+    }
+
+    .back-color-td {
+        background-color: rgb(85, 26, 139);
+        color: #fffafa;
+    }
+
+    .footer-background {
+        background-color: rgb(0, 0, 0);
+    }
+
+    .border-one {
+        border: 2px solid;
+        border-right: 20px;
+    }
+
+    .wechat {
+        width: 150px;
+    }
+
+    .text-ml {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .text-ml-1 {
+        font-size: 18px;
+    }
+
+    .quick-logo {
+        width: 240px;
+        margin: 0 0 0 108px;
+    }
+
+    .second-logo {
+        width: 120px;
+    }
+
+    .third-logo {
+        width: 120px;
+    }
+
+    .ml-rwd {
+        margin-left: 50px;
+    }
+
+    .quick-pi-h1 {
+        font-size: 16px;
+    }
+
+    .wechat-qrcode {
+        width: 100px;
+    }
+
+    .quick-pi-h1-en {
+        font-size: 20px;
+    }
+
+    .ml-rwd-first-en {
+        margin-left: 600px;
+    }
+
+}
+@media (max-width: 1440px) {
+    body {
+        background: #000 url("/images/bg.jpg") no-repeat;
+        background-size: cover;
+        color: #fff;
+    }
+
+    .bs-component .logo {
+        margin: 0 auto;
+        /*width: 250px;*/
+    }
+
+    .content {
+        padding-top: 40px;
+    }
+
+    dl {
+        margin-top: 25px;
+        font-size: 1.1em;
+    }
+
+    .red {
+        color: #ff443d;
+        font-weight: bold;
+    }
+
+    ul li {
+        padding: 8px 0;
+    }
+
+    ol li {
+        padding: 8px 0;
+    }
+
+    h6 {
+        font-size: 28px;
+        color: #D61518;
+    }
+
+    h4 {
+        font-size: 38px;
+    }
+
+    .news-p {
+        font-size: 18px;
+        padding: 10px 0 0 0;
+    }
+
+    .title-form-2 {
+        padding: 150px 0 0 20px;
+    }
+
+    .title-form-3 {
+        padding: 40px 40px 0 40px;
+    }
+    
+    .title-h5 {
+        font-size: 40px;
+        text-align: center;
+        padding-top: 20px;
+        margin-top: 20px;
+    }
+
+    .global-title {
+        font-size: 36px;
+        font-family: "LetterGothicStd";
+    }
+
+    .global-title-1 {
+        font-size: 36px;
+        font-family: "LetterGothicStd";
+    }
+
+    .form-group-ma {
+        margin-top: 100px;
+    }
+
+    .border-1 {
+        border: solid #6D00BD 1px;
+        background-color: rgba(153,50,204,0.2);
+        padding-bottom: 0px;
+        margin-top: 100px;
+    }
+
+    .title-form-1 {
+        font-size: 18px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 20px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        font-family: Arial, sans-serif;
+    }
+
+    .btn {
+        width: 170px;
+    }
+
+    .form-control-mnp {
+        margin-top: 140px;
+    }
+
+    .form-control-mnp-up {
+        margin-top: 140px;
+    }
+
+    .form-control-mnp-ty {
+        margin-top: 140px;
+    }
+
+    .form-control-mnp-en {
+        margin-top: 170px;
+    }
+
+    .title-form-purpose {
+        font-size: 18px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 60px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        font-family: Arial, sans-serif;
+    }
+
+    .back-color {
+        background-color: rgb(104, 34, 139);
+        color: #fffafa;
+    }
+
+    .back-color-td {
+        background-color: rgb(85, 26, 139);
+        color: #fffafa;
+    }
+
+    .footer-background {
+        background-color: rgb(0, 0, 0);
+    }
+
+    .border-one {
+        border: 2px solid;
+        border-right: 20px;
+    }
+
+    .wechat {
+        width: 150px;
+    }
+
+    .text-ml {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .text-ml-1 {
+        font-size: 16px;
+    }
+
+    .quick-logo {
+        width: 180px;
+        margin: 0 0 0 17px;
+    }
+
+    .second-logo {
+        width: 100px;
+    }
+
+    .third-logo {
+        width: 100px;
+    }
+
+    .ml-rwd {
+        margin-left: 50px;
+    }
+
+    .quick-pi-h1 {
+        font-size: 16px;
+    }
+
+    .wechat-qrcode {
+        width: 100px;
+    }
+
+    .ml-rwd-first-en {
+        margin-left: 440px;
+    }
+}
+@media (max-width: 1366px) {
+    body {
+        background: #000 url("/images/bg.jpg") no-repeat;
+        background-size: cover;
+        color: #fff;
+    }
+
+    .bs-component .logo {
+        margin: 0 auto;
+        /*width: 250px;*/
+    }
+
+    .content {
+        padding-top: 40px;
+    }
 
     dl {
         margin-top: 25px;
@@ -126,24 +500,158 @@ body {
         color: #fffafa;
     }
 
-}
+    .footer-background {
+        background-color: rgb(0, 0, 0);
+    }
 
-@media (max-width: 375px) {
-    .title-form-purpose {
-        font-size: 15px;
-        padding-left: 20px;
-        padding-right: 20px;
+    .border-one {
+        border: 2px solid;
+        border-right: 20px;
+    }
+
+    .wechat {
+        width: 150px;
+    }
+
+    .text-ml {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .text-ml-1 {
+        font-size: 16px;
+    }
+
+    .quick-logo {
+        width: 180px;
+        margin: 0 0 0 68px;
+    }
+
+    .second-logo {
+        width: 80px;
+    }
+
+    .third-logo {
+        width: 80px;
+    }
+
+    .ml-rwd {
+        margin-left: 50px;
+    }
+
+    .quick-pi-h1 {
+        font-size: 16px;
+    }
+
+    .quick-pi-h1-en {
+        font-size: 20px;
+    }
+
+    .ml-rwd-first-en {
+        margin-left: 410px;
+    }
+
+    .wechat-qrcode {
+        width: 100px;
+    }
+}
+@media (max-width: 1280px) {
+    body {
+        background: #000 url("/images/bg.jpg") no-repeat;
+        background-size: cover;
+        color: #fff;
+    }
+
+    .bs-component .logo {
+        margin: 0 auto;
+        /*width: 250px;*/
+    }
+
+    .content {
         padding-top: 40px;
+    }
+
+    dl {
+        margin-top: 25px;
+        font-size: 1.1em;
+    }
+
+    .red {
+        color: #ff443d;
+        font-weight: bold;
+    }
+
+    ul li {
+        padding: 8px 0;
+    }
+
+    ol li {
+        padding: 8px 0;
+    }
+
+    .title-h5 {
+        font-size: 40px;
+        text-align: center;
+        padding-top: 20px;
+        margin-top: 20px;
+    }
+
+    .global-title {
+        font-size: 36px;
+        font-family: "LetterGothicStd";
+    }
+
+    .global-title-1 {
+        font-size: 36px;
+        font-family: "LetterGothicStd";
+    }
+
+    .form-group-ma {
+        margin-top: 100px;
+    }
+
+    .border-1 {
+        border: solid #6D00BD 1px;
+        background-color: rgba(153,50,204,0.2);
+        padding-bottom: 0px;
+        margin-top: 100px;
+    }
+
+    .title-form-1 {
+        font-size: 18px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 20px;
         margin-top: 0px;
         margin-bottom: 30px;
         font-family: Arial, sans-serif;
     }
 
-    .title-form-1 {
-        font-size: 15px;
-        padding-top: 20px;
-        padding-right: 20px;
-        padding-left: 20px;
+    .btn {
+        width: 170px;
+    }
+
+    .form-control-mnp {
+        margin-top: 140px;
+    }
+
+    .form-control-mnp-up {
+        margin-top: 140px;
+    }
+
+    .form-control-mnp-ty {
+        margin-top: 140px;
+    }
+
+    .form-control-mnp-en {
+        margin-top: 170px;
+    }
+
+    .title-form-purpose {
+        font-size: 18px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 60px;
         margin-top: 0px;
         margin-bottom: 30px;
         font-family: Arial, sans-serif;
@@ -159,10 +667,136 @@ body {
         color: #fffafa;
     }
 
+    .footer-background {
+        background-color: rgb(0, 0, 0);
+    }
+
+    .border-one {
+        border: 2px solid;
+        border-right: 20px;
+    }
+
+    .wechat {
+        width: 150px;
+    }
+
+    .text-ml {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .text-ml-1 {
+        font-size: 16px;
+    }
+
+    .quick-logo {
+        width: 180px;
+        margin: 0 0 0 58px;
+    }
+
+    .second-logo {
+        width: 80px;
+    }
+
+    .third-logo {
+        width: 80px;
+    }
+
+    .ml-rwd {
+        margin-left: 50px;
+    }
+
+    .quick-pi-h1 {
+        font-size: 16px;
+    }
+
+    .quick-pi-h1-en {
+        font-size: 20px;
+    }
+
+    .ml-rwd-first-en {
+        margin-left: 410px;
+    }
+
+    .wechat-qrcode {
+        width: 100px;
+    }
+}
+@media (max-width: 1024px) {
+    body {
+        background: #000 url("/images/bg.jpg") no-repeat;
+        background-size: cover;
+        color: #fff;
+    }
+
+    .bs-component .logo {
+        margin: 0 auto;
+        /*width: 250px;*/
+    }
+
+    .content {
+        padding-top: 40px;
+    }
+
+    dl {
+        margin-top: 25px;
+        font-size: 1.1em;
+    }
+
+    .red {
+        color: #ff443d;
+        font-weight: bold;
+    }
+
+    ul li {
+        padding: 8px 0;
+    }
+
+    ol li {
+        padding: 8px 0;
+    }
+
+    h6 {
+        font-size: 28px;
+        color: #D61518;
+    }
+
+    h4 {
+        font-size: 36px;
+    }
+
+    .news-p {
+        font-size: 20px;
+        padding: 10px 0 0 0;
+    }
+
+    .title-form-2 {
+        padding: 150px 0 0 20px;
+    }
+
+    .title-form-3 {
+        padding: 40px 20px 0 20px;
+    }
+
     .title-h5 {
+        font-size: 40px;
         text-align: center;
         padding-top: 20px;
         margin-top: 20px;
+    }
+
+    .global-title {
+        font-size: 36px;
+        font-family: "LetterGothicStd";
+    }
+
+    .global-title-1 {
+        font-size: 36px;
+        font-family: "LetterGothicStd";
+    }
+
+    .form-group-ma {
+        margin-top: 100px;
     }
 
     .border-1 {
@@ -172,25 +806,41 @@ body {
         margin-top: 100px;
     }
 
-
-}
-
-@media (max-width: 414px) {
-    .title-form-purpose {
-        font-size: 15px;
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top: 40px;
+    .title-form-1 {
+        font-size: 18px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 20px;
         margin-top: 0px;
         margin-bottom: 30px;
         font-family: Arial, sans-serif;
     }
 
-    .title-form-1 {
-        font-size: 15px;
-        padding-top: 20px;
-        padding-right: 20px;
-        padding-left: 20px;
+    .btn {
+        width: 170px;
+    }
+
+    .form-control-mnp {
+        margin-top: 140px;
+    }
+
+    .form-control-mnp-up {
+        margin-top: 140px;
+    }
+
+    .form-control-mnp-ty {
+        margin-top: 140px;
+    }
+
+    .form-control-mnp-en {
+        margin-top: 170px;
+    }
+
+    .title-form-purpose {
+        font-size: 18px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 60px;
         margin-top: 0px;
         margin-bottom: 30px;
         font-family: Arial, sans-serif;
@@ -206,10 +856,119 @@ body {
         color: #fffafa;
     }
 
+    .footer-background {
+        background-color: rgb(0, 0, 0);
+    }
+
+    .border-one {
+        border: 2px solid;
+        border-right: 20px;
+    }
+
+    .wechat {
+        width: 150px;
+    }
+
+    .text-ml {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .text-ml-1 {
+        font-size: 13px;
+    }
+
+    .quick-logo {
+        width: 140px;
+        margin: 0 0 0 46px;
+    }
+
+    .second-logo {
+        width: 60px;
+    }
+
+    .third-logo {
+        width: 60px;
+    }
+
+    .ml-rwd {
+        margin-left: 50px;
+    }
+
+    .quick-pi-h1 {
+        font-size: 14px;
+    }
+
+    .p-font-first {
+        font-size: 10px;
+    }
+
+    .wechat-qrcode {
+        width: 90px;
+    }
+
+    .ml-rwd-first-en {
+        margin-left: 300px;
+    }
+
+    .quick-pi-h1-en {
+        font-size: 15px;
+    }
+
+}
+@media (max-width: 834px) {
+    body {
+        background: #000 url("/images/bg.jpg") no-repeat;
+        background-size: cover;
+        color: #fff;
+    }
+
+    .bs-component .logo {
+        margin: 0 auto;
+        /*width: 250px;*/
+    }
+
+    .content {
+        padding-top: 40px;
+    }
+
+    dl {
+        margin-top: 25px;
+        font-size: 1.1em;
+    }
+
+    .red {
+        color: #ff443d;
+        font-weight: bold;
+    }
+
+    ul li {
+        padding: 8px 0;
+    }
+
+    ol li {
+        padding: 8px 0;
+    }
+
     .title-h5 {
+        font-size: 40px;
         text-align: center;
         padding-top: 20px;
         margin-top: 20px;
+    }
+
+    .global-title {
+        font-size: 36px;
+        font-family: "LetterGothicStd";
+    }
+
+    .global-title-1 {
+        font-size: 36px;
+        font-family: "LetterGothicStd";
+    }
+
+    .form-group-ma {
+        margin-top: 100px;
     }
 
     .border-1 {
@@ -219,25 +978,41 @@ body {
         margin-top: 100px;
     }
 
-
-}
-
-@media (max-width:  667px) {
-    .title-form-purpose {
-        font-size: 15px;
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top: 40px;
+    .title-form-1 {
+        font-size: 18px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 20px;
         margin-top: 0px;
         margin-bottom: 30px;
         font-family: Arial, sans-serif;
     }
 
-    .title-form-1 {
-        font-size: 15px;
-        padding-top: 20px;
-        padding-right: 20px;
-        padding-left: 20px;
+    .btn {
+        width: 170px;
+    }
+
+    .form-control-mnp {
+        margin-top: 140px;
+    }
+
+    .form-control-mnp-up {
+        margin-top: 140px;
+    }
+
+    .form-control-mnp-ty {
+        margin-top: 140px;
+    }
+
+    .form-control-mnp-en {
+        margin-top: 170px;
+    }
+
+    .title-form-purpose {
+        font-size: 18px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 60px;
         margin-top: 0px;
         margin-bottom: 30px;
         font-family: Arial, sans-serif;
@@ -253,10 +1028,109 @@ body {
         color: #fffafa;
     }
 
+    .footer-background {
+        background-color: rgb(0, 0, 0);
+    }
+
+    .border-one {
+        border: 2px solid;
+        border-right: 20px;
+    }
+
+    .wechat {
+        width: 150px;
+    }
+
+    .text-ml {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .text-ml-1 {
+        font-size: 9px;
+    }
+
+    .quick-logo {
+        width: 110px;
+    }
+
+    .second-logo {
+        width: 60px;
+    }
+
+    .third-logo {
+        width: 50px;
+    }
+
+    .ml-rwd {
+        margin-left: 50px;
+    }
+
+    .quick-pi-h1 {
+        font-size: 12px;
+    }
+
+    .p-font-first {
+        font-size: 10px;
+    }
+
+    .wechat-qrcode {
+        width: 50px;
+    }
+}
+@media (max-width: 800px) {
+    body {
+        background: #000 url("/images/bg.jpg") no-repeat;
+        background-size: cover;
+        color: #fff;
+    }
+
+    .bs-component .logo {
+        margin: 0 auto;
+        /*width: 250px;*/
+    }
+
+    .content {
+        padding-top: 40px;
+    }
+
+    dl {
+        margin-top: 25px;
+        font-size: 1.1em;
+    }
+
+    .red {
+        color: #ff443d;
+        font-weight: bold;
+    }
+
+    ul li {
+        padding: 8px 0;
+    }
+
+    ol li {
+        padding: 8px 0;
+    }
+
     .title-h5 {
+        font-size: 40px;
         text-align: center;
         padding-top: 20px;
         margin-top: 20px;
+    }
+
+    .global-title {
+        font-size: 36px;
+        font-family: "LetterGothicStd";
+    }
+
+    .global-title-1 {
+        font-size: 36px;
+        font-family: "LetterGothicStd";
+    }
+
+    .form-group-ma {
+        margin-top: 100px;
     }
 
     .border-1 {
@@ -266,25 +1140,41 @@ body {
         margin-top: 100px;
     }
 
-
-}
-
-@media (max-width: 736px) {
-    .title-form-purpose {
-        font-size: 15px;
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top: 40px;
+    .title-form-1 {
+        font-size: 18px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 20px;
         margin-top: 0px;
         margin-bottom: 30px;
         font-family: Arial, sans-serif;
     }
 
-    .title-form-1 {
-        font-size: 15px;
-        padding-top: 20px;
-        padding-right: 20px;
-        padding-left: 20px;
+    .btn {
+        width: 170px;
+    }
+
+    .form-control-mnp {
+        margin-top: 140px;
+    }
+
+    .form-control-mnp-up {
+        margin-top: 140px;
+    }
+
+    .form-control-mnp-ty {
+        margin-top: 140px;
+    }
+
+    .form-control-mnp-en {
+        margin-top: 170px;
+    }
+
+    .title-form-purpose {
+        font-size: 18px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 60px;
         margin-top: 0px;
         margin-bottom: 30px;
         font-family: Arial, sans-serif;
@@ -300,38 +1190,179 @@ body {
         color: #fffafa;
     }
 
-    .title-h5 {
+    .footer-background {
+        background-color: rgb(0, 0, 0);
+    }
+
+    .border-one {
+        border: 2px solid;
+        border-right: 20px;
+    }
+
+    .wechat {
+        width: 150px;
+    }
+
+    .text-ml {
+        font-size: 24px;
         text-align: center;
-        padding-top: 20px;
-        margin-top: 20px;
     }
 
-    .border-1 {
-        border: solid #6D00BD 1px;
-        background-color: rgba(153,50,204,0.2);
-        padding-bottom: 0px;
-        margin-top: 100px;
+    .text-ml-1 {
+        font-size: 9px;
     }
 
+    .quick-logo {
+        width: 110px;
+    }
 
+    .second-logo {
+        width: 50px;
+    }
+
+    .third-logo {
+        width: 45px;
+    }
+
+    .ml-rwd {
+        margin-left: 50px;
+    }
+
+    .quick-pi-h1 {
+        font-size: 12px;
+    }
+
+    .p-font-first {
+        font-size: 9px;
+    }
+
+    .wechat-qrcode {
+        width: 80px;
+    }
+
+    .ml-rwd-first-en {
+        margin-left: 230px;
+    }
 }
-
 @media (max-width: 768px) {
-    .title-form-purpose {
-        font-size: 17px;
-        padding-left: 20px;
-        padding-right: 20px;
+    body {
+        background: #000 url("/images/bg.jpg") no-repeat;
+        background-size: cover;
+        color: #fff;
+    }
+
+    .bs-component .logo {
+        margin: 0 auto;
+        /*width: 250px;*/
+    }
+
+    .content {
         padding-top: 40px;
+    }
+
+    dl {
+        margin-top: 25px;
+        font-size: 1.1em;
+    }
+
+    .red {
+        color: #ff443d;
+        font-weight: bold;
+    }
+
+    ul li {
+        padding: 8px 0;
+    }
+
+    ol li {
+        padding: 8px 0;
+    }
+
+    h6 {
+        font-size: 22px;
+        color: #D61518;
+    }
+
+    h4 {
+        font-size: 28px;
+    }
+
+    .news-p {
+        font-size: 16px;
+        padding: 10px 0 0 0;
+    }
+
+    .title-form-2 {
+        padding: 150px 0 0 20px;
+    }
+
+    .title-form-3 {
+        padding: 40px 20px 0 20px;
+    }
+
+    .title-h5 {
+        font-size: 40px;
+        text-align: center;
+        padding-top: 20px;
+        margin-top: 20px;
+    }
+
+    .global-title {
+        font-size: 36px;
+        font-family: "LetterGothicStd";
+    }
+
+    .global-title-1 {
+        font-size: 36px;
+        font-family: "LetterGothicStd";
+    }
+
+    .form-group-ma {
+        margin-top: 100px;
+    }
+
+    .border-1 {
+        border: solid #6D00BD 1px;
+        background-color: rgba(153,50,204,0.2);
+        padding-bottom: 0px;
+        margin-top: 100px;
+    }
+
+    .title-form-1 {
+        font-size: 18px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 20px;
         margin-top: 0px;
         margin-bottom: 30px;
         font-family: Arial, sans-serif;
     }
 
-    .title-form-1 {
-        font-size: 17px;
-        padding-top: 20px;
-        padding-right: 20px;
-        padding-left: 20px;
+    .btn {
+        width: 170px;
+    }
+
+    .form-control-mnp {
+        margin-top: 140px;
+    }
+
+    .form-control-mnp-up {
+        margin-top: 140px;
+    }
+
+    .form-control-mnp-ty {
+        margin-top: 140px;
+    }
+
+    .form-control-mnp-en {
+        margin-top: 170px;
+    }
+
+    .title-form-purpose {
+        font-size: 18px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 60px;
         margin-top: 0px;
         margin-bottom: 30px;
         font-family: Arial, sans-serif;
@@ -347,10 +1378,140 @@ body {
         color: #fffafa;
     }
 
+    .footer-background {
+        background-color: rgb(0, 0, 0);
+    }
+
+    .border-one {
+        border: 2px solid;
+        border-right: 20px;
+    }
+
+    .wechat {
+        width: 150px;
+    }
+
+    .text-ml {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .text-ml-1 {
+        font-size: 8px;
+    }
+
+    .quick-logo {
+        width: 110px;
+        margin: 0 0 0 28px;
+    }
+
+    .second-logo {
+        width: 50px;
+    }
+
+    .third-logo {
+        width: 45px;
+    }
+
+    .ml-rwd {
+        margin-left: 50px;
+    }
+
+    .quick-pi-h1 {
+        font-size: 12px;
+    }
+
+    .quick-pi-h1-en {
+        font-size: 15px;
+    }
+
+    .p-font-first {
+        font-size: 9px;
+    }
+
+    .ml-rwd-first-en {
+        margin-left: 230px;
+    }
+
+    .wechat-qrcode {
+        width: 80px;
+    }
+}
+@media (max-width: 414px) {
+    body {
+        background: #000 url("/images/bg.jpg") no-repeat;
+        background-size: cover;
+        color: #fff;
+    }
+
+    .bs-component .logo {
+        margin: 0 auto;
+        /*width: 250px;*/
+    }
+
+    .content {
+        padding-top: 40px;
+    }
+
+    dl {
+        margin-top: 25px;
+        font-size: 1.1em;
+    }
+
+    .red {
+        color: #ff443d;
+        font-weight: bold;
+    }
+
+    ul li {
+        padding: 8px 0;
+    }
+
+    ol li {
+        padding: 8px 0;
+    }
+
+    h6 {
+        font-size: 22px;
+        color: #D61518;
+    }
+
+    h4 {
+        font-size: 28px;
+    }
+
+    .news-p {
+        font-size: 16px;
+        padding: 10px 0 0 0;
+    }
+
+    .title-form-2 {
+        padding: 150px 0 0 20px;
+    }
+
+    .title-form-3 {
+        padding: 40px 20px 0 20px;
+    }
+
     .title-h5 {
+        font-size: 40px;
         text-align: center;
         padding-top: 20px;
         margin-top: 20px;
+    }
+
+    .global-title {
+        font-size: 36px;
+        font-family: "LetterGothicStd";
+    }
+
+    .global-title-1 {
+        font-size: 36px;
+        font-family: "LetterGothicStd";
+    }
+
+    .form-group-ma {
+        margin-top: 100px;
     }
 
     .border-1 {
@@ -360,9 +1521,532 @@ body {
         margin-top: 100px;
     }
 
+    .title-form-1 {
+        font-size: 18px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 20px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        font-family: Arial, sans-serif;
+    }
 
+    .btn {
+        width: 170px;
+    }
+
+    .form-control-mnp {
+        margin-top: 140px;
+    }
+
+    .form-control-mnp-up {
+        margin-top: 140px;
+    }
+
+    .form-control-mnp-ty {
+        margin-top: 140px;
+    }
+
+    .form-control-mnp-en {
+        margin-top: 170px;
+    }
+
+    .title-form-purpose {
+        font-size: 18px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 60px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        font-family: Arial, sans-serif;
+    }
+
+    .back-color {
+        background-color: rgb(104, 34, 139);
+        color: #fffafa;
+    }
+
+    .back-color-td {
+        background-color: rgb(85, 26, 139);
+        color: #fffafa;
+    }
+
+    .footer-background {
+        background-color: rgb(0, 0, 0);
+    }
+
+    .border-one {
+        border: 2px solid;
+        border-right: 20px;
+    }
+
+    .wechat {
+        width: 150px;
+    }
+
+    .text-ml {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .text-ml-1 {
+        font-size: 20px;
+    }
+
+    .quick-logo {
+        width: 160px;
+        margin: 0;
+    }
+
+    .second-logo {
+        width: 135px;
+    }
+
+    .third-logo {
+        width: 135px;
+    }
+
+    .ml-rwd {
+        margin-left: 50px;
+    }
+
+    .quick-pi-h1 {
+        font-size: 12px;
+    }
+
+    .p-font-first {
+        font-size: 10px;
+    }
+
+    .wechat-qrcode {
+        width: 80px;
+    }
+
+    .mt-rwd-third {
+        margin-top: 8px;
+    }
+
+    .mt-rwd-third-one {
+        margin-top: 8px;
+        margin-right: 3px;
+    }
+
+    .ml-rwd-first-en {
+        margin-left: 20px;
+    }
+
+    .ml-rwd-first {
+        margin-left: 50px;
+    }
 }
+@media (max-width: 375px) {
+    body {
+        background: #000 url("/images/bg.jpg") no-repeat;
+        background-size: cover;
+        color: #fff;
+    }
 
+    .bs-component .logo {
+        margin: 0 auto;
+        /*width: 250px;*/
+    }
 
+    .content {
+        padding-top: 40px;
+    }
 
+    dl {
+        margin-top: 25px;
+        font-size: 1.1em;
+    }
 
+    .red {
+        color: #ff443d;
+        font-weight: bold;
+    }
+
+    ul li {
+        padding: 8px 0;
+    }
+
+    ol li {
+        padding: 8px 0;
+    }
+
+    h6 {
+        font-size: 20px;
+        color: #D61518;
+    }
+
+    h4 {
+        font-size: 22px;
+    }
+
+    .news-p {
+        font-size: 14px;
+        padding: 10px 0 0 0;
+    }
+
+    .title-form-2 {
+        padding: 150px 0 0 20px;
+    }
+
+    .title-form-3 {
+        padding: 40px 20px 0 20px;
+    }
+
+    .title-h5 {
+        font-size: 40px;
+        text-align: center;
+        padding-top: 20px;
+        margin-top: 20px;
+    }
+
+    .global-title {
+        font-size: 36px;
+        font-family: "LetterGothicStd";
+    }
+
+    .global-title-1 {
+        font-size: 36px;
+        font-family: "LetterGothicStd";
+    }
+
+    .form-group-ma {
+        margin-top: 100px;
+    }
+
+    .border-1 {
+        border: solid #6D00BD 1px;
+        background-color: rgba(153,50,204,0.2);
+        padding-bottom: 0px;
+        margin-top: 100px;
+    }
+
+    .title-form-1 {
+        font-size: 14px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 20px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        font-family: Arial, sans-serif;
+    }
+
+    .btn {
+        width: 170px;
+    }
+
+    .form-control-mnp {
+        margin-top: 140px;
+    }
+
+    .form-control-mnp-up {
+        margin-top: 140px;
+    }
+
+    .form-control-mnp-ty {
+        margin-top: 140px;
+    }
+
+    .form-control-mnp-en {
+        margin-top: 170px;
+    }
+
+    .title-form-purpose {
+        font-size: 18px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 60px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        font-family: Arial, sans-serif;
+    }
+
+    .back-color {
+        background-color: rgb(104, 34, 139);
+        color: #fffafa;
+    }
+
+    .back-color-td {
+        background-color: rgb(85, 26, 139);
+        color: #fffafa;
+    }
+
+    .footer-background {
+        background-color: rgb(0, 0, 0);
+    }
+
+    .border-one {
+        border: 2px solid;
+        border-right: 20px;
+    }
+
+    .wechat {
+        width: 150px;
+    }
+
+    .text-ml {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .text-ml-1 {
+        font-size: 20px;
+    }
+
+    .quick-logo {
+        width: 160px;
+        margin: 0;
+    }
+
+    .second-logo {
+        width: 135px;
+    }
+
+    .third-logo {
+        width: 135px;
+    }
+
+    .ml-rwd {
+        margin-left: 50px;
+    }
+
+    .quick-pi-h1 {
+        font-size: 12px;
+    }
+
+    .p-font-first {
+        font-size: 10px;
+    }
+
+    .wechat-qrcode {
+        width: 70px;
+    }
+
+    .mt-rwd-third {
+        margin-top: 8px;
+    }
+
+    .mt-rwd-third-one {
+        margin-top: 8px;
+        margin-right: 3px;
+    }
+
+    .ml-rwd-first {
+        margin-left: 50px;
+    }
+
+    .ml-rwd-first-en {
+        margin-left: 20px;
+    }
+
+    .title-logo-en {
+        width: 220px;
+    }
+}
+@media (max-width: 320px) {
+    body {
+        background: #000 url("/images/bg.jpg") no-repeat;
+        background-size: cover;
+        color: #fff;
+    }
+
+    .bs-component .logo {
+        margin: 0 auto;
+        /*width: 250px;*/
+    }
+
+    .content {
+        padding-top: 40px;
+    }
+
+    dl {
+        margin-top: 25px;
+        font-size: 1.1em;
+    }
+
+    .red {
+        color: #ff443d;
+        font-weight: bold;
+    }
+
+    ul li {
+        padding: 8px 0;
+    }
+
+    ol li {
+        padding: 8px 0;
+    }
+
+    h6 {
+        font-size: 18px;
+        color: #D61518;
+    }
+
+    h4 {
+        font-size: 22px;
+    }
+
+    .news-p {
+        font-size: 13px;
+        padding: 10px 0 0 0;
+    }
+
+    .title-form-2 {
+        padding: 150px 0 0 20px;
+    }
+
+    .title-form-3 {
+        padding: 40px 20px 0 20px;
+    }
+
+    .title-h5 {
+        font-size: 40px;
+        text-align: center;
+        padding-top: 20px;
+        margin-top: 20px;
+    }
+
+    .global-title {
+        font-size: 36px;
+        font-family: "LetterGothicStd";
+    }
+
+    .global-title-1 {
+        font-size: 36px;
+        font-family: "LetterGothicStd";
+    }
+
+    .form-group-ma {
+        margin-top: 100px;
+    }
+
+    .border-1 {
+        border: solid #6D00BD 1px;
+        background-color: rgba(153,50,204,0.2);
+        padding-bottom: 0px;
+        margin-top: 100px;
+    }
+
+    .title-form-1 {
+        font-size: 12px;
+        /*padding-left: 50px;*/
+        /*padding-right: 50px;*/
+        padding-top: 20px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        font-family: Arial, sans-serif;
+    }
+
+    .btn {
+        width: 170px;
+    }
+
+    .form-control-mnp {
+        margin-top: 140px;
+    }
+
+    .form-control-mnp-up {
+        margin-top: 140px;
+    }
+
+    .form-control-mnp-ty {
+        margin-top: 140px;
+    }
+
+    .form-control-mnp-en {
+        margin-top: 170px;
+    }
+
+    .title-form-purpose {
+        font-size: 14px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-top: 60px;
+        margin-top: 0px;
+        margin-bottom: 30px;
+        font-family: Arial, sans-serif;
+    }
+
+    .back-color {
+        background-color: rgb(104, 34, 139);
+        color: #fffafa;
+    }
+
+    .back-color-td {
+        background-color: rgb(85, 26, 139);
+        color: #fffafa;
+    }
+
+    .footer-background {
+        background-color: rgb(0, 0, 0);
+    }
+
+    .border-one {
+        border: 2px solid;
+        border-right: 20px;
+    }
+
+    .wechat {
+        width: 150px;
+    }
+
+    .text-ml {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .text-ml-1 {
+        font-size: 20px;
+    }
+
+    .quick-logo {
+        width: 160px;
+    }
+
+    .second-logo {
+        width: 135px;
+    }
+
+    .third-logo {
+        width: 135px;
+    }
+
+    .ml-rwd {
+        margin-left: 50px;
+    }
+
+    .quick-pi-h1 {
+        font-size: 12px;
+    }
+
+    .p-font-first {
+        font-size: 10px;
+    }
+
+    .wechat-qrcode {
+        width: 60px;
+    }
+
+    .mt-rwd-third {
+        margin-top: 8px;
+    }
+
+    .mt-rwd-third-one {
+        margin-top: 8px;
+        margin-right: 3px;
+    }
+
+    .ml-rwd-first {
+        margin-left: 50px;
+    }
+
+    .ml-rwd-first-en {
+        margin-left: 20px;
+    }
+
+    .title-logo-en {
+        width: 220px;
+    }
+}

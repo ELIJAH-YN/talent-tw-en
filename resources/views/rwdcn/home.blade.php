@@ -6,7 +6,7 @@
     <div class="border-1">
         <div class="title-form-purpose">
             <a>
-                「 全球顶尖红人对决Global Top Talent Contest 」是由Quick-pi快拍发起的首场台湾对外举办的大型国际才艺竞赛，参赛地区包括：台湾、北京、上海、澳门、杭州、深圳、广州、印尼、泰国、越南、马来西亚共10个城市，总决赛将于2019年12月于国际城市-新加坡盛况举办，最终将决选出全球5位顶尖红人。
+                「 全球顶尖红人对决Global Top Talent Contest 」是由Quick-pi快拍发起的首场台湾对外举办的大型国际才艺竞赛，参赛地区包括：中华台北、北京、上海、澳门、杭州、深圳、广州、印尼、泰国、越南、马来西亚共10个城市，总决赛将于2019年12月于国际城市-新加坡盛况举办，最终将决选出全球5位顶尖红人。
             </a>
         </div>
         <div class="title-form-purpose">
@@ -17,9 +17,9 @@
         <h5 class="title-h5"><img src="images/cn/entry-rules.gif"></h5>
         <div class="title-form-1">
             <a>
-                报名日期：108/5/1 - 108/5/31<br>
+                报名日期：108/08/1 - 108/08/31<br>
                 报名资格：年龄18岁以上、男女不拘<br>
-                比赛奖金：冠军奖金新台币1,000,000元（含等值奖品）及奖杯乙座，比赛结果将于最终决赛现场公布并颁发，同时将结果公告于快拍官方平台及脸书粉丝团。
+                比赛奖金：冠军奖金新台币 500,000元（含等值奖品）及奖杯乙座，比赛结果将于最终决赛现场公布并颁发，同时将结果公告于快拍官方平台及脸书粉丝团。
             </a>
         </div>
         <h5 class="title-h5"><img src="images/cn/registration-method.gif"></h5>
@@ -63,7 +63,7 @@
 
         <div class="title-form-1">
             <h5 class="title-h5"><img src="images/cn/preliminary-selection.gif"></h5><br>
-            <a>&nbsp;&nbsp;参赛日期：2019/07/01 - 2019/08/31</a><br>
+            <a>&nbsp;&nbsp;参赛日期：2019/09/01 - 2019/09/30</a><br>
             <a>&nbsp;&nbsp;参赛地点：网路竞赛</a>
             <table class="table table-bordered">
                 <tbody>
@@ -88,7 +88,7 @@
         </div>
         <div class="title-form-1">
             <h5 class="title-h5"><img src="images/cn/rematch-selection.gif"></h5><br>
-            <a>&nbsp;&nbsp;参赛日期：2019/09/01 - 2019/10/31</a><br>
+            <a>&nbsp;&nbsp;参赛日期：2019/10/01 - 2019/10/31</a><br>
             <a>&nbsp;&nbsp;参赛地点：网路竞赛</a>
             <table class="table table-bordered">
                 <tbody>
@@ -113,13 +113,13 @@
         </div>
         <div class="title-form-1">
             <h5 class="title-h5"><img src="images/cn/final-selection.gif" alt=""></h5><br>
-            <a>&nbsp;&nbsp;参赛日期：2019/12月</a><br>
+            <a>&nbsp;&nbsp;参赛日期：2019/11/01 - 2019/11/30</a><br>
             <a>&nbsp;&nbsp;参赛地点：官方依评选结果另行通知参赛者</a>
             <table class="table table-bordered">
                 <tbody>
                 <tr>
                     <th class="back-color" scope="row">竞赛方式</th>
-                    <td class="back-color-td" colspan="4">参赛者将于台湾赛区指定地点进行实体最终竞赛。</td>
+                    <td class="back-color-td" colspan="4">参赛者将于大陆赛区指定地点进行实体最终竞赛。</td>
                 </tr>
                 <tr>
                     <th class="back-color" scope="row">竞赛内容</th>
@@ -131,7 +131,7 @@
                 </tr>
                 <tr>
                     <th class="back-color" scope="row">竞赛影片认证方式</th>
-                    <td class="back-color-td" colspan="4">台湾区决赛前五名，最终前往新加坡参加国际决赛。</td>
+                    <td class="back-color-td" colspan="4">大陆区指定地点决赛前五名，最终前往新加坡参加国际决赛。</td>
                 </tr>
                 </tbody>
             </table>

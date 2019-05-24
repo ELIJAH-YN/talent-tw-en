@@ -17,9 +17,9 @@
         <h5 class="title-h5"><img src="images/tw/entry-rules.gif"></h5>
         <div class="title-form-1">
             <a>
-                報名日期：108/5/1 - 108/5/31<br>
+                報名日期：108/8/1 - 108/8/31<br>
                 報名資格：年齡18歲以上、男女不拘<br>
-                比賽獎金：冠軍獎金新台幣1,000,000元（含等值獎品）及獎盃乙座，比賽結果將於最終決賽現場公布並頒發，同時將結果公告於快拍官方平台及臉書粉絲團。
+                比賽獎金：冠軍獎金新台幣 500,000元（含等值獎品）及獎盃乙座，比賽結果將於最終決賽現場公布並頒發，同時將結果公告於快拍官方平台及臉書粉絲團。
             </a>
         </div>
         <h5 class="title-h5"><img src="images/tw/registration-method.gif"></h5>
@@ -36,32 +36,9 @@
         <div class="title-form-1">
             <a>主辦單位保有調整賽程及補充或修訂內容之權利，參賽人員不得異議，並應遵守參賽規則、服從評審之評定。若以非理性之方式抗議（如侮辱主辦單位、意圖癱瘓及妨礙比賽之進行）本會得以搜集相關事證作出適當處分，並保留法律追訴權。</a>
         </div>
-        <!--<div class="title-form-1">
-            <a>I.&nbsp;初賽評選</a>
-            <ul>
-                <li>競賽方式 : 請參賽者上傳15秒短影片至抖音。</li>
-                <li>競賽內容 : 主題為任選各贊助廠商，推出產品宣傳創意影片。</li>
-                <li>計分方式 : 初賽時間內參賽者不限影片數量，以影片愛心數總計及評審計分。</li>
-                <li>競賽影片認證方式：以hashtag全球紅人賽與贊助商品牌名為影片計分認證標示。</li>
-            </ul>
-            <a>II.&nbsp;複賽評選</a>
-            <ul>
-                <li>競賽方式：請參賽者上傳15秒鍾短影片至抖音。</li>
-                <li>競賽內容：主題為指定單一贊助廠商，推出產品宣傳創意影片。</li>
-                <li>計分方式：指定時間內參賽者限定上傳十支影片，以影片愛心數總計及評審計分。</li>
-                <li>競賽影片認證方式：以hashtag全球紅人賽與贊助商品牌名為影片計分認證標示。</li>
-            </ul>
-            <a>III.&nbsp;決賽評選</a>
-            <ul>
-                <li>競賽方式：參賽者將於台灣賽區指定地點進行實體最終競賽。</li>
-                <li>競賽內容：依參賽者現場才藝於舞台上進行比賽。</li>
-                <li>計分方式：將依整體賽事累計影片之愛心數及現場實體評選分數作為最終計分標準。</li>
-                <li>決賽結果：臺灣區決賽前五名，最終前往新加坡參加國際決賽。</li>
-            </ul>
-        </div>-->
         <div class="title-form-1">
             <h5 class="title-h5"><img src="images/tw/preliminary-selection.gif"></h5><br>
-            <a>參賽日期：2019/07/01 - 2019/08/31</a><br>
+            <a>參賽日期：2019/09/01 - 2019/09/30</a><br>
             <a>參賽地點：網路競賽</a>
             <table class="table table-bordered">
                 <tbody>
@@ -86,7 +63,7 @@
         </div>
         <div class="title-form-1">
             <h5 class="title-h5"><img src="images/tw/rematch-selection.gif"></h5><br>
-            <a>參賽日期：2019/09/01 - 2019/10/31</a><br>
+            <a>參賽日期：2019/10/01 - 2019/10/31</a><br>
             <a>參賽地點：網路競賽</a>
             <table class="table table-bordered">
                 <tbody>
@@ -111,7 +88,7 @@
         </div>
         <div class="title-form-1">
             <h5 class="title-h5"><img src="images/tw/final-selection.gif"></h5><br>
-            <a>參賽日期：2019/12月</a><br>
+            <a>參賽日期：2019/11/01 - 2019/11/30</a><br>
             <a>參賽地點：官方依評選結果另行通知參賽者</a>
             <table class="table table-bordered">
                 <tbody>
