@@ -13,35 +13,29 @@
     <div class="container-fluid text-center text-md-left">
         <div class="row">
             <hr class="clearfix w-100 d-md-none pb-3 rwd-mt">
-            <div class="col-md-1 mb-md-0 offset-md-1 mb-3">
+            <div class="col-md-1 mb-md-0 offset-md-2 mb-3">
                 <h5 class="text-ml-1 text-center">The Co-hosting</h5>
                 <img src="images/sponsor/giraffe-logo.png" alt="" class="second-logo">
                 <h5 class="text-ml-1 mt-3 text-center">Event execution</h5>
                 <img src="images/sponsor/maker-logo.jpg" alt="" class="second-logo">
             </div>
-            <div class="col-md-1 mb-md-0 mb-3 rwd-mt">
-                <h5 class="text-ml-1 text-center">The Co-organizer</h5>
-                <img src="images/sponsor/phoenixdarts-logo.png" alt="" class="third-logo">
-            </div>
             <div class="col-md-2 mb-md-0 mb-3 rwd-mt">
-                <h5 class="text-ml-1">Directed by</h5>
-                <img src="images/sponsor/taipei-government.png" alt="" class="third-logo">
-                <img src="images/sponsor/taipei-department-logo.png" alt="" class="third-logo ml-1">
-                <img src="images/sponsor/taipei-lighport-logo.png" alt="" class="third-logo mt-2">
-                <img src="images/sponsor/city-councilor.png" alt="" class="third-logo mt-2 ml-1">
+                <h5 class="text-ml-1">The o-organiser</h5>
+                <img src="images/sponsor/phoenixdarts-logo.png" alt="" class="third-logo">
+                <img src="images/sponsor/taiwan-car-logo-V2.png" alt="" class="third-logo ml-1">
+                <img src="images/sponsor/JUKSY.jpg" alt="" class="third-logo mt-2">
+                <img src="images/sponsor/fuscom.jpg" alt="" class="third-logo ml-1 mt-2">
             </div>
             <div class="col-md-2 mb-md-0 mb-3 rwd-mt">
                 <h5 class="h5-mt text-center">The Organizer</h5>
                 <img src="images/sponsor/quick_pi_logo_company.png" alt="" class="quick-logo">
             </div>
-            <div class="col-md-4 mb-md-0 mb-3 rwd-mt">
+            <div class="col-md-2 mb-md-0 mb-3 rwd-mt">
                 <h5 class="text-ml-1">The Sponsor</h5>
                 <img src="images/sponsor/spa-logo.png" alt="" class="third-logo">
-                <img src="images/sponsor/caco-logo.png" alt="" class="third-logo ml-2">
                 <img src="images/sponsor/ejia-logo.png" alt="" class="third-logo ml-1 mt-rwd-third">
-                <img src="images/sponsor/taiwan-car-logo.png" alt="" class="third-logo ml-2 mt-rwd-third-one">
-                <img src="images/sponsor/mornjoy-logo.png" alt="" class="third-logo mt-2">
-                <img src="images/sponsor/wave-shine-logo.png" alt="" class="third-logo mt-2 ml-2">
+                <img src="images/sponsor/mornjoy-logo.png" alt="" class="third-logo mt-1">
+                <img src="images/sponsor/h2o.jpg" alt="" class="third-logo mt-1 ml-1">
             </div>
         </div>
     </div>

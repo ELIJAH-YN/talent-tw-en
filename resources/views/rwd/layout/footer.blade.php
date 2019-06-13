@@ -8,7 +8,7 @@
     <div class="container-fluid text-center text-md-left">
         <div class="row">
             <hr class="clearfix w-100 d-md-none pb-3 rwd-mt">
-            <div class="col-md-1 mb-md-0 offset-md-1 mb-3 mt-rwd-one">
+            <div class="col-md-1 mb-md-0 offset-md-2 mb-3 mt-rwd-one">
                 <h5 class="text-uppercase text-ml-1">聯合主辦</h5>
                 <img src="images/sponsor/giraffe-logo.png" alt="" class="second-logo">
                 <h5 class="text-uppercase text-ml-1 mt-3">賽事執行</h5>
@@ -21,17 +21,17 @@
                 <img src="images/sponsor/JUKSY.jpg" alt="" class="third-logo mt-2">
                 <img src="images/sponsor/fuscom.jpg" alt="" class="third-logo ml-1 mt-2">
             </div>
-            <div class="col-md-3 mb-md-0 mb-3 rwd-mt">
-                <h5 class="text-uppercase h5-mt text-ml">主辦單位</h5>
+            <div class="col-md-2 mb-md-0 mb-3 rwd-mt">
+                <h5 class="h5-mt text-center">主辦單位</h5>
                 <img src="images/sponsor/quick_pi_logo_company.png" alt="" class="quick-logo">
             </div>
-            <div class="col-md-2 mb-md-0 mb-3 rwd-mt">
+            {{-- <div class="col-md-2 mb-md-0 mb-3 rwd-mt">
                 <h5 class="text-ml-1">台北示範賽指導單位</h5>
                 <img src="images/sponsor/taipei-government.png" alt="" class="third-logo">
                 <img src="images/sponsor/taipei-department-logo.png" alt="" class="third-logo ml-1">
                 <img src="images/sponsor/taipei-lighport-logo.png" alt="" class="third-logo mt-2 mt-rwd-second">
                 <img src="images/sponsor/city-councilor.png" alt="" class="third-logo mt-2 ml-1">
-            </div>
+            </div> --}}
             <div class="col-md-2 mb-md-0 mb-3 rwd-mt">
                 <h5 class="text-ml-1">贊助單位</h5>
                 <img src="images/sponsor/spa-logo.png" alt="" class="third-logo">
