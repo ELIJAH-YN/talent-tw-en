@@ -20,24 +20,18 @@
                 <img src="images/sponsor/taiwan-car-logo.png" alt="" class="third-logo ml-1">
                 <img src="images/sponsor/JUKSY.jpg" alt="" class="third-logo mt-2">
                 <img src="images/sponsor/fuscom.jpg" alt="" class="third-logo ml-1 mt-2">
+                <img src="images/sponsor/taoyuan_metro.png" alt="" class="third-logo mt-2">
             </div>
             <div class="col-md-2 mb-md-0 mb-3 rwd-mt">
                 <h5 class="h5-mt text-center">主辦單位</h5>
                 <img src="images/sponsor/quick_pi_logo_company.png" alt="" class="quick-logo">
             </div>
-            {{-- <div class="col-md-2 mb-md-0 mb-3 rwd-mt">
-                <h5 class="text-ml-1">台北示範賽指導單位</h5>
-                <img src="images/sponsor/taipei-government.png" alt="" class="third-logo">
-                <img src="images/sponsor/taipei-department-logo.png" alt="" class="third-logo ml-1">
-                <img src="images/sponsor/taipei-lighport-logo.png" alt="" class="third-logo mt-2 mt-rwd-second">
-                <img src="images/sponsor/city-councilor.png" alt="" class="third-logo mt-2 ml-1">
-            </div> --}}
             <div class="col-md-2 mb-md-0 mb-3 rwd-mt">
                 <h5 class="text-ml-1">贊助單位</h5>
                 <img src="images/sponsor/spa-logo.png" alt="" class="third-logo">
                 <img src="images/sponsor/ejia-logo.png" alt="" class="third-logo ml-1 mt-rwd-third">
                 <img src="images/sponsor/mornjoy-logo.png" alt="" class="third-logo mt-1">
-                <img src="images/sponsor/h2o.jpg" alt="" class="third-logo mt-1 ml-1">
+                <img src="images/sponsor/h2o.png" alt="" class="third-logo mt-1 ml-1">
             </div>
         </div>
     </div>

@@ -22,8 +22,11 @@
         <div class="form-group">
             <select name="area" id="" class="form-control">
                 <option value="台灣">台灣</option>
-                <option value="香港">香港</option>
-                <option value="澳門">澳門</option>
+                <option value="大灣區">大灣區</option>
+                <option value="新加坡">新加坡</option>
+                <option value="印尼">印尼</option>
+                <option value="泰國">泰國</option>
+                <option value="越南">越南</option>
             </select>
         </div>
         <div class="form-group">
