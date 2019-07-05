@@ -9,7 +9,7 @@
                 The "Global Top Talent Contest" is the frist international talent contest hosting in Taiwan by Quick pi company, the participating regions include Taiwan-Taipei, Guangdong-Hong Kong-Macao Greater Bay Area, Singapore, Thailand, Vietnam, Indonesia.
             </a><br>
             <a>
-                The final contest will be hosting in Singapore at december of 2019 and only top five can win the contest.
+                The final contest will be hosting at december of 2019 and only top five can win the contest.
             </a>
         </div>
         <h5 class="title-h5"><img src="images/en/entry-rules.gif"></h5>
@@ -36,30 +36,6 @@
                 The association reserves the right to collect relevant evidence and take appropriate action in the event of irrational protest (such as insulting the organizer, intent to suspend or hinder the conduct of the competition) and retain the right to legal prosecution.
             </a>
         </div>
-        <!--<h5 class="title-h5"><img src="images/en/tournament-instructions.gif"></h5>
-        <div class="title-form-1">
-            <a>I. Preliminary selection</a>
-            <ul>
-                <li>Competition method: Please upload a 15-second short video to Tik Tok.</li>
-                <li>Competition content: the theme is to select any sponsor, to launch creative film for product promotion.</li>
-                <li>Scoring method: during the preliminary competition, participants shall not limit the number of films, and score is decided by the total number of loves of the films and audit score.</li>
-                <li>The competition film certification method: hashtag global top talent contest(＃GTTC) and the sponsor brand name as the film score certification mark.</li>
-            </ul>
-            <a>II. Rematch selection:</a>
-            <ul>
-                <li>Competition method: Please upload a 15-second short video to Tik Tok.</li>
-                <li>Competition content: The theme is to launch a product promotion creative film for a designated sponsor.</li>
-                <li>Scoring method: Participants are limited to uploading 10 videos within the specified time, and score is decided by the total number of loves of the films and audit score.</li>
-                <li>The competition film certification method: hashtag global top talent contest(＃GTTC) and the sponsor brand name as the film score certification mark.</li>
-            </ul>
-            <a>III. Final selection:</a>
-            <ul>
-                <li>Competition method: Participants will conduct an entity final competition at the designated location in the Taiwan Division.</li>
-                <li>Competition content: Race on the stage according to the talents of the participants.</li>
-                <li>Scoring method:  The number of loves in the overall event and the on-site entity selection score will be used as the final scoring standard.</li>
-                <li>Final results: Top five in the finals of the Taiwan region, eventually going to Singapore to participate in the international finals.</li>
-            </ul>
-        </div>-->
         <div class="title-form-1">
             <h5 class="title-h5"><img src="images/en/preliminary-selection.gif" class="title-logo-en"></h5><br>
             <a>&nbsp;&nbsp;Date of contest：first of September, 2019 - 30. September, 2019</a><br>
