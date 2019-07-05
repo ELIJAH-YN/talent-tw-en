@@ -11,7 +11,7 @@
         </div>
         <div class="title-form-1">
             <a>
-                各區代表隊將採以下選拔方式，冠軍隊伍將獲得代表台灣區前進新加坡爭奪「全球頂尖紅人對決Global Top Talent Contest 2019」的冠軍殊榮。
+                各區代表隊將採以下選拔方式，冠軍隊伍將獲得代表台灣區爭奪「全球頂尖紅人對決Global Top Talent Contest 2019」的冠軍殊榮。
             </a>
         </div>
         <h5 class="title-h5"><img src="images/tw/entry-rules.gif"></h5>
