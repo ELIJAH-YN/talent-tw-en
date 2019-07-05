@@ -51,7 +51,9 @@ Route::get('/thankyouen', function () {
     return view('rwden/thankyou');
 })->name('thankyouen');
 
-
+Route::get('mornjoy', function () {
+    include public_path().'/dist/index.html';
+})->name('mornjoy');
 
 Route::get('/update', 'RegisterController@media')->name('mediaupdate');
 Route::post('/register', 'RegisterController@register')->name('register');

@@ -6,7 +6,7 @@
     <div class="border-1">
         <div class="title-form-purpose">
             <a>
-                The "Global Top Talent Contest" is the frist international talent contest hosting in Taiwan by Quick pi company, the participating regions include Taiwan-Taipei, Beijing, shanghai, Macau, Hangzhou, shenzhen, Guangzhou and Countries include Thailand, Vietnam and Malaysia.
+                The "Global Top Talent Contest" is the frist international talent contest hosting in Taiwan by Quick pi company, the participating regions include Taiwan-Taipei, Guangdong-Hong Kong-Macao Greater Bay Area, Singapore, Thailand, Vietnam, Indonesia.
             </a><br>
             <a>
                 The final contest will be hosting in Singapore at december of 2019 and only top five can win the contest.

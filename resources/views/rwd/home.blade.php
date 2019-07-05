@@ -73,7 +73,7 @@
                 </tr>
                 <tr>
                     <th class="back-color" scope="row">競賽內容</th>
-                    <td class="back-color-td" colspan="4">主題為指定單一贊助廠商，推出產品宣傳創意影片。</td>
+                    <td class="back-color-td" colspan="4">指定主題為單一贊助廠商 ( 2 部影片 ) 與三個部分贊助廠商 ( 各一部 )，推出產品宣傳影片來進行比賽</td>
                 </tr>
                 <tr>
                     <th class="back-color" scope="row">計分方式</th>
@@ -93,20 +93,24 @@
             <table class="table table-bordered">
                 <tbody>
                 <tr>
-                    <th class="back-color" scope="row">競賽方式</th>
-                    <td class="back-color-td" colspan="4">參賽者將於台灣賽區指定地點進行實體最終競賽。</td>
+                    <th class="back-color" scope="row">第一輪競賽方式</th>
+                    <td class="back-color-td" colspan="4">一號早上 30 人依晉級名次排列 PK 選出 15 位人選。</td>
                 </tr>
                 <tr>
-                    <th class="back-color" scope="row">競賽內容</th>
-                    <td class="back-color-td" colspan="4">依參賽者現場才藝於舞台上進行比賽。</td>
+                    <th class="back-color" scope="row">第一輪競賽內容</th>
+                    <td class="back-color-td" colspan="4">指定主題抖音 / 限定時間 / 愛心數 PK 決勝負。1 號報到後，製作單位統一公佈創作主題現時創作後上架抖音，2 號中午 12 點截止統計愛心數，前 15 名晉級最後決賽。</td>
+                </tr>
+                </tbody>
+            </table>
+            <table class="table table-bordered">
+                <tbody>
+                <tr>
+                    <th class="back-color" scope="row">第二輪競賽方式</th>
+                    <td class="back-color-td" colspan="4">15 人依晉級名次排列才藝表演。</td>
                 </tr>
                 <tr>
-                    <th class="back-color" scope="row">計分方式</th>
-                    <td class="back-color-td" colspan="4">將依整體賽事累計影片之愛心數及現場實體評選分數作為最終計分標準。</td>
-                </tr>
-                <tr>
-                    <th class="back-color" scope="row">競賽影片認證方式</th>
-                    <td class="back-color-td" colspan="4">臺灣區決賽前五名，最終前往新加坡參加國際決賽。</td>
+                    <th class="back-color" scope="row">第二輪競賽內容</th>
+                    <td class="back-color-td" colspan="4">公布最後 15 人選後，每人上傳一隻拜票影片至抖音，統計至一定時間後統計數量，評審有 30% 加權分數，分數加總後選出前三名頒發獎盃獎品。</td>
                 </tr>
                 </tbody>
             </table>

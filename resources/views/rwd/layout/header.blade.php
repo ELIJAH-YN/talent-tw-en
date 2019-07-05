@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- CSS -->
-    <link href="https://cdn.bootcss.com/modern-normalize/0.5.0/modern-normalize.min.css" rel="stylesheet">
-    <link href="https://cdn.bootcss.com/jqueryui/1.12.1/jquery-ui.min.css" rel="stylesheet">
-    <link href="https://bootswatch.com/4/cyborg/bootstrap.css" rel="stylesheet">
-    <link href="https://bootswatch.com/_assets/css/custom.min.css" rel="stylesheet">
+    <link href="//cdn.bootcss.com/modern-normalize/0.5.0/modern-normalize.min.css" rel="stylesheet">
+    <link href="//cdn.bootcss.com/jqueryui/1.12.1/jquery-ui.min.css" rel="stylesheet">
+    <link href="//bootswatch.com/4/cyborg/bootstrap.css" rel="stylesheet">
+    <link href="//bootswatch.com/_assets/css/custom.min.css" rel="stylesheet">
     <link href="{{ '/assets/css/style.css' }}" rel="stylesheet">
 
     <title>全球頂尖紅人對決</title>
