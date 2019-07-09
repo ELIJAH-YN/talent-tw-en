@@ -6,7 +6,7 @@
     <div class="border-1">
         <div class="title-form-purpose">
             <a>
-                「 全球頂尖紅人對決Global Top Talent Contest 」是由Quick-pi快拍發起的首場台灣對外舉辦的大型國際才藝競賽，參賽地區包括：台灣、大灣區、新加坡、印尼、泰國、越南共 6 個城市，總決賽將於2019年12月於國際城市-新加坡盛況舉辦，最終將決選出全球5位頂尖紅人。
+                「 全球頂尖紅人對決Global Top Talent Contest 」是由Quick-pi快拍發起的首場台灣對外舉辦的大型國際才藝競賽，參賽地區包括：台灣、大灣區、新加坡、印尼、泰國、越南共 6 個城市，總決賽將於2019年11月於國際城市-新加坡盛況舉辦，最終將決選出全球5位頂尖紅人。
             </a>
         </div>
         <div class="title-form-1">
@@ -63,7 +63,7 @@
         </div>
         <div class="title-form-1">
             <h5 class="title-h5"><img src="images/tw/rematch-selection.gif"></h5><br>
-            <a>參賽日期：2019/10/01 - 2019/10/31</a><br>
+            <a>參賽日期：2019/10/01 - 2019/10/18</a><br>
             <a>參賽地點：網路競賽</a>
             <table class="table table-bordered">
                 <tbody>
@@ -77,7 +77,7 @@
                 </tr>
                 <tr>
                     <th class="back-color" scope="row">計分方式</th>
-                    <td class="back-color-td" colspan="4">指定時間內參賽者限定上傳十支影片，以影片愛心數總計及評審計分。</td>
+                    <td class="back-color-td" colspan="4">指定時間內參賽者限定上傳五支影片，以影片愛心數總計及評審計分。</td>
                 </tr>
                 <tr>
                     <th class="back-color" scope="row">競賽影片認證方式</th>

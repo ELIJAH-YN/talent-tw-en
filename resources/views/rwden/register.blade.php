@@ -35,7 +35,7 @@
             <i class="zmdi zmdi-name"></i>
         </div>
         <div class="form-group">
-            <input type="text" name="birthday" placeholder="Date of birth" class="form-control" id="datepicker">
+            <input type="date" name="birthday" placeholder="Date of birth" class="form-control" id="datepicker">
             <i class="zmdi zmdi-date"></i>
         </div>
         <div class="form-group">

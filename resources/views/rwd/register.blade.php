@@ -34,7 +34,7 @@
             <i class="zmdi zmdi-name"></i>
         </div>
         <div class="form-group">
-            <input type="text" name="birthday" placeholder="出生年月日" class="form-control" id="datepicker">
+            <input type="date" name="birthday" placeholder="出生年月日" class="form-control" id="datepicker">
             <i class="zmdi zmdi-date"></i>
         </div>
         <div class="form-group">
@@ -50,7 +50,7 @@
             <i class="zmdi zmdi-phone"></i>
         </div>
         <div class="form-group">
-            <input type="text" name="address" placeholder="請填寫可收通知信的地址" class="form-control">
+            <input type="text" name="address" placeholder="聯絡地址" class="form-control">
             <i class="zmdi zmdi-address"></i>
         </div>
         <div class="form-group">
