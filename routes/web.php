@@ -11,11 +11,11 @@
 |
 */
 
-Route::get('/', function () {
-    return view('rwd/news');
-})->name('news');
+//Route::get('/', function () {
+//    return view('rwd/news');
+//})->name('news');
 
-Route::get('/home', function () {
+Route::get('/', function () {
     return view('rwd/home');
 })->name('index');
 

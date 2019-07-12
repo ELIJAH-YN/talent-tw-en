@@ -17,7 +17,7 @@
 <body>
 <div class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
     <div class="container">
-        <a href={{ route('news') }} class="navbar-brand">全球頂尖紅人對決參賽官方網站</a>
+        <a href={{ route('index') }} class="navbar-brand">全球頂尖紅人對決參賽官方網站</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
