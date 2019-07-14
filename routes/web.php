@@ -32,6 +32,10 @@ Route::get('/thankyou', function () {
     return view('rwd/thankyou');
 })->name('thankyou');
 
+Route::get('/rules', function () {
+    return view('rwd/rules');
+})->name('rules');
+
 
 /*============= EN =================*/
 

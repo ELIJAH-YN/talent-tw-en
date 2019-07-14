@@ -8,10 +8,33 @@ body {
     color: #fff;
 }
 
+.jumbotron{
+    background-color: transparent;
+}
+
 .bs-component .logo {
     /*width: 200px;*/
     margin-bottom: 30px;
 }
+
+.contentBox, .contentBox-3, .contentBox-4, .contentBox-5,
+.contentBox-6, .contentBox-7, .contentBox-8 {
+    color: #fff;
+}
+
+.contentBox-2 {
+    color: red;
+}
+
+h3 {
+    color: #fff;
+}
+
+h4 {
+    color: #fff;
+    font-size: 14px;
+}
+
 
 @media (max-width: 1920px) {
     body {
@@ -414,6 +437,42 @@ body {
     .table-bordered {
          border: none;
     }
+
+    .contentBox-3 {
+        margin: 0 0 0 0;
+    }
+
+    .contentBox-4 {
+        margin: 100px 0 0 0;
+    }
+
+    .contentBox-5 {
+        margin: 100px 0 0 0;
+    }
+
+    .contentBox-6 {
+        margin: 100px 0 0 0;
+    }
+
+    .contentBox-7 {
+        margin: 100px 0 0 0;
+    }
+
+    .contentBox-8 {
+        margin: 100px 0 0 0;
+    }
+
+    /*======== span ==========*/
+
+    .span-title {
+        font-size: 38px;
+    }
+
+    .mt-2 {
+        margin-top: .4rem!important;
+    }
+
+
 }
 
 @media (max-width: 1366px) {
