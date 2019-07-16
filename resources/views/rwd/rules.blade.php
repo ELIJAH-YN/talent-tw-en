@@ -115,17 +115,6 @@
             <li>季軍可獲得獎金含獎品共10萬元整</li>
         </ul>
     </div>
-    <div class="title-form-1">
-        <h5 class="title-h5">國際總決賽</h5>
-        <ul>
-            <li>各賽區各取前三名前進澳門巴黎人劇場</li>
-            <li>抽籤依序上台演出,並由現場評審依照評分項目給分</li>
-            <li>加總最高分者即為第一屆全球頂尖紅人對決<span style="color: red; font-size: 30px;">世界冠軍</span></li>
-            <li>冠軍可獨得獎金含獎品共50萬元整</li>
-            <li>亞軍可獲得獎金含獎品共30萬元整</li>
-            <li>季軍可獲得獎金含獎品共10萬元整</li>
-        </ul>
-    </div>
 </div>
 
 @include('rwd.layout.footer')
