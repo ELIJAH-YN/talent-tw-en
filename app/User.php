@@ -5,12 +5,9 @@ namespace App;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
-use Spatie\MediaLibrary\HasMedia\HasMedia;
-use Spatie\MediaLibrary\HasMedia\HasMediaTrait;
 
-class User extends Authenticatable implements HasMedia
+class User extends Authenticatable
 {
-    use HasMediaTrait;
     use Notifiable;
 
     /**
@@ -31,8 +28,12 @@ class User extends Authenticatable implements HasMedia
         'password', 'remember_token',
     ];
 
-    public function candidate()
-    {
-        return $this->hasOne('App\Candidate');
-    }
+    /**
+     * The attributes that should be cast to native types.
+     *
+     * @var array
+     */
+    protected $casts = [
+        'email_verified_at' => 'datetime',
+    ];
 }
