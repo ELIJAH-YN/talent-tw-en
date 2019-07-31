@@ -6,7 +6,7 @@
     to the full filename of your image. This is used in each section to set
     the background image.
 -->
-<section id="banner" class="bg-img" data-bg="banner-1.jpg">
+<section id="banner" class="bg-img" data-bg="banner-2.jpg">
     <div class="inner">
         @if(session('alert'))
             <div class="col-md-8 alert alert-success">

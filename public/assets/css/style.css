@@ -32,7 +32,7 @@
 }
 
 #banner {
-    background-image: url('/images/banner-1.jpg');
+    background-image: url('/images/banner-tw-1.jpg');
 }
 
 #one {
@@ -60,9 +60,6 @@
 }
 @media screen and (max-width: 480px) {
 
-    #one {
-        height: 100vh;
-    }
 
     #one .rules-wrapper h4 {
         color: #fff;
@@ -131,7 +128,7 @@
     }
 
     #banner {
-        background-image: url('/images/phone/banner-ph-1.jpg');
+        background-image: url('/images/phone/banner-ph-tw-1.jpg');
     }
 
     #one {
