@@ -1,4 +1,4 @@
-@include('official.layout.header')
+@include('official-area.layout.header')
 
 <!-- Banner -->
 <!--
@@ -58,7 +58,7 @@
                 <p>主辦單位保有調整賽程及補充或修訂內容之權利，參賽人員不得異議，並應遵守參賽規則、服從評審之評定。若以非理性之方式抗議（如侮辱主辦單位、意圖癱瘓及妨礙比賽之進行）本會得以搜集相關事證作出適當處分，並保留法律追訴權。</p>
             </div>
             <footer>
-                <a href="{{  route('register') }}" class="button alt">前往報名</a>
+                <a href="{{  route('register-area') }}" class="button alt">前往報名</a>
             </footer>
         </article>
     </div>
@@ -171,10 +171,10 @@
                 <li>季軍可獲得獎金含獎品共10萬(新台幣)元整</li>
             </ul>
             <footer>
-                <a href="{{ route('register') }}" class="button alt">前往報名</a>
+                <a href="{{ route('register-area') }}" class="button alt">前往報名</a>
             </footer>
         </article>
     </div>
 </section>
 
-@include('official.layout.footer')
+@include('official-area.layout.footer')

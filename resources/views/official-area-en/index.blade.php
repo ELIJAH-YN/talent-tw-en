@@ -65,7 +65,7 @@
                 <p>The organizer shall have the right to adjust the schedule and supplement or revise the contents. The participants shall not have any objection and shall abide by the rules of participation and the assessment of the review. The association reserves the right to collect relevant evidence and take appropriate action in the event of irrational protest (such as insulting the organizer, intent to suspend or hinder the conduct of the competition) and retain the right to legal prosecution.</p>
             </div>
             <footer>
-                <a href="{{  route('register-en') }}" class="button alt">Go Apply</a>
+                <a href="{{  route('register-area-en') }}" class="button alt">Go Apply</a>
             </footer>
         </article>
     </div>
@@ -186,7 +186,7 @@
                 <li>Scoring Method: 100% By judge score</li>
             </ul>
             <footer>
-                <a href="{{ route('register-en') }}" class="button alt">Go Apply</a>
+                <a href="{{ route('register-area-en') }}" class="button alt">Go Apply</a>
             </footer>
         </article>
     </div>

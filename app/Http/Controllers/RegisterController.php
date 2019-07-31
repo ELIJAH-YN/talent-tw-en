@@ -114,7 +114,7 @@ class RegisterController extends Controller
         return redirect('register')->with('message', '感謝您的報名');
     }
 
-    public function registeren(Request $request)
+    public function registerarea(Request $request)
     {
         if (!$this->validate($request,[
             'name' => ['required', 'unique:candidates,name', 'regex:/^[^\d\s]{2,}$/'],
@@ -130,15 +130,15 @@ class RegisterController extends Controller
         } elseif (!$this->validate($request, [
             'phone' => ['required', 'unique:candidates,phone', 'regex:/^0\d{9}$/'],
         ])) {
-            return redirect('register')->with('message', '電話號碼重複');
+            return redirect('register-area')->with('message', '電話號碼重複');
         } elseif (!$this->validate($request, [
             'email' => ['required', 'unique:users,email', 'regex:/^[\w\-_+\.]+@[\w\-_]+\.[a-z]{2,}$/'],
         ])) {
-            return redirect('register')->with('message', '電子信箱格式錯誤！');
+            return redirect('register-area')->with('message', '電子信箱格式錯誤！');
         } elseif (!$this->validate($request, [
             'douyin' => ['required', 'unique:candidates,douyin', 'regex:/^http\:\/\/.+\.tiktok\.com\/.+/'],
         ])) {
-            return redirect('register')->with('message', '抖音網址格式錯誤！');
+            return redirect('register-area')->with('message', '抖音網址格式錯誤！');
         }
 
         $user = User::create([
@@ -162,39 +162,39 @@ class RegisterController extends Controller
         $candidate->performance = $request->input('performance');
         $candidate->save();
 
-        return redirect('upload-en');
+        return redirect('upload-area');
     }
 
-    public function mediaen()
+    public function mediaarea()
     {
 
         $user = Auth::user();
         $medias = $user->getMedia();
 
-        return view('official-en/upload', compact('medias'));
+        return view('official-area/upload', compact('medias'));
 
         /*if(Auth::check())
         {
 
         }*/
 
-        return redirect('register-en')->with('message', 'Thanks For Registration');
+        return redirect('register-area')->with('message', '感謝您的報名！');
     }
 
-    public function uploaden(Request $request)
+    public function uploadarea(Request $request)
     {
         /*if( ! Auth::check()) return redirect('/');*/
 
         if (!$request->hasFile('fileToUpload')) {
             $request->session()->flash('message.content', 'Error! Image to large');
-            return redirect('/update-en');
+            return redirect('/update-area');
         }
 
         $file = $request->file('fileToUpload');
 
         if (empty($file)) {
             $request->session()->flash('message.content', 'Error!');
-            return redirect('/update-en');
+            return redirect('/update-area');
         }
 
         $user = Auth::user();
@@ -208,7 +208,7 @@ class RegisterController extends Controller
                     ->toMediaCollection();
             }
 
-            return redirect('register-en')->with('message', 'Thanks For Registration');
+            return redirect('register-area')->with('message', '感謝您的報名！');
         }
 
         $user->addMedia($file->getRealPath())
@@ -216,7 +216,7 @@ class RegisterController extends Controller
             ->toMediaCollection();
 
 
-        return redirect('register-en')->with('message', 'Thanks For Registration');
+        return redirect('register-area')->with('message', '感謝您的報名！');
     }
 
 //
