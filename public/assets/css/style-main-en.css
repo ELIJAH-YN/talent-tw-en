@@ -1,0 +1,52 @@
+@media screen and (min-width: 1440px) {
+    #four .area-review-wrapper h3 {
+        font-size: 40px;
+    }
+
+    .bonus-wrapper h4 {
+        font-size: 40px;
+    }
+
+    #one .rules-wrapper .register-wrapper-title {
+        font-size: 30px;
+    }
+
+    #one .rules-wrapper h5 {
+        font-size: 20px;
+    }
+
+    .box .text-center h5 {
+        font-size: 30px;
+    }
+
+    .box .text-center button {
+        background-color: rgba(0, 0, 0, 0);
+        border: 1px solid rgba(255, 255, 255, .5);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .bonus-wrapper h4 {
+        font-size: 20px;
+    }
+
+    .finial-wrapper li {
+        font-size: 14px;
+    }
+
+    .box-1 header h2 {
+        font-size: 24px;
+    }
+
+    ul li {
+        margin: 0.5rem 0 0 0;
+    }
+
+    #one .rules-wrapper h4 {
+        font-size: 14px;
+    }
+
+    #one .rules-wrapper h5 {
+        font-size: 12px;
+    }
+}

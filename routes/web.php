@@ -31,6 +31,28 @@ Route::get('storage', function () {
     return view('official/storage');
 })->name('storage');
 
+/* EN */
+
+Route::get('index-en', function () {
+    return view('official-en/index');
+})->name('index-en');
+
+Route::get('/register-en', function () {
+    return view('official-en/register');
+})->name('register-en');
+
+Route::get('/upload-en', function () {
+    return view('official-en/upload');
+})->name('upload-en');
+
+//Route::get('/thankyou', function () {
+//    return view('rwd/thankyou');
+//})->name('thankyou');
+
+Route::get('storage-en', function () {
+    return view('official-en/storage');
+})->name('storage-en');
+
 
 Route::get('mornjoy', function () {
     include public_path().'/dist/index.html';
@@ -39,3 +61,8 @@ Route::get('mornjoy', function () {
 Route::get('/update', 'RegisterController@media')->name('mediaupdate');
 Route::post('/register', 'RegisterController@register')->name('register');
 Route::post('/upload', 'RegisterController@upload')->name('upload');
+
+Route::get('/update-en', 'RegisterController@mediaen')->name('mediaupdate-en');
+Route::post('/register-en', 'RegisterController@registeren')->name('register-en');
+Route::post('/upload-en', 'RegisterController@uploaden')->name('upload-en');
+

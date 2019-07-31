@@ -525,6 +525,7 @@ footer .logos .company_container .host_position {
         font-size: 3.5vw;
         margin: 0.6em auto;
         order: -1;
+        text-align: center;
     }
     footer .logos .the-co-organis {
         width: 18%;
