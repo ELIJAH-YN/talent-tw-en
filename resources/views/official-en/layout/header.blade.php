@@ -31,9 +31,8 @@
         <ul class="links">
             <li><a href="{{ route('index-en') }}">Home</a></li>
             <li><a href="{{ route('index-en') }}">Rules</a></li>
-            <li><a href="{{ route('storage-en') }}">Go Apply</a></li>
+            <li><a href="{{ route('register-en') }}">Go Apply</a></li>
             <li><a href="/">繁體</a></li>
-            <div data-type="countdown" data-id="1340208" class="tickcounter" style="width: 250px; height: 62px; margin: 0 auto"><a href="//www.tickcounter.com/countdown/1340208/" title="報名開放倒數">報名開放倒數</a><a href="//www.tickcounter.com/" title="Countdown">Countdown</a></div><script>(function(d, s, id) { var js, pjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//www.tickcounter.com/static/js/loader.js"; pjs.parentNode.insertBefore(js, pjs); }(document, "script", "tickcounter-sdk"));</script>        </ul>
     </nav>
 
 
