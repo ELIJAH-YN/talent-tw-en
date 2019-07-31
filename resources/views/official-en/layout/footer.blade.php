@@ -42,6 +42,16 @@
                     <h5 class="host_position">The Sponsor</h5>
                 </div>
             </div>
+            <div class="main_host">
+                <div class="main_host">
+                    <div class="company_container">
+                        <div class="company_logo">
+                            <img src="/images/sponsor/kamisama-logo.jpg" class="company_logo">
+                        </div>
+                        <h5 class="host_position">Technical supply</h5>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
