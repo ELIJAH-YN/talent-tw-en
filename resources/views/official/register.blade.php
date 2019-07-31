@@ -42,7 +42,7 @@
                         <i class="zmdi zmdi-name"></i>
                     </div>
                     <div class="form-group">
-                        <input type="date" name="birthday" id="birthday" placeholder="出生年月日" class="form-control" id="datepicker">
+                        <input type="date" name="birthday" id="birthday" placeholder="出生年月日" class="form-control">
                         <i class="zmdi zmdi-date"></i>
                     </div>
                     <div class="form-group">
@@ -62,7 +62,7 @@
                         <i class="zmdi zmdi-address"></i>
                     </div>
                     <div class="form-group">
-                        <input type="mail" name="email" id="email" placeholder="電子郵件" class="form-control">
+                        <input type="email" name="email" id="email" placeholder="電子郵件" class="form-control">
                         <i class="zmdi zmdi-email"></i>
                     </div>
                     <div class="form-group">

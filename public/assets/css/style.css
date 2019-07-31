@@ -190,7 +190,11 @@
         font-size: 30px;
         text-align: center;
         letter-spacing: 0.2em;
-        margin: 0;
+    }
+
+    #one .rules-wrapper h5 {
+        font-size: 20px;
+        margin: 1em 0 1em 0;
     }
 
     #two .rule-title h2 {

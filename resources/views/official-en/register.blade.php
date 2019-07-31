@@ -62,7 +62,7 @@
                         <i class="zmdi zmdi-address"></i>
                     </div>
                     <div class="form-group">
-                        <input type="mail" name="email" id="email" placeholder="Email" class="form-control">
+                        <input type="email" name="email" id="email" placeholder="Email" class="form-control">
                         <i class="zmdi zmdi-email"></i>
                     </div>
                     <div class="form-group">
