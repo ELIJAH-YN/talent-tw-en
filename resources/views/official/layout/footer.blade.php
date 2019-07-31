@@ -56,9 +56,8 @@
                 </p>
                 <div class="row">
                     <ul class="sci">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-envelope-o"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://www.facebook.com/%E5%85%A8%E7%90%83%E9%A0%82%E5%B0%96%E7%B4%85%E4%BA%BA%E5%B0%8D%E6%B1%BAOfficial-GTTC-560806931080664/"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/official.gttc/"><i class="fa fa-instagram"></i></a></li>
                     </ul>
                 </div>
                 <p class="cpryt">© Copyright 2019 | by <a href="https://quick-pi.com/">Quick-Pi</a></p>
