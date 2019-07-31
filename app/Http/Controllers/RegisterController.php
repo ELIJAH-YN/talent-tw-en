@@ -73,7 +73,7 @@ class RegisterController extends Controller
 
         }*/
 
-        return redirect('/')->with('message', '感謝你的報名');
+        return redirect('register')->with('message', '感謝你的報名');
     }
 
     public function upload(Request $request)
@@ -103,7 +103,7 @@ class RegisterController extends Controller
                     ->toMediaCollection();
             }
 
-            return redirect('/')->with('message', '感謝你的報名');
+            return redirect('register')->with('message', '感謝你的報名');
         }
 
         $user->addMedia($file->getRealPath())
@@ -111,7 +111,7 @@ class RegisterController extends Controller
             ->toMediaCollection();
 
 
-        return redirect('/')->with('message', '感謝你的報名');
+        return redirect('register')->with('message', '感謝你的報名');
     }
 
     public function registeren(Request $request)
@@ -178,7 +178,7 @@ class RegisterController extends Controller
 
         }*/
 
-        return redirect('index-en')->with('message', 'Thanks For Registration');
+        return redirect('register-en')->with('message', 'Thanks For Registration');
     }
 
     public function uploaden(Request $request)
@@ -208,7 +208,7 @@ class RegisterController extends Controller
                     ->toMediaCollection();
             }
 
-            return redirect('index-en')->with('message', 'Thanks For Registration');
+            return redirect('register-en')->with('message', 'Thanks For Registration');
         }
 
         $user->addMedia($file->getRealPath())
@@ -216,7 +216,7 @@ class RegisterController extends Controller
             ->toMediaCollection();
 
 
-        return redirect('index-en')->with('message', 'Thanks For Registration');
+        return redirect('register-en')->with('message', 'Thanks For Registration');
     }
 
 //

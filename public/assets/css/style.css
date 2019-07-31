@@ -60,7 +60,6 @@
 }
 @media screen and (max-width: 480px) {
 
-
     #one .rules-wrapper h4 {
         color: #fff;
         font-size: 30px;
@@ -230,6 +229,20 @@
 
     #four ul li {
         font-size: 16px;
+    }
+
+    .content-err {
+        font-size: 16px;
+        color: #000;
+        background-color: rgba(255, 255, 255, .6);
+        border-radius: 20px;
+    }
+
+    .content-success {
+        font-size: 20px;
+        color: #000;
+        background-color: rgba(255, 255, 255, .6);
+        border-radius: 20px;
     }
 
 }

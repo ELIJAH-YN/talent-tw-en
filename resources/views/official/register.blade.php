@@ -15,11 +15,13 @@
 <section id="one" class="wrapper post bg-img" data-bg="banner-2.jpg">
     <div class="inner">
         <article class="box">
-            @if(session('message'))
-                <div class="col-md-8 alert alert-success">
-                    {{session('message')}}
-                </div>
-            @endif
+            <div class="content-success">
+                @if(session('message'))
+                    <div class="col-md-8 alert alert-success">
+                        {{session('message')}}
+                    </div>
+                @endif
+            </div>
             <header class="rules-wrapper">
                 <h4 class="register-wrapper-title">請以真實資料填寫參賽報名表格</h4>
                 <h5>請仔細核對資料，若資訊有誤則取消參賽資格</h5>
@@ -79,7 +81,7 @@
                     <button type="submit" class="btn btn-danger btn-block btn-lg m-auto">送出資料
                         <i class="zmdi zmdi-arrow-right"></i>
                     </button>
-                    <div class="content">
+                    <div class="content-err">
                     @if(count($errors) > 0)
                         @foreach ($errors->all() as $error)
                             <div class="alert alert-warning">{{$error}}</div>

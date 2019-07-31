@@ -8,11 +8,6 @@
 -->
 <section id="banner" class="bg-img" data-bg="banner-tw-1.jpg">
     <div class="inner">
-        @if(session('alert'))
-            <div class="col-md-8 alert alert-success">
-                {{session('alert')}}
-            </div>
-        @endif
     </div>
     <a href="#one" class="more">Learn More</a>
 </section>
