@@ -18,7 +18,7 @@
 </section>
 
 <!-- One -->
-<section id="one" class="wrapper post bg-img" data-bg="banner-2.jpg">
+<section id="one" class="wrapper post bg-img" data-bg="banner-2.png">
     <div class="inner">
         <article class="box">
             <div class="content-wrapper">
