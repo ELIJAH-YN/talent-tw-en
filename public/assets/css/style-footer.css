@@ -508,11 +508,11 @@ footer .logos .company_container .host_position {
     }
     footer .logos .main_host,
     footer .logos .co_host {
-        justify-content: space-between;
+        justify-content: center;
         margin-bottom: 1.5rem;
     }
     footer .logos .main_host .company_container {
-        width: 26%;
+        width: 30%;
     }
     footer .logos .co_host .company_container {
         width: 100%;

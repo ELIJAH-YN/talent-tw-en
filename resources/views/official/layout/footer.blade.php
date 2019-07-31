@@ -54,42 +54,55 @@
                     </div>
                     <h5 class="host_position">主辦單位</h5>
                 </div>
+{{--                <div class="company_container">--}}
+{{--                    <div class="company_logo">--}}
+{{--                        <img src="/images/sponsor/sponsor-09.png" class="company_logo">--}}
+{{--                    </div>--}}
+{{--                    <h5 class="host_position">聯合主辦</h5>--}}
+{{--                </div>--}}
+{{--                <div class="company_container">--}}
+{{--                    <div class="company_logo">--}}
+{{--                        <img src="/images/sponsor/sponsor-06.jpg" class="company_logo">--}}
+{{--                    </div>--}}
+{{--                    <h5 class="host_position">賽事執行</h5>--}}
+{{--                </div>--}}
+            </div>
+            <div class="co_host">
                 <div class="company_container">
                     <div class="company_logo">
-                        <img src="/images/sponsor/sponsor-09.png" class="company_logo">
+                        <img src="/images/sponsor/sponsor-18.jpg" class="the-co-organis">
+                        <img src="/images/sponsor/sponsor-15.jpg" class="the-co-organis">
+                        <img src="/images/sponsor/sponsor-14.jpg" class="the-co-organis">
+                        <img src="/images/sponsor/sponsor-02.jpg" class="the-co-organis">
+                        <img src="/images/sponsor/sponsor-03.jpg" class="the-co-organis">
                     </div>
-                    <h5 class="host_position">聯合主辦</h5>
-                </div>
-                <div class="company_container">
-                    <div class="company_logo">
-                        <img src="/images/sponsor/sponsor-06.jpg" class="company_logo">
-                    </div>
-                    <h5 class="host_position">賽事執行</h5>
+                    <h5 class="host_position">贊助廠商</h5>
                 </div>
             </div>
             <div class="co_host">
                 <div class="company_container">
                     <div class="company_logo">
-                        <img src="/images/sponsor/sponsor-03.jpg" class="the-co-organis">
-                        <img src="/images/sponsor/sponsor-15.jpg" class="the-co-organis">
-                        <img src="/images/sponsor/sponsor-17.jpg" class="the-co-organis">
-                        <img src="/images/sponsor/sponsor-14.jpg" class="the-co-organis">
-                        <img src="/images/sponsor/sponsor-01.jpg" class="the-co-organis">
+                        <img src="/images/sponsor/sponsor-06.jpg" alt="" class="the-co-organis">
+                        <img src="/images/sponsor/sponsor-15.jpg" alt="" class="the-co-organis">
+                        <img src="/images/sponsor/sponsor-21.jpg" alt="" class="the-co-organis">
+                        <img src="/images/sponsor/sponsor-01.jpg" alt="" class="the-co-organis">
+                        <img src="/images/sponsor/sponsor-17.jpg" alt="" class="the-co-organis">
                     </div>
                     <h5 class="host_position">協辦單位</h5>
                 </div>
             </div>
-            <div class="co_host sponser">
-                <div class="company_container">
-                    <div class="company_logo">
-                        <img src="/images/sponsor/sponsor-11.jpg" alt="" class="the-co-organis">
-                        <img src="/images/sponsor/sponsor-02.jpg" alt="" class="the-co-organis">
-                        <img src="/images/sponsor/sponsor-18.jpg" alt="" class="the-co-organis">
-                        <img src="/images/sponsor/sponsor-12.jpg" alt="" class="the-co-organis">
-                    </div>
-                    <h5 class="host_position">贊助單位</h5>
-                </div>
-            </div>
+{{--            <div class="co_host sponser">--}}
+{{--                <div class="company_container">--}}
+{{--                    <div class="company_logo">--}}
+{{--                        <img src="/images/sponsor/sponsor-11.jpg" alt="" class="the-co-organis">--}}
+{{--                        <img src="/images/sponsor/sponsor-02.jpg" alt="" class="the-co-organis">--}}
+{{--                        <img src="/images/sponsor/sponsor-18.jpg" alt="" class="the-co-organis">--}}
+{{--                        <img src="/images/sponsor/sponsor-12.jpg" alt="" class="the-co-organis">--}}
+{{--                        <img src="/images/sponsor/sponsor-21.jpg" alt="" class="the-co-organis">--}}
+{{--                    </div>--}}
+{{--                    <h5 class="host_position">協辦單位</h5>--}}
+{{--                </div>--}}
+{{--            </div>--}}
 
         </div>
     </div>

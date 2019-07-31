@@ -181,6 +181,10 @@
         margin: 0.5em 0 0 0;
     }
 
+    #one .rules-wrapper .register-wrapper-title {
+        font-size: 44px;
+    }
+
     #one .rules-wrapper h5 {
         color: #fff;
         font-size: 30px;

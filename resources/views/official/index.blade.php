@@ -8,9 +8,11 @@
 -->
 <section id="banner" class="bg-img" data-bg="banner-1.jpg">
     <div class="inner">
-{{--        <header>--}}
-{{--            <h1>This is Road Trip</h1>--}}
-{{--        </header>--}}
+        @if(session('alert'))
+            <div class="col-md-8 alert alert-success">
+                {{session('alert')}}
+            </div>
+        @endif
     </div>
     <a href="#one" class="more">Learn More</a>
 </section>
@@ -141,7 +143,7 @@
     <div class="inner">
         <div class="bonus-wrapper">
             <div class="bonus-box">
-                <h4>95萬</h4>
+                <h4>100萬</h4>
                 <p>總獎金含獎品</p>
                 <div class="bonus-border"></div>
             </div>
@@ -156,7 +158,7 @@
                 <div class="bonus-border"></div>
             </div>
             <div class="bonus-box">
-                <h4>15萬</h4>
+                <h4>20萬</h4>
                 <p>季軍獨得</p>
                 <div class="bonus-border"></div>
             </div>
