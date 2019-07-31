@@ -31,7 +31,7 @@
             <li><a href="{{ route('index-area') }}">首頁</a></li>
             <li><a href="{{ route('index-area') }}">報名規則</a></li>
             <li><a href="{{ route('register-area') }}">前往報名</a></li>
-            <li><a href="{{ route('index-en') }}">英文</a></li>
+            <li><a href="{{ route('index-area-en') }}">英文</a></li>
     </nav>
 
 

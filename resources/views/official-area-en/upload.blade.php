@@ -1,4 +1,4 @@
-@include('official-en.layout.header')
+@include('official-area-en.layout.header')
 
 <section id="banner" class="bg-img" data-bg="banner-1.jpg">
     <div class="inner"></div>
@@ -13,7 +13,7 @@
                 <h5>At Last Upload You're Image</h5>
                 <p>Full body photo, half body photo and big photo</p>
                 <hr>
-                <form action="{{ route('upload-en') }}" method="post" enctype="multipart/form-data">
+                <form action="{{ route('upload-area-en') }}" method="post" enctype="multipart/form-data">
                     @csrf
                     <div class="form-group">
                         <input type="file" name="fileToUpload[]" id="fileToUpload" class="form-control" multiple>
@@ -37,4 +37,4 @@
     </div>
 </section>
 
-@include('official-en.layout.footer')
+@include('official-area-en.layout.footer')

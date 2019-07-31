@@ -1,4 +1,4 @@
-@include('official-en.layout.header')
+@include('official-area-en.layout.header')
 
 <!-- Banner -->
 <!--
@@ -25,7 +25,7 @@
                 <h5>Please check the information carefully and cancel the qualification if the information is incorrect.</h5>
             </header>
             <div class="content">
-                <form id="top_register_form" method="POST" action="{{ url('/register-en') }}">
+                <form id="top_register_form" method="POST" action="{{ url('/register-area-en') }}">
                     @csrf
                     <div class="form-group">
                         <select name="area" id="area" class="form-control">
@@ -212,4 +212,4 @@
 
 
 
-@include('official-en.layout.footer')
+@include('official-area-en.layout.footer')

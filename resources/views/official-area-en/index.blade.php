@@ -1,4 +1,4 @@
-@include('official-en.layout.header')
+@include('official-area-en.layout.header')
 
 <!-- Banner -->
 <!--
@@ -192,4 +192,4 @@
     </div>
 </section>
 
-@include('official-en.layout.footer')
+@include('official-area-en.layout.footer')
