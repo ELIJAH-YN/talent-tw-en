@@ -93,7 +93,7 @@
             </header>
             <div class="content">
                 <ul>
-                    <li>Date: 10/1/2019 – 10/31/2019</li>
+                    <li>Date: 10/1/2019 – 10/18/2019</li>
                     <li>Competition Method: Participant post five 15-second short video to Tik Tok</li>
                     <li>Certification Mark: Please hashtag all the following sponsor names, #快拍股份有限公司、#晨悅預防醫學、#寶齡富錦生技、#台灣大車隊、#H2O HOTEL、#桃園機場捷運、#創克股份有公司、#Juksy、#Qlive、#富士康廣告、#菲力斯國際。</li>
                     <li>Competition Contents:  2 films for main sponsors.  1 film for each of the 3 other sponsors.</li>
@@ -117,7 +117,7 @@
             </header>
             <div class="content">
                 <ul>
-                    <li>Date: 11/1/2019 – 11/18/2019</li>
+                    <li>Date: 11/1/2019 – 11/2/2019</li>
                     <li>Competition Method: 2  PK rounds at a Location to be announced by GTTC. The regional top 3 finalist will be announced at the end of Regional Final.</li>
                 </ul>
             </div>
