@@ -175,9 +175,9 @@
             </header>
             <ul class="finial-wrapper">
                 <li>Regional top 3 finalist awards are:</li><br>
-                <li>First Place $NT100,000 equivalent prize and cash.</li>
-                <li>Second Place: $NT80,000 equivalent prize and cash.</li>
-                <li>Third Place: $NT50,000 equivalent prize and cash.</li><br>
+                <li>First Place $NT500,000 equivalent prize and cash.</li>
+                <li>Second Place: $NT30,000 equivalent prize and cash.</li>
+                <li>Third Place: $NT20,000 equivalent prize and cash.</li><br>
                 <li>International Final Competition - The top 3 finalist from each region will compete at Parisian Hotel in Macau</li>
                 <li>Date: 12/8</li><br>
                 <li>Competition Content:</li>
