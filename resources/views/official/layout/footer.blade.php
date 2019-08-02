@@ -34,7 +34,7 @@
                 <div class="company_container">
                     <div class="company_logo">
                         <img src="/images/sponsor/sponsor-18.jpg" class="the-co-organis">
-                        <img src="/images/sponsor/sponsor-22.jpg" class="the-co-organis">
+                        <img src="/images/sponsor/sponsor-22.png" class="the-co-organis">
                         <img src="/images/sponsor/sponsor-14.jpg" class="the-co-organis">
                         <img src="/images/sponsor/sponsor-02.jpg" class="the-co-organis">
                         <img src="/images/sponsor/sponsor-03.jpg" class="the-co-organis">

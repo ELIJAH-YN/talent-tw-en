@@ -32,7 +32,7 @@
             </div>
             <div class="co_host">
             </div>
-            <div class="main_host"><div class="company_container">--}}
+            <div class="main_host"><div class="company_container">
 {{--                    <div class="company_logo">--}}
 {{--                        <img src="/images/sponsor/sponsor-18.jpg" class="the-co-organis">--}}
 {{--                        <img src="/images/sponsor/sponsor-22.jpg" class="the-co-organis">--}}
@@ -41,7 +41,7 @@
 {{--                        <img src="/images/sponsor/sponsor-03.jpg" class="the-co-organis">--}}
 {{--                    </div>--}}
 {{--                    <h5 class="host_position">贊助廠商</h5>--}}
-{{--                </div>
+{{--                </div>--}}
                 <div class="company_container">
                     <div class="company_logo">
                         <img src="/images/sponsor/kamisama-logo.jpg" class="company_logo">

@@ -22,7 +22,7 @@
     <div class="inner">
         <article class="box">
             <div class="content-wrapper">
-                <p>Global Top Talent Contest (GTTC) is the premier online talent competition sponsored by a renowned online media company Quick Pi based in Taiwan.  The contest  select top 3 talents from each of the 10 cities which include Beijing, Shanghai, Taipei, Harbin, Chengdu, Hangzhou, Ho Chi Minh City, Bangkok,  Kuala Lumpur, and Hong Kong.  The final competition will be held at Parisian Hotel in Macau December 2019.</p>
+                <p>Global Top Talent Contest (GTTC) is the premier online talent competition sponsored by a renowned online media company Quick Pi based in Taiwan.  The contest  select top 3 talents from each of the 10 cities which include Beijing, Shanghai, Taipei, Wuhan, Chengdu, Hangzhou, Ho Chi Minh City, Bangkok,  Kuala Lumpur, and Hong Kong.  The final competition will be held at Parisian Hotel in Macau December 2019.</p>
             </div>
             <div class="content-wrapper">
                 <p>We welcome individuals who are looking for opportunity to demonstrate your unique talents to the world.  Take the chance to and let your talent shine at this exciting competition!!</p>
@@ -63,6 +63,9 @@
             <div class="content">
                 <h3>Other Important Matters</h3>
                 <p>The organizer shall have the right to adjust the schedule and supplement or revise the contents. The participants shall not have any objection and shall abide by the rules of participation and the assessment of the review. The association reserves the right to collect relevant evidence and take appropriate action in the event of irrational protest (such as insulting the organizer, intent to suspend or hinder the conduct of the competition) and retain the right to legal prosecution.</p>
+                <ul>
+                    <li>Legal Consultant: Min-Quan Attorneys at Law</li>
+                </ul>
             </div>
             <footer>
                 <a href="{{  route('register-en') }}" class="button alt">Go Apply</a>

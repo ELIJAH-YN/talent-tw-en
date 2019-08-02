@@ -63,6 +63,9 @@
             <div class="content">
                 <h3>Other Important Matters</h3>
                 <p>The organizer shall have the right to adjust the schedule and supplement or revise the contents. The participants shall not have any objection and shall abide by the rules of participation and the assessment of the review. The association reserves the right to collect relevant evidence and take appropriate action in the event of irrational protest (such as insulting the organizer, intent to suspend or hinder the conduct of the competition) and retain the right to legal prosecution.</p>
+                <ul>
+                    <li>Legal Consultant: Min-Quan Attorneys at Law</li>
+                </ul>
             </div>
             <footer>
                 <a href="{{  route('register-area-en') }}" class="button alt">Go Apply</a>
