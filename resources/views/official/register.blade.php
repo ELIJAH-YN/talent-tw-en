@@ -72,7 +72,7 @@
                         <i class="zmdi zmdi-label"></i>
                     </div>
                     <div class="form-group">
-                        <input type="text" name="facebookid" id="facebookid" placeholder="臉書帳號" class="form-control">
+                        <input type="text" name="facebookid" id="facebookid" placeholder="臉書連結" class="form-control">
                         <i class="zmdi-facebook"></i>
                     </div>
                     <div class="form-group">
