@@ -16,10 +16,14 @@
     <div class="inner">
         <article class="box">
             <div class="content-success">
-                @if(session('message'))
-                    <div class="col-md-8 alert alert-success">
-                        {{session('message')}}
-                    </div>
+                @if(Session::has('alert'))
+                    <script>
+                        var msg = '{{Session::get('alert')}}';
+                        var exist = '{{Session::has('alert')}}';
+                        if(exist){
+                            alert(msg);
+                        }
+                    </script>
                 @endif
             </div>
             <header class="rules-wrapper">

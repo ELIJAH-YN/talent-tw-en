@@ -73,7 +73,7 @@ class RegisterController extends Controller
 
         }*/
 
-        return redirect('register')->with('message', '感謝您的報名');
+        return redirect('register')->with('alert', '感謝您的報名');
     }
 
     public function upload(Request $request)
@@ -103,7 +103,7 @@ class RegisterController extends Controller
                     ->toMediaCollection();
             }
 
-            return redirect('register')->with('message', '感謝您的報名');
+            return redirect('register')->with('alert', '感謝您的報名');
         }
 
         $user->addMedia($file->getRealPath())
@@ -111,7 +111,7 @@ class RegisterController extends Controller
             ->toMediaCollection();
 
 
-        return redirect('register')->with('message', '感謝您的報名');
+        return redirect('register')->with('alert', '感謝您的報名');
     }
 
     public function registerarea(Request $request)
