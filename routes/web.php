@@ -1,5 +1,7 @@
 <?php
 
+use App\Exports\UserExport;
+use Maatwebsite\Excel\Facades\Excel;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -82,6 +84,11 @@ Route::get('/upload-area-en', function () {
 Route::get('mornjoy', function () {
     include public_path().'/dist/index.html';
 })->name('mornjoy');
+
+/* Export CSV */
+Route::get('download', function () {
+   return Excel::download(new UserExport, 'candidates.xlsx');
+});
 
 Route::get('/update', 'RegisterController@media')->name('mediaupdate');
 Route::post('/register', 'RegisterController@register')->name('register');
