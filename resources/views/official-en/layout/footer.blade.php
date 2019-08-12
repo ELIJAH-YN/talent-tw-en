@@ -38,6 +38,7 @@
                         <img src="/images/sponsor/sponsor-14.jpg" class="the-co-organis">
                         <img src="/images/sponsor/sponsor-02.jpg" class="the-co-organis">
                         <img src="/images/sponsor/sponsor-03.jpg" class="the-co-organis">
+                        <img src="/images/sponsor/sponsor-24.jpg" class="the-co-organis">
                     </div>
                     <h5 class="host_position">The Sponsor</h5>
                 </div>
@@ -64,8 +65,8 @@
                 </p>
                 <div class="row">
                     <ul class="sci">
-                        <li><a href="https://www.facebook.com/%E5%85%A8%E7%90%83%E9%A0%82%E5%B0%96%E7%B4%85%E4%BA%BA%E5%B0%8D%E6%B1%BAOfficial-GTTC-560806931080664/"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="https://www.instagram.com/official.gttc/"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://www.facebook.com/%E5%85%A8%E7%90%83%E9%A0%82%E5%B0%96%E7%B4%85%E4%BA%BA%E5%B0%8D%E6%B1%BAOfficial-GTTC-560806931080664/"><img src="https://img.icons8.com/color/55/000000/facebook-new.png"></a></li>
+                        <li><a href="https://line.me/R/ti/p/%40wnt5797d"><img src="https://img.icons8.com/color/55/000000/line-me.png"></a></li>
                     </ul>
                 </div>
                 <p class="cpryt">© Copyright 2019 | by <a href="https://quick-pi.com/">Quick-Pi</a></p>
