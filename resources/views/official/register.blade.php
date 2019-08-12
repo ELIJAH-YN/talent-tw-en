@@ -6,11 +6,11 @@
     to the full filename of your image. This is used in each section to set
     the background image.
 -->
-<section id="banner" class="bg-img" data-bg="banner-1.jpg">
-    <div class="inner">
-    </div>
-    <a href="#one" class="more">Learn More</a>
-</section>
+{{--<section id="banner" class="bg-img" data-bg="banner-1.jpg">--}}
+{{--    <div class="inner">--}}
+{{--    </div>--}}
+{{--    <a href="#one" class="more">Learn More</a>--}}
+{{--</section>--}}
 <!-- One -->
 <section id="one" class="wrapper post bg-img" data-bg="banner-2.jpg">
     <div class="inner">

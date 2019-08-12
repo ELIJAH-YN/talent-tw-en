@@ -15,10 +15,14 @@
 <section id="one" class="wrapper post bg-img" data-bg="banner-2.jpg">
     <div class="inner">
         <article class="box">
-            @if(session('message'))
-                <div class="col-md-8 alert alert-success">
-                    {{session('message')}}
-                </div>
+            @if(Session::has('alert'))
+                <script>
+                    var msg = '{{Session::get('alert')}}';
+                    var exist = '{{Session::has('alert')}}';
+                    if(exist){
+                        alert(msg);
+                    }
+                </script>
             @endif
             <header class="rules-wrapper">
                 <h4 class="register-wrapper-title">Please fill in the entry form with real information.</h4>

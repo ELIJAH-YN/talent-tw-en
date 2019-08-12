@@ -6,19 +6,23 @@
     to the full filename of your image. This is used in each section to set
     the background image.
 -->
-<section id="banner" class="bg-img" data-bg="banner-1.jpg">
-    <div class="inner">
-    </div>
-    <a href="#one" class="more">Learn More</a>
-</section>
+{{--<section id="banner" class="bg-img" data-bg="banner-1.jpg">--}}
+{{--    <div class="inner">--}}
+{{--    </div>--}}
+{{--    <a href="#one" class="more">Learn More</a>--}}
+{{--</section>--}}
 <!-- One -->
 <section id="one" class="wrapper post bg-img" data-bg="banner-2.jpg">
     <div class="inner">
         <article class="box">
-            @if(session('message'))
-                <div class="col-md-8 alert alert-success">
-                    {{session('message')}}
-                </div>
+            @if(Session::has('alert'))
+                <script>
+                    var msg = '{{Session::get('alert')}}';
+                    var exist = '{{Session::has('alert')}}';
+                    if(exist){
+                        alert(msg);
+                    }
+                </script>
             @endif
             <header class="rules-wrapper">
                 <h4 class="register-wrapper-title">Please fill in the entry form with real information.</h4>

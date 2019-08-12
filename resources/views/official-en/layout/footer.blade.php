@@ -33,8 +33,8 @@
             <div class="co_host">
                 <div class="company_container">
                     <div class="company_logo">
-                        <a href="https://www.facebook.com/MORNJOY/"><img src="/images/sponsor/sponsor-18.jpg" class="the-co-organis"></a>
-                        <a href="https://www.pbf.com.tw/寶齡官方網站-全新改版上線/"><img src="/images/sponsor/sponsor-22.png" class="the-co-organis"></a>
+                        <img src="/images/sponsor/sponsor-18.jpg" class="the-co-organis">
+                        <img src="/images/sponsor/sponsor-22.png" class="the-co-organis">
                         <img src="/images/sponsor/sponsor-14.jpg" class="the-co-organis">
                         <img src="/images/sponsor/sponsor-02.jpg" class="the-co-organis">
                         <img src="/images/sponsor/sponsor-03.jpg" class="the-co-organis">
