@@ -23,7 +23,7 @@ class RegisterController extends Controller
         ])) {
             return redirect('register')->with('message', '欄位格式錯誤');
         } elseif (!$this->validate($request, [
-            'phone' => ['required', 'unique:candidates,phone', 'regex:/^0\d{9}$/'],
+            'phone' => ['required', 'unique:candidates,phone', 'regex:/^09\d{8}$/'],
         ])) {
             return redirect('register')->with('message', '電話號碼重複');
         } elseif (!$this->validate($request, [

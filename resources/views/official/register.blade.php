@@ -25,6 +25,11 @@
                         }
                     </script>
                 @endif
+                @if(count($errors) > 0)
+                    @foreach ($errors->all() as $error)
+                        <div class="alert alert-warning">{{$error}}</div>
+                    @endforeach
+                @endif
             </div>
             <header class="rules-wrapper">
                 <h4 class="register-wrapper-title">請以真實資料填寫參賽報名表格</h4>
@@ -70,25 +75,20 @@
                         <i class="zmdi zmdi-email"></i>
                     </div>
                     <div class="form-group">
-                        <input type="text" name="douyin" id="douyin" placeholder="個人抖音網址" class="form-control">
+                        <input type="text" name="douyin" id="douyin" placeholder="個人抖音連結" class="form-control">
                         <i class="zmdi zmdi-label"></i>
                     </div>
                     <div class="form-group">
-                        <input type="text" name="facebookid" id="facebookid" placeholder="臉書連結" class="form-control">
+                        <input type="text" name="facebookid" id="facebookid" placeholder="個人臉書連結" class="form-control">
                         <i class="zmdi-facebook"></i>
                     </div>
                     <div class="form-group">
-                        <input type="text" name="performance" id="performance" placeholder="專長 (才藝)" class="form-control">
+                        <input type="text" name="performance" id="performance" placeholder="專長 (才藝) 描述" class="form-control">
                     </div>
                     <button type="submit" class="btn btn-danger btn-block btn-lg m-auto">送出資料
                         <i class="zmdi zmdi-arrow-right"></i>
                     </button>
                     <div class="content-err">
-                    @if(count($errors) > 0)
-                        @foreach ($errors->all() as $error)
-                            <div class="alert alert-warning">{{$error}}</div>
-                        @endforeach
-                    @endif
                 </div>
                 <div class="err_alert">
                     <div class="err_msg">

@@ -31,7 +31,7 @@
         <ul class="links">
             <li><a href="{{ route('index-en') }}">Home</a></li>
             <li><a href="{{ route('index-en') }}">Rules</a></li>
-            <li><a href="{{ route('register-en') }}">Go Apply</a></li>
+            <li><a href="{{ route('register-en') }}">Apply</a></li>
             <li><a href="/">繁體</a></li>
     </nav>
 

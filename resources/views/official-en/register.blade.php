@@ -24,6 +24,11 @@
                     }
                 </script>
             @endif
+            @if(count($errors) > 0)
+                @foreach ($errors->all() as $error)
+                    <div class="alert alert-warning">{{$error}}</div>
+                @endforeach
+            @endif
             <header class="rules-wrapper">
                 <h4 class="register-wrapper-title">Please fill in the entry form with real information.</h4>
                 <h5>Please check the information carefully and cancel the qualification if the information is incorrect.</h5>
@@ -74,21 +79,17 @@
                         <i class="zmdi zmdi-label"></i>
                     </div>
                     <div class="form-group">
-                        <input type="text" name="facebookid" id="facebookid" placeholder="Facebook Account" class="form-control">
+                        <input type="text" name="facebookid" id="facebookid" placeholder="Personal Facebook Account Link" class="form-control">
                         <i class="zmdi-facebook"></i>
                     </div>
                     <div class="form-group">
-                        <input type="text" name="performance" id="performance" placeholder="Expertise (Talent)" class="form-control">
+                        <input type="text" name="performance" id="performance" placeholder="Expertise (Talent) Description" class="form-control">
                     </div>
                     <button type="submit" class="button alt">Submit
                         <i class="zmdi zmdi-arrow-right"></i>
                     </button>
                     <div class="content">
-                    @if(count($errors) > 0)
-                        @foreach ($errors->all() as $error)
-                            <div class="alert alert-warning">{{$error}}</div>
-                        @endforeach
-                    @endif
+
                 </div>
                 <div class="err_alert">
                     <div class="err_msg">

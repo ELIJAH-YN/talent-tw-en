@@ -68,7 +68,7 @@
                 </ul>
             </div>
             <footer>
-                <a href="{{  route('register-en') }}" class="button alt">Go Apply</a>
+                <a href="{{  route('register-en') }}" class="button alt">Apply</a>
             </footer>
         </article>
     </div>
@@ -189,7 +189,7 @@
                 <li>Scoring Method: 100% By judge score</li>
             </ul>
             <footer>
-                <a href="{{ route('register-en') }}" class="button alt">Go Apply</a>
+                <a href="{{ route('register-en') }}" class="button alt">Apply</a>
             </footer>
         </article>
     </div>
