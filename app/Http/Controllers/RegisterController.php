@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Candidate;
 use App\User;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Redirect;
 
 class RegisterController extends Controller
 {
@@ -21,19 +22,23 @@ class RegisterController extends Controller
             'facebookid' => 'required',
             'performance' => 'required',
         ])) {
-            return redirect('register')->with('message', '欄位格式錯誤');
+//            return redirect('register')->back()->withInput();
+            return Redirect::to('register')->withInput();
         } elseif (!$this->validate($request, [
             'phone' => ['required', 'unique:candidates,phone', 'regex:/^09\d{8}$/'],
         ])) {
-            return redirect('register')->with('message', '電話號碼重複');
+//            return redirect('register')->with('message', '電話號碼重複');
+            return Redirect::to('register')->withInput();
         } elseif (!$this->validate($request, [
             'email' => ['required', 'unique:users,email', 'regex:/^[\w\-_+\.]+@[\w\-_]+\.[a-z]{2,}$/'],
         ])) {
-            return redirect('register')->with('message', '電子信箱格式錯誤！');
+//            return redirect('register')->with('message', '電子信箱格式錯誤！');
+            return Redirect::to('register')->withInput();
         } elseif (!$this->validate($request, [
             'douyin' => ['required', 'unique:candidates,douyin', 'regex:/^http\:\/\/.+\.tiktok\.com\/.+/'],
         ])) {
-            return redirect('register')->with('message', '抖音網址格式錯誤！');
+//            return redirect('register')->with('message', '抖音網址格式錯誤！');
+            return Redirect::to('register')->withInput();
         }
 
         $user = User::create([
@@ -82,14 +87,16 @@ class RegisterController extends Controller
 
         if (!$request->hasFile('fileToUpload')) {
             $request->session()->flash('message.content', 'Error! Image to large');
-            return redirect('/update');
+//            return redirect('/update');
+            return Redirect::to('update')->withInput();
         }
 
         $file = $request->file('fileToUpload');
 
         if (empty($file)) {
             $request->session()->flash('message.content', 'Error!');
-            return redirect('/update');
+//            return redirect('/update');
+            return Redirect::to('update')->withInput();
         }
 
         $user = Auth::user();
@@ -127,19 +134,23 @@ class RegisterController extends Controller
             'facebookid' => 'required',
             'performance' => 'required',
         ])) {
-            return redirect('register')->with('message', '欄位格式錯誤');
+//            return redirect('register-en')->with('message', '欄位格式錯誤');
+            return Redirect::to('register-en')->withInput();
         } elseif (!$this->validate($request, [
             'phone' => ['required', 'unique:candidates,phone', 'regex:/^1\d{9}$/'],
         ])) {
-            return redirect('register-en')->with('message', '電話號碼重複');
+//            return redirect('register-en')->with('message', '電話號碼重複');
+            return Redirect::to('register-en')->withInput();
         } elseif (!$this->validate($request, [
             'email' => ['required', 'unique:users,email', 'regex:/^[\w\-_+\.]+@[\w\-_]+\.[a-z]{2,}$/'],
         ])) {
-            return redirect('register-en')->with('message', '電子信箱格式錯誤！');
+//            return redirect('register-en')->with('message', '電子信箱格式錯誤！');
+            return Redirect::to('register-en')->withInput();
         } elseif (!$this->validate($request, [
             'douyin' => ['required', 'unique:candidates,douyin', 'regex:/^http\:\/\/.+\.tiktok\.com\/.+/'],
         ])) {
-            return redirect('register-en')->with('message', '抖音網址格式錯誤！');
+//            return redirect('register-en')->with('message', '抖音網址格式錯誤！');
+            return Redirect::to('register-en')->withInput();
         }
 
         $user = User::create([
@@ -188,14 +199,16 @@ class RegisterController extends Controller
 
         if (!$request->hasFile('fileToUpload')) {
             $request->session()->flash('message.content', 'Error! Image to large');
-            return redirect('update-en');
+//            return redirect('update-en');
+            return Redirect::to('update-en')->withInput();
         }
 
         $file = $request->file('fileToUpload');
 
         if (empty($file)) {
             $request->session()->flash('message.content', 'Error!');
-            return redirect('update-en');
+//            return redirect('update-en');
+            return Redirect::to('update-en')->withInput();
         }
 
         $user = Auth::user();
