@@ -90,6 +90,20 @@ Route::get('/upload-vn', function () {
     return view('official-vn/upload');
 })->name('upload-vn');
 
+/* TH */
+
+Route::get('index-th', function () {
+    return view('official-th/index');
+})->name('index-th');
+
+Route::get('/register-th', function () {
+    return view('official-th/register');
+})->name('register-th');
+
+Route::get('/upload-th', function () {
+    return view('official-th/upload');
+})->name('upload-th');
+
 
 //Route::get('/thankyou', function () {
 //    return view('rwd/thankyou');
@@ -129,3 +143,8 @@ Route::post('/upload-area-en', 'RegisterController@uploadareaen')->name('upload-
 Route::get('/update-vn', 'RegisterController@mediavn')->name('mediaupdate-vn');
 Route::post('/register-vn', 'RegisterController@registervn')->name('registe-vn');
 Route::post('/upload-vn', 'RegisterController@uploadvn')->name('upload-vn');
+
+/*    VN    */
+Route::get('/update-th', 'RegisterController@mediath')->name('mediaupdate-th');
+Route::post('/register-th', 'RegisterController@registerth')->name('registe-th');
+Route::post('/upload-th', 'RegisterController@uploadth')->name('upload-th');
