@@ -29,9 +29,9 @@ Route::get('/upload', function () {
 //    return view('rwd/thankyou');
 //})->name('thankyou');
 
-Route::get('storage', function () {
+Route::get('rule', function () {
     return view('official/storage');
-})->name('storage');
+})->name('rule');
 
 /* EN */
 

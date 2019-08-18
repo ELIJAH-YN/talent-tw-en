@@ -5,7 +5,7 @@
 }
 
 .bonus-wrapper h4 {
-    font-size: 55px;
+    font-size: 60px;
 }
 
 .bonus-wrapper p {
@@ -140,6 +140,10 @@
         border-radius: 20px;
     }
 
+    .banner1-content {
+        margin: 2em 0 2em 0;
+    }
+
     #banner {
         background-image: url('/images/phone/banner-ph-tw-1.jpg');
     }
@@ -257,6 +261,10 @@
         color: #000;
         background-color: rgba(255, 255, 255, .6);
         border-radius: 20px;
+    }
+
+    .banner1-content {
+        margin: 12em 0 1em 0;
     }
 
 }

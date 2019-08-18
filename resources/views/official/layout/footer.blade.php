@@ -38,9 +38,22 @@
                         <img src="/images/sponsor/sponsor-14.jpg" class="the-co-organis">
                         <img src="/images/sponsor/sponsor-02.jpg" class="the-co-organis">
                         <img src="/images/sponsor/sponsor-03.jpg" class="the-co-organis">
-                        <img src="/images/sponsor/sponsor-24.jpg" class="the-co-organis">
+{{--                        <img src="/images/sponsor/sponsor-24.jpg" class="the-co-organis">--}}
                     </div>
                     <h5 class="host_position">贊助廠商</h5>
+                </div>
+            </div>
+            <div class="co_host">
+                <div class="company_container">
+                    <div class="company_logo">
+{{--                        <img src="/images/sponsor/sponsor-18.jpg" class="the-co-organis">--}}
+{{--                        <img src="/images/sponsor/sponsor-22.png" class="the-co-organis">--}}
+{{--                        <img src="/images/sponsor/sponsor-14.jpg" class="the-co-organis">--}}
+{{--                        <img src="/images/sponsor/sponsor-02.jpg" class="the-co-organis">--}}
+{{--                        <img src="/images/sponsor/sponsor-03.jpg" class="the-co-organis">--}}
+                        <img src="/images/sponsor/sponsor-24.jpg" class="the-co-organis">
+                    </div>
+{{--                    <h5 class="host_position">贊助廠商</h5>--}}
                 </div>
             </div>
             <div class="main_host">

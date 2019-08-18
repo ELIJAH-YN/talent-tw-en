@@ -16,22 +16,44 @@
 <section id="one" class="wrapper post bg-img" data-bg="banner-2.png">
     <div class="inner">
         <article class="box">
+            <div class="bonus-wrapper">
+                <div class="bonus-box">
+                    <h4>100萬</h4>
+                    <p>總獎金含獎品</p>
+                    <div class="bonus-border"></div>
+                </div>
+                <div class="bonus-box">
+                    <h4>50萬</h4>
+                    <p>冠軍獨得</p>
+                    <div class="bonus-border"></div>
+                </div>
+                <div class="bonus-box">
+                    <h4>30萬</h4>
+                    <p>亞軍獨得</p>
+                    <div class="bonus-border"></div>
+                </div>
+                <div class="bonus-box">
+                    <h4>20萬</h4>
+                    <p>季軍獨得</p>
+                    <div class="bonus-border"></div>
+                </div>
+            </div>
             <div class="content-wrapper">
-                <p>亞洲網路選秀最高賽事!! 全球頂尖紅人對決Global Top Talent Contest，由台灣最強網紅製作團隊快拍,重金打造網路才藝選秀舞台，在上海,北京,武漢,成都,杭州,台北,胡志明,曼谷,吉隆坡,大灣區十個城市分別舉辦，各區前三名,更將前進澳門巴黎人劇場,與其他地區的才藝達人,共同爭取亞太區最強網紅的頭銜!!!</p>
+                <p class="banner1-content">亞洲網路選秀最高賽事!! 全球頂尖紅人對決Global Top Talent Contest，由台灣最強網紅製作團隊快拍,重金打造網路才藝選秀舞台，在上海,北京,武漢,成都,杭州,台北,胡志明,曼谷,吉隆坡,大灣區十個城市分別舉辦，各區前三名,更將前進澳門巴黎人劇場,與其他地區的才藝達人,共同爭取亞太區最強網紅的頭銜!!!</p>
             </div>
             <div class="content-wrapper">
                 <p>你身懷十八般武藝,卻沒地方可發揮?你鬼點子特多,朋友卻都冷眼旁觀?每天拍kuso搞笑影片是你的興趣?你來,你來,你來來來!!立刻報名,一圓你的網路明星夢~~~</p>
             </div>
-            <header class="rules-wrapper">
-                <h3>參賽規則</h3>
-            </header>
-            <div class="content">
-                <p>
-                    報名日期：108/8/1 - 108/8/31<br>
-                    報名資格：年齡18歲以上、男女不拘<br>
-                    比賽獎金：國際決賽冠軍獨得獎金獎品共新台幣 500,000 元 及獎盃乙座，比賽結果將於最終決賽現場公布並頒發，同時將結果公告於快拍官方平台及臉書粉絲團。
-                </p>
-            </div>
+{{--            <header class="rules-wrapper">--}}
+{{--                <h3>參賽規則</h3>--}}
+{{--            </header>--}}
+{{--            <div class="content">--}}
+{{--                <p>--}}
+{{--                    報名日期：108/8/1 - 108/8/31<br>--}}
+{{--                    報名資格：年齡18歲以上、男女不拘<br>--}}
+{{--                    比賽獎金：國際決賽冠軍獨得獎金獎品共新台幣 500,000 元 及獎盃乙座，比賽結果將於最終決賽現場公布並頒發，同時將結果公告於快拍官方平台及臉書粉絲團。--}}
+{{--                </p>--}}
+{{--            </div>--}}
         </article>
     </div>
     <a href="#two" class="more">Learn More</a>
@@ -45,8 +67,15 @@
                 <h2>RULE</h2>
             </header>
             <header class="register-wrapper">
-                <h3>報  名  方  式</h3>
+                <h3>報名方式及參賽規則</h3>
             </header>
+            <div class="content">
+                <ul>
+                    <li>報名日期：108/8/1 - 108/8/31</li>
+                    <li>報名資格：年齡18歲以上、男女不拘</li>
+                    <li>比賽獎金：國際決賽冠軍獨得獎金獎品共新台幣 500,000 元 及獎盃乙座，比賽結果將於最終決賽現場公布並頒發，同時將結果公告於快拍官方平台及臉書粉絲團。</li>
+                </ul>
+            </div>
             <ul>
                 <li>1. 詳細閱讀並同意本賽事規則及注意事項</li>
                 <li>2. 報名及賽程如有相關問題請洽官方信箱service@quick-pi.com</li>
@@ -139,28 +168,28 @@
 <!-- Five -->
 <section id="five" class="wrapper post bg-img" data-bg="banner-6.jpg">
     <div class="inner">
-        <div class="bonus-wrapper">
-            <div class="bonus-box">
-                <h4>100萬</h4>
-                <p>總獎金含獎品</p>
-                <div class="bonus-border"></div>
-            </div>
-            <div class="bonus-box">
-                <h4>50萬</h4>
-                <p>冠軍獨得</p>
-                <div class="bonus-border"></div>
-            </div>
-            <div class="bonus-box">
-                <h4>30萬</h4>
-                <p>亞軍獨得</p>
-                <div class="bonus-border"></div>
-            </div>
-            <div class="bonus-box">
-                <h4>20萬</h4>
-                <p>季軍獨得</p>
-                <div class="bonus-border"></div>
-            </div>
-        </div>
+{{--        <div class="bonus-wrapper">--}}
+{{--            <div class="bonus-box">--}}
+{{--                <h4>100萬</h4>--}}
+{{--                <p>總獎金含獎品</p>--}}
+{{--                <div class="bonus-border"></div>--}}
+{{--            </div>--}}
+{{--            <div class="bonus-box">--}}
+{{--                <h4>50萬</h4>--}}
+{{--                <p>冠軍獨得</p>--}}
+{{--                <div class="bonus-border"></div>--}}
+{{--            </div>--}}
+{{--            <div class="bonus-box">--}}
+{{--                <h4>30萬</h4>--}}
+{{--                <p>亞軍獨得</p>--}}
+{{--                <div class="bonus-border"></div>--}}
+{{--            </div>--}}
+{{--            <div class="bonus-box">--}}
+{{--                <h4>20萬</h4>--}}
+{{--                <p>季軍獨得</p>--}}
+{{--                <div class="bonus-border"></div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
         <article class="box-1">
             <header>
                 <h2>國際總決賽</h2>

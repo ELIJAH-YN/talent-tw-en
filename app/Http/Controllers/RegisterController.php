@@ -62,7 +62,9 @@ class RegisterController extends Controller
         $candidate->performance = $request->input('performance');
         $candidate->save();
 
-        return redirect('upload');
+        return redirect('rule')->with('alert', '感謝您的報名');
+
+//        return redirect('upload');
     }
 
     public function media()
