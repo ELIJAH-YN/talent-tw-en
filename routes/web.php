@@ -76,6 +76,21 @@ Route::get('/upload-area-en', function () {
 })->name('upload-area-en');
 
 
+/* VN */
+
+Route::get('index-vn', function () {
+    return view('official-vn/index');
+})->name('index-vn');
+
+Route::get('/register-vn', function () {
+    return view('official-vn/register');
+})->name('register-vn');
+
+Route::get('/upload-vn', function () {
+    return view('official-vn/upload');
+})->name('upload-vn');
+
+
 //Route::get('/thankyou', function () {
 //    return view('rwd/thankyou');
 //})->name('thankyou');
@@ -90,19 +105,27 @@ Route::get('download', function () {
    return Excel::download(new UserExport, 'candidates.xlsx');
 });
 
+/*    TW    */
 Route::get('/update', 'RegisterController@media')->name('mediaupdate');
 Route::post('/register', 'RegisterController@register')->name('register');
 Route::post('/upload', 'RegisterController@upload')->name('upload');
 
+/*    EN    */
 Route::get('/update-en', 'RegisterController@mediaen')->name('mediaupdate-en');
 Route::post('/register-en', 'RegisterController@registeren')->name('register-en');
 Route::post('/upload-en', 'RegisterController@uploaden')->name('upload-en');
 
+/*    HK    */
 Route::get('/update-area', 'RegisterController@mediaarea')->name('mediaupdate-area');
 Route::post('/register-area', 'RegisterController@registerarea')->name('register-area');
 Route::post('/upload-area', 'RegisterController@uploadarea')->name('upload-area');
 
+/*    HK-EN    */
 Route::get('/update-area-en', 'RegisterController@mediaareaen')->name('mediaupdate-area-en');
 Route::post('/register-area-en', 'RegisterController@registerareaen')->name('register-area-en');
 Route::post('/upload-area-en', 'RegisterController@uploadareaen')->name('upload-area-en');
 
+/*    VN    */
+Route::get('/update-vn', 'RegisterController@mediavn')->name('mediaupdate-vn');
+Route::post('/register-vn', 'RegisterController@registervn')->name('registe-vn');
+Route::post('/upload-vn', 'RegisterController@uploadvn')->name('upload-vn');
