@@ -47,6 +47,10 @@ Route::get('/upload-en', function () {
     return view('official-en/upload');
 })->name('upload-en');
 
+Route::get('/rule-en', function () {
+    return view('official-en/storage');
+})->name('rule-en');
+
 /* HK */
 
 Route::get('index-area', function () {
@@ -61,6 +65,10 @@ Route::get('/upload-area', function () {
     return view('official-area/upload');
 })->name('upload-area');
 
+Route::get('/rule-area', function () {
+    return view('official-area/storage');
+})->name('rule-area');
+
 /* HK-EN */
 
 Route::get('index-area-en', function () {
@@ -74,6 +82,10 @@ Route::get('/register-area-en', function () {
 Route::get('/upload-area-en', function () {
     return view('official-area-en/upload');
 })->name('upload-area-en');
+
+Route::get('/rule-area-en', function () {
+    return view('official-area-en/storage');
+})->name('rule-area-en');
 
 
 /* VN */
@@ -90,6 +102,10 @@ Route::get('/upload-vn', function () {
     return view('official-vn/upload');
 })->name('upload-vn');
 
+Route::get('/rule-vn', function () {
+    return view('official-vn/storage');
+})->name('rule-vn');
+
 /* TH */
 
 Route::get('index-th', function () {
@@ -103,6 +119,10 @@ Route::get('/register-th', function () {
 Route::get('/upload-th', function () {
     return view('official-th/upload');
 })->name('upload-th');
+
+Route::get('/rule-th', function () {
+    return view('official-th/storage');
+})->name('rule-th');
 
 
 //Route::get('/thankyou', function () {

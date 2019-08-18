@@ -85,9 +85,9 @@
                     <div class="form-group">
                         <input type="text" name="performance" id="performance" placeholder="專長 (才藝) 描述" class="form-control">
                     </div>
-                    <div class="form-group">
-                        <input type="file" name="fileToUpload[]" id="fileToUpload" class="form-control" multiple>
-                    </div>
+{{--                    <div class="form-group">--}}
+{{--                        <input type="file" name="fileToUpload[]" id="fileToUpload" class="form-control" multiple>--}}
+{{--                    </div>--}}
 {{--                    <div class="form-group">--}}
 {{--                        <button class="btn btn-block btn-danger m-auto">上傳 <i class="zmdi zmdi-arrow-right"></i></button>--}}
 {{--                    </div>--}}

@@ -1,25 +1,69 @@
-@include('official.layout.header')
+@include('official-area-en.layout.header')
 
-<section id="banner" class="bg-img" data-bg="banner-1.jpg">
+<!-- Three -->
+<section id="three" class="wrapper post bg-img" data-bg="banner-4.jpg">
     <div class="inner">
-        {{--        <header>--}}
-        {{--            <h1>This is Road Trip</h1>--}}
-        {{--        </header>--}}
-    </div>
-    <a href="#one" class="more">Learn More</a>
-</section>
-
-<!-- One -->
-<section id="one" class="wrapper post bg-img" data-bg="banner-2.jpg">
-    <div class="inner">
-        <article class="box">
-            <header class="rules-wrapper">
-                <h4>報名尚未開放</h4>
-                <h5>敬請期待！</h5>
+        <article class="box col-md-4">
+            <header class="review-wrapper">
+                <h3>Preliminary Selection</h3>
             </header>
+            <div class="content">
+                <ul>
+                    <li>Date: 9/1/2019 – 9/30/2019</li>
+                    <li>Competition Method: Participant post one or many 15-second short video to Tik Tok</li>
+                    <li>Certification Mark: Please hashtag all the following sponsor names, #快拍股份有限公司、#晨悅預防醫學、#寶齡富錦生技、#台灣大車隊、#H2O HOTEL、#桃園機場捷運、#創克整合行銷股份有公司、#Juksy、#Qlive、#富士康廣告、#菲力斯國際。</li>
+                    <li>Competition Contents: Creative commercial video for any product of GTTC sponsors.</li>
+                    <li>Scoring Method: By the total number of loves of the films and judge score by 9/30/2019</li>
+                </ul>
+            </div>
+            <header class="review-wrapper">
+                <h3>Second Round Selection</h3>
+            </header>
+            <div class="content">
+                <ul>
+                    <li>Date: 10/1/2019 – 10/18/2019</li>
+                    <li>Competition Method: Participant post five 15-second short video to Tik Tok</li>
+                    <li>Certification Mark: Please hashtag all the following sponsor names, #快拍股份有限公司、#晨悅預防醫學、#寶齡富錦生技、#台灣大車隊、#H2O HOTEL、#桃園機場捷運、#創克整合行銷股份有公司、#Juksy、#Qlive、#富士康廣告、#菲力斯國際。</li>
+                    <li>Competition Contents:  2 films for main sponsors.  1 film for each of the 3 other sponsors.</li>
+                    <li>Scoring Method: By the total number of loves of the films and judge score by 10/31/2019</li>
+                </ul>
+            </div>
+            <header class="area-review-wrapper">
+                <h3>Regional Final Selection</h3>
+            </header>
+            <header>
+                <h2>RULE</h2>
+            </header>
+            <div class="content">
+                <ul>
+                    <li>Date: 11/1/2019 – 11/2/2019</li>
+                    <li>Competition Method: 2  PK rounds at a Location to be announced by GTTC. The regional top 3 finalist will be announced at the end of Regional Final.</li>
+                </ul>
+            </div>
+            <div class="content">
+                <ul>
+                    <li>Regional Final PK Round I: 30 Participants compete according to the ranking. 15 participants will be selected at the end of round 1.</li>
+                    <li>Competition content: Day one,a topic will be given by the GTTC.</li>
+                    <li>Competition Method:  Contestants create the video on site with limited time.  Contestants upload the video to Tik Tok to be scored.</li>
+                    <li>Certification Mark: hashtag global top talent contest(＃GTTC) and the sponsor brand name as the film score certification mark.</li>
+                    <li>Scoring Method:  By the total number of loves of the films and judge score by noon next day.</li><br>
+                </ul>
+            </div>
+            <div class="content">
+                <ul>
+                    <li>Regional Final Pk Round 2:  15 PK round 1 winner perform the talent by ranking order. 3 regional finalist will be selected</li>
+                    <li>Competition content:  A self-promotion video and stage presentation.</li>
+                    <li>Competition Method:  Uploading  the self-promotion to Tik Tok and stage prenstation</li>
+                    <li>Certification Mark: hashtag global top talent contest(＃GTTC) and the sponsor brand name as the film score certification mark.</li>
+                    <li>Scoring Method:  GTTC will calculate the result within a limited period(TBD) .  The 70% of the score is decided by loves of the video and remaining 30% by judge score.</li>
+                </ul>
+            </div>
+            <footer>
+                <a href="{{ route('index-en') }}" class="button alt">Home</a>
+            </footer>
         </article>
-        <div data-type="countdown" data-id="1340208" class="tickcounter" style="width: 250px; height: 62px; margin: 0 auto"><a href="//www.tickcounter.com/countdown/1340208/" title="報名開放倒數">報名開放倒數</a><a href="//www.tickcounter.com/" title="Countdown">Countdown</a></div><script>(function(d, s, id) { var js, pjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//www.tickcounter.com/static/js/loader.js"; pjs.parentNode.insertBefore(js, pjs); }(document, "script", "tickcounter-sdk"));</script>
     </div>
+    {{--    <a href="#four" class="more">Learn More</a>--}}
 </section>
 
-@include('official.layout.footer-storage')
+@include('official-area-en.layout.footer')
