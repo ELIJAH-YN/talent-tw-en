@@ -30,7 +30,7 @@ class RegisterController extends Controller
 //            return redirect('register')->with('message', '電話號碼重複');
             return Redirect::to('register')->withInput();
         } elseif (!$this->validate($request, [
-            'email' => ['required', 'unique:users,email', 'regex:/^[\w\-_+\.]+@[\w\-_]+\.[a-z]{2,}$/'],
+            'email' => ['required', 'unique:users,email', 'regex:/^[\w\-_+\.]+@[\w\-_]+[\.a-z]{2,}$/'],
         ])) {
 //            return redirect('register')->with('message', '電子信箱格式錯誤！');
             return Redirect::to('register')->withInput();
