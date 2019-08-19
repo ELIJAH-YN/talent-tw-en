@@ -62,9 +62,9 @@ class RegisterController extends Controller
         $candidate->performance = $request->input('performance');
         $candidate->save();
 
-        return redirect('rule')->with('alert', '感謝您的報名');
+//        return redirect('')->with('alert', '感謝您的報名');
 
-//        return redirect('upload');
+        return redirect('upload');
     }
 
     public function media()
@@ -80,7 +80,7 @@ class RegisterController extends Controller
 
         }*/
 
-        return redirect('register')->with('alert', '感謝您的報名');
+        return redirect('rule')->with('alert', '感謝您的報名');
     }
 
     public function upload(Request $request)
@@ -112,7 +112,7 @@ class RegisterController extends Controller
                     ->toMediaCollection();
             }
 
-            return redirect('register')->with('alert', '感謝您的報名');
+            return redirect('rule')->with('alert', '感謝您的報名');
         }
 
         $user->addMedia($file->getRealPath())
@@ -120,7 +120,7 @@ class RegisterController extends Controller
             ->toMediaCollection();
 
 
-        return redirect('register')->with('alert', '感謝您的報名');
+        return redirect('rule')->with('alert', '感謝您的報名');
     }
 
     /* EN Controller */
