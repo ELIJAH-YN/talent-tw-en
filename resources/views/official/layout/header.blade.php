@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="tw">
 <head>
     <title>全球頂尖紅人對決官網</title>
     <meta charset="utf-8" />

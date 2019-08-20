@@ -41,9 +41,6 @@
                     <div class="form-group">
                         <select name="area" id="area" class="form-control">
                             <option value="台灣">台灣</option>
-                            <option value="大灣區">大灣區</option>
-                            <option value="泰國">泰國</option>
-                            <option value="越南">越南</option>
                         </select>
                     </div>
                     <div class="form-group">
