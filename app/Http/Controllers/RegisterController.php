@@ -80,7 +80,7 @@ class RegisterController extends Controller
 
         }*/
 
-        return redirect('rule')->with('alert', '感謝您的報名');
+        return redirect('register')->with('alert', '感謝您的報名');
     }
 
     public function upload(Request $request)

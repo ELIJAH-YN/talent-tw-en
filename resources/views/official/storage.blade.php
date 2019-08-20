@@ -1,4 +1,4 @@
-@include('official-area.layout.header')
+@include('official.layout.header')
 
 <!-- Three -->
 <section id="three" class="wrapper post bg-img" data-bg="banner-4.jpg">
@@ -62,4 +62,4 @@
 {{--    <a href="#four" class="more">Learn More</a>--}}
 </section>
 
-@include('official-area.layout.footer')
+@include('official.layout.footer')
