@@ -10,8 +10,8 @@
     <div class="inner">
         <article class="box">
             <div class="text-center">
-                <h5>最後請上傳參賽者照片</h5>
-                <p>全身照、半身照與大頭照一張</p>
+                <h5>Cuối cùng, xin vui lòng tải lên hình ảnh của thí sinh.</h5>
+                <p>Ảnh toàn thân, ảnh nửa thân và ảnh lớn</p>
                 <hr>
                 <form action="{{ route('upload-vn') }}" method="post" enctype="multipart/form-data">
                     @csrf
@@ -19,7 +19,7 @@
                         <input type="file" name="fileToUpload[]" id="fileToUpload" class="form-control" multiple>
                     </div>
                     <div class="form-group">
-                        <button class="btn btn-block btn-danger m-auto">上傳 <i class="zmdi zmdi-arrow-right"></i></button>
+                        <button class="btn btn-block btn-danger m-auto">Tải lên<i class="zmdi zmdi-arrow-right"></i></button>
                     </div>
 {{--                    <a class="btn btn-primary btn-block m-auto" href="/">--}}
 {{--                        我已確認報名完成--}}

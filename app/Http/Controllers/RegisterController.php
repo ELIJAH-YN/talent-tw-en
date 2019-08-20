@@ -559,7 +559,7 @@ class RegisterController extends Controller
         return redirect('register-vn')->with('alert', '感謝您的報名');
     }
 
-    /*          Th-Controller             */
+    /*          Th             */
 
     public function registerth(Request $request)
     {
