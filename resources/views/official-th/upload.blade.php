@@ -1,4 +1,4 @@
-@include('official.layout.header')
+@include('official-th.layout.header')
 
 <section id="banner" class="bg-img" data-bg="banner-1.jpg">
     <div class="inner"></div>
@@ -37,4 +37,4 @@
     </div>
 </section>
 
-@include('official.layout.footer')
+@include('official-th.layout.footer')
