@@ -169,7 +169,7 @@
                         return val.length > 1;
                     },
                     email(val) {
-                        return /^[\w-_+\.]+@[\w-_]+\.[a-z]{2,}$/.test(val);
+                        return /^[\w-_+\.]+@[\w-_]+(?:\.[a-z]{2,})+$/.test(val);
                     },
                     douyin(val) {
                         return /^http\:\/\/.+\.tiktok.com\/.+/.test(val);
