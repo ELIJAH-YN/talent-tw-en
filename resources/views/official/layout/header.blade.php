@@ -16,7 +16,15 @@
     <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
     <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-146160100-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
+        gtag('config', 'UA-146160100-1');
+    </script>
 </head>
 <body>
     <!-- Header -->
