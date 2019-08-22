@@ -1,6 +1,5 @@
 <style>[v-cloak] {display: none;}</style>
-<div id="top_register_form" class="content" v-cloak>
-    @{{ dict.msg }}
+<div id="top_register_form" class="content" :lang="[lang]" v-cloak>
     <form v-on:submit.prevent action="{{ url('/register') }}" ref="register_form">
         @csrf
         <!-- <div class="form-group">
@@ -11,52 +10,53 @@
                 <option value="越南">越南</option>
             </select>
         </div> -->
-        <div class="form-group" :class="{error: isNameError}" data-errmsg="必填, 含姓名兩字以上">
-            <input type="text" name="name" id="name" placeholder="姓名" class="form-control" v-model="form_data.name">
+        <div class="form-group" :class="{error: isNameError}" :data-errmsg="dict.form_field.name.errMsg">
+            <input type="text" name="name" id="name" :placeholder="dict.form_field.name.plceholder" class="form-control" v-model="form_data.name">
             <i class="zmdi zmdi-name"></i>
         </div>
-        <div class="form-group" :class="{error: isBirthdayError}" data-errmsg="必填">
-            <input type="date" name="birthday" id="birthday" placeholder="出生年月日" class="form-control" v-model="form_data.birthday">
+        <div class="form-group" :class="{error: isBirthdayError}" :data-errmsg="dict.require">
+            <input type="date" name="birthday" id="birthday" :placeholder="dict.form_field.birthday.plceholder" class="form-control" v-model="form_data.birthday">
             <i class="zmdi zmdi-date"></i>
         </div>
-        <div class="form-group" :class="{error: isGenderError}" data-errmsg="必選">
+        <div class="form-group" :class="{error: isGenderError}" :data-errmsg="dict.require">
             <select name="gender" id="gender" class="form-control" v-model="form_data.gender">
-                <option value="" disabled selected>＊請選擇性別</option>
-                <option value="male">男性</option>
-                <option value="female">女性</option>
+                <option value="" disabled selected> @{{ dict.form_field.gender.pleaseSelect }}  </option>
+                <option value="male"> @{{ dict.form_field.gender.male }} </option>
+                <option value="female"> @{{ dict.form_field.gender.female }} </option>
             </select>
             <i class="zmdi zmdi-caret-down" style="font-size: 17px"></i>
         </div>
-        <div class="form-group" :class="{error: isPhoneError}" data-errmsg="必填, 數字10碼">
-            <input type="text" name="phone" id="phone" placeholder="聯絡手機" class="form-control" v-model="form_data.phone">
+        <div class="form-group" :class="{error: isPhoneError}" :data-errmsg="dict.form_field.phone.errMsg">
+            <input type="text" name="phone" id="phone" :placeholder="dict.form_field.phone.plceholder" class="form-control" v-model="form_data.phone">
             <i class="zmdi zmdi-phone"></i>
         </div>
-        <div class="form-group" :class="{error: isAddressError}" data-errmsg="必填">
-            <input type="text" name="address" id="address" placeholder="聯絡地址" class="form-control" v-model="form_data.address">
+        <div class="form-group" :class="{error: isAddressError}" :data-errmsg="dict.require">
+            <input type="text" name="address" id="address" :placeholder="dict.form_field.address.plceholder" class="form-control" v-model="form_data.address">
             <i class="zmdi zmdi-address"></i>
         </div>
-        <div class="form-group" :class="{error: isEmailError}" data-errmsg="必填, email格式">
-            <input type="email" name="email" id="email" placeholder="電子郵件" class="form-control" v-model="form_data.email">
+        <div class="form-group" :class="{error: isEmailError}" :data-errmsg="dict.form_field.email.errMsg">
+            <input type="email" name="email" id="email" :placeholder="dict.form_field.email.plceholder" class="form-control" v-model="form_data.email">
             <i class="zmdi zmdi-email"></i>
         </div>
-        <div class="form-group" :class="{error: isDouyinError}" data-errmsg="必填, 完整抖音網址">
-            <input type="text" name="douyin" id="douyin" placeholder="個人抖音連結" class="form-control" v-model="form_data.douyin">
+        <div class="form-group" :class="{error: isDouyinError}" :data-errmsg="dict.form_field.douyin.errMsg">
+            <input type="text" name="douyin" id="douyin" :placeholder="dict.form_field.douyin.plceholder" class="form-control" v-model="form_data.douyin">
             <i class="zmdi zmdi-label"></i>
         </div>
-        <div class="form-group" :class="{error: isFacebookidError}" data-errmsg="必填, 完整臉書網址">
-            <input type="text" name="facebookid" id="facebookid" placeholder="個人臉書連結" class="form-control" v-model="form_data.facebookid">
+        <div class="form-group" :class="{error: isFacebookidError}" :data-errmsg="dict.form_field.facebookid.errMsg">
+            <input type="text" name="facebookid" id="facebookid" :placeholder="dict.form_field.facebookid.plceholder" class="form-control" v-model="form_data.facebookid">
             <i class="zmdi-facebook"></i>
         </div>
-        <div class="form-group" :class="{error: isPerformanceError}" data-errmsg="必填">
-            <input type="text" name="performance" id="performance" placeholder="專長 (才藝) 描述" class="form-control" v-model="form_data.performance">
+        <div class="form-group" :class="{error: isPerformanceError}" :data-errmsg="dict.require">
+            <input type="text" name="performance" id="performance" :placeholder="dict.form_field.performance.plceholder" class="form-control" v-model="form_data.performance">
         </div>
-        <div class="form-group">
-            <input type="file" name="photo[]" id="photo" class="form-control" multiple @change="processFile">
+        <div class="form-group" :class="{error: isPhotoError}" :data-errmsg="dict.require">
+            <div class="fakeinput" @click="$refs['photo'].click()"> @{{ isPhotoError? dict.form_field.photo.unselect : dict.form_field.photo.selected  }} </div>
+            <input type="file" name="photo[]" id="photo" class="form-control" multiple @change="processFile" ref="photo">
         </div>
     {{--                    <div class="form-group">--}}
     {{--                        <button class="btn btn-block btn-danger m-auto">上傳 <i class="zmdi zmdi-arrow-right"></i></button>--}}
     {{--                    </div>--}}
-        <button type="submit" class="btn btn-danger btn-block btn-lg m-auto" @click="handleSubmit">送出資料
+        <button type="submit" class="btn btn-danger btn-block btn-lg m-auto" @click="handleSubmit"> @{{ dict.form_field.submit.send_text }}
             <i class="zmdi zmdi-arrow-right"></i>
         </button>
     </form>
@@ -153,10 +153,21 @@
 </script>
 
 <style>
-    #top_register_form .form-group.error {
+    .form-group .fakeinput {
+        text-align: left;
+        border: solid 1px;
+        background: rgba(144, 144, 144, 0.075);
+        border-color: rgba(144, 144, 144, 0.25);
+        height: 2.75em;
+        padding: 0.4em 1em;
+    }
+    .form-group .fakeinput+input {
+        display: none;
+    }
+    .form-group.error {
         position: relative;
     }
-    #top_register_form .form-group.error::after {
+    .form-group.error::after {
         pointer-events: none;
         content: 'error';
         content: attr(data-errmsg);
