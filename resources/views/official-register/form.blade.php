@@ -50,9 +50,9 @@
         <div class="form-group" :class="{error: isPerformanceError}" data-errmsg="必填">
             <input type="text" name="performance" id="performance" placeholder="專長 (才藝) 描述" class="form-control" v-model="form_data.performance">
         </div>
-    {{--                    <div class="form-group">--}}
-    {{--                        <input type="file" name="fileToUpload[]" id="fileToUpload" class="form-control" multiple>--}}
-    {{--                    </div>--}}
+        <div class="form-group">
+            <input type="file" name="photo[]" id="photo" class="form-control" multiple @change="processFile">
+        </div>
     {{--                    <div class="form-group">--}}
     {{--                        <button class="btn btn-block btn-danger m-auto">上傳 <i class="zmdi zmdi-arrow-right"></i></button>--}}
     {{--                    </div>--}}
@@ -86,6 +86,7 @@
                 douyin: '',
                 facebookid: '',
                 performance: '',
+                photo: false
             },
             show_error_model: false,
             action_url: "{{ url('/register') }}",
@@ -100,6 +101,7 @@
             isDouyinError() { return !/^http\:\/\/.+\.tiktok.com\/.+/.test(this.form_data.douyin); },
             isFacebookidError() { return !/^https\:\/\/(?:www\.)?facebook.com\/.+/.test(this.form_data.facebookid); },
             isPerformanceError() { return this.form_data.performance.length < 1; },
+            isPhotoError() { return !this.form_data.photo; },
             isAllOk() {
                 return [
                     this.isNameError,
@@ -110,22 +112,33 @@
                     this.isEmailError,
                     this.isDouyinError,
                     this.isFacebookidError,
-                    this.isPerformanceError
+                    this.isPerformanceError,
+                    this.isPhotoError
                 ].every( val=>!val );
             }
         },
         methods: {
+            processFile(event) {
+                this.form_data.photo = event.target.files[0]
+            },
             async handleSubmit() {
                 console.log('on submit;');
                 // if( !this.isAllOk ) {
                 //     this.show_error_model = true;
                 //     return 
                 // }
+                    
+                const fd = new FormData();
+                Object.keys(this.form_data).forEach( fieldName => {
+                    console.log('fieldName', fieldName);
+                    fd.append(fieldName, this.form_data[fieldName]);
+                });
 
+                console.log('postResult',  fd );
                 let postResult = {};
                 postResult = await fetch( this.action_url, {
                     method: 'POST',
-                    body: JSON.stringify(this.form_data)
+                    body: fd
                 });
 
                 console.log('postResult',  postResult.status );
