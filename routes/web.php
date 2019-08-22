@@ -1,6 +1,7 @@
 <?php
 
 use App\Exports\UserExport;
+use Illuminate\Support\Facades\Route;
 use Maatwebsite\Excel\Facades\Excel;
 /*
 |--------------------------------------------------------------------------
@@ -33,6 +34,12 @@ Route::get('rule', function () {
     return view('official/storage');
 })->name('rule');
 
+/*     Read Destroy     */
+Route::get('getdb', 'RegisterController@getData');
+Route::get('getuser', 'RegisterController@getUser');
+Route::post('destroy/{id}', 'RegisterController@destroy');
+Route::post('destroyuser/{id}', 'RegisterController@destroyuser');
+//Route::resource('getdb','RegisterController');
 /* EN */
 
 Route::get('index-en', function () {

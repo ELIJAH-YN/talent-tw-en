@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Candidate;
 use App\User;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Redirect;
 
 class RegisterController extends Controller
@@ -42,8 +43,8 @@ class RegisterController extends Controller
         }
 
         $user = User::create([
-            'name'=> $request->input('name'), 
-            'password'=> bcrypt($request->input('password')), 
+            'name'=> $request->input('name'),
+            'password'=> bcrypt($request->input('password')),
             'email'=> $request->input('email')]
         );
 
@@ -65,6 +66,30 @@ class RegisterController extends Controller
 //        return redirect('')->with('alert', '感謝您的報名');
 
         return redirect('upload');
+    }
+/*             Read Destroy              */
+    public function getData() {
+        $candidates = Candidate::all();
+        return view('getdb', compact('candidates'));
+    }
+
+    public function getUser() {
+        $users = User::all();
+        return view('getuser', compact('users'));
+    }
+
+    public function destroy($id) {
+        DB::table('candidates')->where('id', $id)->delete();
+//        $candidate = Candidate::find($id);
+//        $candidate->delete();
+        return redirect('getdb')->with('success', 'Stock has been deleted Successfully!');
+//        DB::table('user')->where('id', $id)->delete();
+//        return redirect('getdb')->with('success','Stock has been deleted Successfully!');
+    }
+
+    public function destroyuser($id) {
+        DB::table('users')->where('id', $id)->delete();
+        return redirect('getuser')->with('success', 'Stock has been deleted Successfully!');
     }
 
     public function media()
