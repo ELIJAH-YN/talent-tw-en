@@ -18,5 +18,6 @@ Route::middleware('auth:/api')->get('/user', function (Request $request) {
 });
 
 Route::post('/mornjoy_register', 'MornjoyController@create');
+Route::post('/official_register', 'RegisterController@register');
 
-Route::post('/student', 'ApiController@create');
+//Route::post('/student', 'ApiController@create');

@@ -99,16 +99,16 @@
             isAddressError() { return this.form_data.address.length < 1; },
             isEmailError() { return !/^[\w-_+\.]+@[\w-_]+(?:\.[a-z]{2,})+$/.test(this.form_data.email); },
             isDouyinError() { return !/^http\:\/\/.+\.tiktok.com\/.+/.test(this.form_data.douyin); },
-            isFacebookidError() { return !/^https\:\/\/(?:www\.)?facebook.com\/.+/.test(this.form_data.facebookid); },
-            isPerformanceError() { return this.form_data.performance.length < 1; },
-            isPhotoError() { return !this.form_data.photo; },
-            isAllOk() {
-                return [
-                    this.isNameError,
-                    this.isBirthdayError,
-                    this.isGenderError,
-                    this.isPhoneError,
-                    this.isAddressError,
+                    isFacebookidError() { return !/^https\:\/\/(?:www\.)?facebook.com\/.+/.test(this.form_data.facebookid); },
+                isPerformanceError() { return this.form_data.performance.length < 1; },
+                isPhotoError() { return !this.form_data.photo; },
+                isAllOk() {
+                    return [
+                        this.isNameError,
+                        this.isBirthdayError,
+                        this.isGenderError,
+                        this.isPhoneError,
+                        this.isAddressError,
                     this.isEmailError,
                     this.isDouyinError,
                     this.isFacebookidError,
@@ -123,11 +123,11 @@
             },
             async handleSubmit() {
                 console.log('on submit;');
-                // if( !this.isAllOk ) {
-                //     this.show_error_model = true;
-                //     return 
-                // }
-                    
+                if( !this.isAllOk ) {
+                    this.show_error_model = true;
+                    return
+                }
+
                 const fd = new FormData();
                 Object.keys(this.form_data).forEach( fieldName => {
                     console.log('fieldName', fieldName);

@@ -23,27 +23,27 @@ class RegisterController extends Controller
             'performance' => 'required',
         ])) {
 //            return redirect('register')->back()->withInput();
-            return Redirect::to('register')->withInput();
+            return Redirect::to('register')->with(response('Field format', 400))->withInput();
         } elseif (!$this->validate($request, [
             'phone' => ['required', 'unique:candidates,phone', 'regex:/^09\d{8}$/'],
         ])) {
 //            return redirect('register')->with('message', '電話號碼重複');
-            return Redirect::to('register')->withInput();
+            return Redirect::to('register')->with(response('Field format', 400))->withInput();
         } elseif (!$this->validate($request, [
             'email' => ['required', 'unique:users,email', 'regex:/^[\w\-_+\.]+@[\w\-_]+[\.a-z]{2,}$/'],
         ])) {
 //            return redirect('register')->with('message', '電子信箱格式錯誤！');
-            return Redirect::to('register')->withInput();
+            return Redirect::to('register')->with(response('Field format', 400))->withInput();
         } elseif (!$this->validate($request, [
             'douyin' => ['required', 'unique:candidates,douyin', 'regex:/^http\:\/\/.+\.tiktok\.com\/.+/'],
         ])) {
 //            return redirect('register')->with('message', '抖音網址格式錯誤！');
-            return Redirect::to('register')->withInput();
+            return Redirect::to('register')->with(response('Field format', 400))->withInput();
         }
 
         $user = User::create([
-            'name'=> $request->input('name'), 
-            'password'=> bcrypt($request->input('password')), 
+            'name'=> $request->input('name'),
+            'password'=> bcrypt($request->input('password')),
             'email'=> $request->input('email')]
         );
 
@@ -64,7 +64,7 @@ class RegisterController extends Controller
 
 //        return redirect('')->with('alert', '感謝您的報名');
 
-        return redirect('upload');
+        return redirect('upload')->with(response('Success', 200));
     }
 
     public function media()
