@@ -26,8 +26,17 @@
                         <img src="/images/sponsor/sponsor-21.jpg" alt="" class="the-co-organis">
                         <img src="/images/sponsor/sponsor-01.jpg" alt="" class="the-co-organis">
                         <img src="/images/sponsor/sponsor-17.jpg" alt="" class="the-co-organis">
+                        <img src="/images/sponsor/sponsor-25.jpg" alt="" class="the-co-organis">
                     </div>
                     <h5 class="host_position">協辦單位</h5>
+                </div>
+            </div>
+            <div class="co_host">
+                <div class="company_container">
+                    <div class="company_logo">
+                        <img src="/images/sponsor/sponsor-26.jpg" alt="" class="the-co-organis">
+                        <img src="/images/sponsor/sponsor-27.jpg" alt="" class="the-co-organis">
+                    </div>
                 </div>
             </div>
             <div class="co_host">
@@ -38,7 +47,6 @@
                         <img src="/images/sponsor/sponsor-14.jpg" class="the-co-organis">
                         <img src="/images/sponsor/sponsor-02.jpg" class="the-co-organis">
                         <img src="/images/sponsor/sponsor-03.jpg" class="the-co-organis">
-{{--                        <img src="/images/sponsor/sponsor-24.jpg" class="the-co-organis">--}}
                     </div>
                     <h5 class="host_position">贊助廠商</h5>
                 </div>
@@ -46,14 +54,8 @@
             <div class="co_host">
                 <div class="company_container">
                     <div class="company_logo">
-{{--                        <img src="/images/sponsor/sponsor-18.jpg" class="the-co-organis">--}}
-{{--                        <img src="/images/sponsor/sponsor-22.png" class="the-co-organis">--}}
-{{--                        <img src="/images/sponsor/sponsor-14.jpg" class="the-co-organis">--}}
-{{--                        <img src="/images/sponsor/sponsor-02.jpg" class="the-co-organis">--}}
-{{--                        <img src="/images/sponsor/sponsor-03.jpg" class="the-co-organis">--}}
                         <img src="/images/sponsor/sponsor-24.jpg" class="the-co-organis">
                     </div>
-{{--                    <h5 class="host_position">贊助廠商</h5>--}}
                 </div>
             </div>
             <div class="main_host">

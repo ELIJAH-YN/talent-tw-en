@@ -3,6 +3,8 @@
 use App\Exports\UserExport;
 use Illuminate\Support\Facades\Route;
 use Maatwebsite\Excel\Facades\Excel;
+use Spatie\Sitemap\SitemapGenerator;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -175,3 +177,9 @@ Route::post('/upload-vn', 'RegisterController@uploadvn')->name('upload-vn');
 Route::get('/update-th', 'RegisterController@mediath')->name('mediaupdate-th');
 Route::post('/register-th', 'RegisterController@registerth')->name('registe-th');
 Route::post('/upload-th', 'RegisterController@uploadth')->name('upload-th');
+
+/*     Sitmap     */
+//Route::get('sitmap', function () {
+//   SitemapGenerator::create('http://127.0.0.1:8000/')->writeToFile('sitemap.xml');
+//   return 'sitemap created';
+//});
