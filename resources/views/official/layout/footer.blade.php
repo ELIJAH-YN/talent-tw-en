@@ -55,6 +55,7 @@
                 <div class="company_container">
                     <div class="company_logo">
                         <img src="/images/sponsor/sponsor-24.jpg" class="the-co-organis">
+                        <img src="/images/sponsor/sponsor-12.jpg" class="the-co-organis">
                     </div>
                 </div>
             </div>
@@ -92,12 +93,12 @@
 
 
 <!-- Scripts -->
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/jquery.scrolly.min.js"></script>
-<script src="assets/js/jquery.scrollex.min.js"></script>
-<script src="assets/js/skel.min.js"></script>
-<script src="assets/js/util.js"></script>
-<script src="assets/js/main.js"></script>
+<script src="{{ asset('assets/js/jquery.min.js') }}"></script>
+<script src="{{ asset('assets/js/jquery.scrolly.min.js') }}"></script>
+<script src="{{ asset('assets/js/jquery.scrollex.min.js') }}"></script>
+<script src="{{ asset('assets/js/skel.min.js') }}"></script>
+<script src="{{ asset('assets/js/util.js') }}"></script>
+<script src="{{ asset('assets/js/main.js') }}"></script>
 
 </body>
 </html>

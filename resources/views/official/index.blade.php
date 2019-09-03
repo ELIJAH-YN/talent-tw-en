@@ -1,11 +1,6 @@
 @include('official.layout.header')
 
 <!-- Banner -->
-<!--
-    Note: To show a background image, set the "data-bg" attribute below
-    to the full filename of your image. This is used in each section to set
-    the background image.
--->
 <section id="banner" class="bg-img" data-bg="banner-tw-1.jpg">
     <div class="inner">
     </div>
@@ -44,16 +39,6 @@
             <div class="content-wrapper">
                 <p>你身懷十八般武藝,卻沒地方可發揮?你鬼點子特多,朋友卻都冷眼旁觀?每天拍kuso搞笑影片是你的興趣?你來,你來,你來來來!!立刻報名,一圓你的網路明星夢~~~</p>
             </div>
-{{--            <header class="rules-wrapper">--}}
-{{--                <h3>參賽規則</h3>--}}
-{{--            </header>--}}
-{{--            <div class="content">--}}
-{{--                <p>--}}
-{{--                    報名日期：108/8/1 - 108/8/31<br>--}}
-{{--                    報名資格：年齡18歲以上、男女不拘<br>--}}
-{{--                    比賽獎金：國際決賽冠軍獨得獎金獎品共新台幣 500,000 元 及獎盃乙座，比賽結果將於最終決賽現場公布並頒發，同時將結果公告於快拍官方平台及臉書粉絲團。--}}
-{{--                </p>--}}
-{{--            </div>--}}
         </article>
     </div>
     <a href="#two" class="more">Learn More</a>
@@ -89,7 +74,7 @@
                 </ul>
             </div>
             <footer>
-                <a href="{{  route('register') }}" class="button alt">前往報名</a>
+                <a href="{{  route('global-talent-registration') }}" class="button alt">前往報名</a>
             </footer>
         </article>
     </div>
@@ -110,7 +95,7 @@
                     <li>競賽方式：請參賽者上傳15秒短影片至抖音</li>
                     <li>競賽內容：主題為任選各贊助廠商，推出產品宣傳創意影片。</li>
                     <li>計分方式：初賽時間內參賽者不限影片數量，以影片愛心數總計及評審計分。</li>
-                    <li>競賽影片認證方式：請hashtag以下全部贊助廠商名稱，#快拍股份有限公司、#晨悅預防醫學、#寶齡富錦生技、#台灣大車隊、#H2O HOTEL、#桃園機場捷運、#創克整合行銷股份有公司、#Juksy、#Qlive、#富士康廣告、#菲力斯國際。</li>
+                    <li>競賽影片認證方式：請hashtag以下全部贊助廠商名稱，#快拍股份有限公司、#晨悅預防醫學、#寶齡富錦生技、#台灣大車隊、#H2O HOTEL、#桃園機場捷運、#創克整合行銷有限公司、#Juksy、#Qlive、#富士康廣告、#菲力斯國際。</li>
                 </ul>
             </div>
             <header class="review-wrapper">
@@ -123,7 +108,7 @@
                     <li>競賽方式：請參賽者上傳15秒短影片至抖音</li>
                     <li>競賽內容：指定主題為單一贊助廠商 ( 2 部影片 ) 與三個部分贊助廠商 ( 各一部 )，推出產品宣傳影片來進行比賽。</li>
                     <li>計分方式：指定時間內參賽者限定上傳五支影片，以影片愛心數總計及評審計分。</li>
-                    <li>競賽影片認證方式：請hashtag以下全部贊助廠商名稱，#快拍股份有限公司、#晨悅預防醫學、#寶齡富錦生技、#台灣大車隊、#H2O HOTEL、#桃園機場捷運、#創克整合行銷股份有公司、#Juksy、#Qlive、#富士康廣告、#菲力斯國際。</li>
+                    <li>競賽影片認證方式：請hashtag以下全部贊助廠商名稱，#快拍股份有限公司、#晨悅預防醫學、#寶齡富錦生技、#台灣大車隊、#H2O HOTEL、#桃園機場捷運、#創克整合行銷有限公司、#Juksy、#Qlive、#富士康廣告、#菲力斯國際。</li>
                 </ul>
             </div>
         </article>
@@ -167,28 +152,6 @@
 <!-- Five -->
 <section id="five" class="wrapper post bg-img" data-bg="banner-6.jpg">
     <div class="inner">
-{{--        <div class="bonus-wrapper">--}}
-{{--            <div class="bonus-box">--}}
-{{--                <h4>100萬</h4>--}}
-{{--                <p>總獎金含獎品</p>--}}
-{{--                <div class="bonus-border"></div>--}}
-{{--            </div>--}}
-{{--            <div class="bonus-box">--}}
-{{--                <h4>50萬</h4>--}}
-{{--                <p>冠軍獨得</p>--}}
-{{--                <div class="bonus-border"></div>--}}
-{{--            </div>--}}
-{{--            <div class="bonus-box">--}}
-{{--                <h4>30萬</h4>--}}
-{{--                <p>亞軍獨得</p>--}}
-{{--                <div class="bonus-border"></div>--}}
-{{--            </div>--}}
-{{--            <div class="bonus-box">--}}
-{{--                <h4>20萬</h4>--}}
-{{--                <p>季軍獨得</p>--}}
-{{--                <div class="bonus-border"></div>--}}
-{{--            </div>--}}
-{{--        </div>--}}
         <article class="box-1">
             <header>
                 <h2>國際總決賽</h2>
@@ -203,7 +166,7 @@
                 <li>季軍可獲得獎金含獎品共20萬(NTD)元整</li>
             </ul>
             <footer>
-                <a href="{{ route('register') }}" class="button alt">前往報名</a>
+                <a href="{{ route('global-talent-registration') }}" class="button alt">前往報名</a>
             </footer>
         </article>
     </div>

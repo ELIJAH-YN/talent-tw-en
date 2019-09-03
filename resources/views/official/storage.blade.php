@@ -64,11 +64,10 @@
                 </ul>
             </div>
             <footer>
-                <a href="{{ route('register') }}" class="button alt">回首頁</a>
+                <a href="/" class="button alt">回首頁</a>
             </footer>
         </article>
     </div>
-{{--    <a href="#four" class="more">Learn More</a>--}}
 </section>
 
 @include('official.layout.footer')

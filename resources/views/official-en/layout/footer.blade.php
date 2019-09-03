@@ -26,8 +26,17 @@
                         <img src="/images/sponsor/sponsor-21.jpg" alt="" class="the-co-organis">
                         <img src="/images/sponsor/sponsor-01.jpg" alt="" class="the-co-organis">
                         <img src="/images/sponsor/sponsor-17.jpg" alt="" class="the-co-organis">
+                        <img src="/images/sponsor/sponsor-25.jpg" alt="" class="the-co-organis">
                     </div>
                     <h5 class="host_position">The co-organiser</h5>
+                </div>
+            </div>
+            <div class="co_host">
+                <div class="company_container">
+                    <div class="company_logo">
+                        <img src="/images/sponsor/sponsor-26.jpg" alt="" class="the-co-organis">
+                        <img src="/images/sponsor/sponsor-27.jpg" alt="" class="the-co-organis">
+                    </div>
                 </div>
             </div>
             <div class="co_host">
@@ -38,9 +47,15 @@
                         <img src="/images/sponsor/sponsor-14.jpg" class="the-co-organis">
                         <img src="/images/sponsor/sponsor-02.jpg" class="the-co-organis">
                         <img src="/images/sponsor/sponsor-03.jpg" class="the-co-organis">
-                        <img src="/images/sponsor/sponsor-24.jpg" class="the-co-organis">
                     </div>
                     <h5 class="host_position">The Sponsor</h5>
+                </div>
+            </div>
+            <div class="co_host">
+                <div class="company_container">
+                    <div class="company_logo">
+                        <img src="/images/sponsor/sponsor-24.jpg" class="the-co-organis">
+                    </div>
                 </div>
             </div>
             <div class="main_host">
@@ -77,12 +92,12 @@
 
 
 <!-- Scripts -->
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/jquery.scrolly.min.js"></script>
-<script src="assets/js/jquery.scrollex.min.js"></script>
-<script src="assets/js/skel.min.js"></script>
-<script src="assets/js/util.js"></script>
-<script src="assets/js/main.js"></script>
+<script src="{{ asset('assets/js/jquery.min.js') }}"></script>
+<script src="{{ asset('assets/js/jquery.scrolly.min.js') }}"></script>
+<script src="{{ asset('assets/js/jquery.scrollex.min.js') }}"></script>
+<script src="{{ asset('assets/js/skel.min.js') }}"></script>
+<script src="{{ asset('assets/js/util.js') }}"></script>
+<script src="{{ asset('assets/js/main.js') }}"></script>
 
 </body>
 </html>

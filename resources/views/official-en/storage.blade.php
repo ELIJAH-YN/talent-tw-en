@@ -4,6 +4,15 @@
 <section id="three" class="wrapper post bg-img" data-bg="banner-4.jpg">
     <div class="inner">
         <article class="box col-md-4">
+            @if(Session::has('alert'))
+                <script>
+                    var msg = '{{Session::get('alert')}}';
+                    var exist = '{{Session::has('alert')}}';
+                    if(exist){
+                        alert(msg);
+                    }
+                </script>
+            @endif
             <header class="review-wrapper">
                 <h3>Preliminary Selection</h3>
             </header>
@@ -59,11 +68,10 @@
                 </ul>
             </div>
             <footer>
-                <a href="{{ route('index-en') }}" class="button alt">Home</a>
+                <a href="{{ route('/en') }}" class="button alt">Home</a>
             </footer>
         </article>
     </div>
-    {{--    <a href="#four" class="more">Learn More</a>--}}
 </section>
 
-@include('official-en.layout.footer-storage')
+@include('official-en.layout.footer')

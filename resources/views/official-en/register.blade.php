@@ -1,17 +1,4 @@
 @include('official-en.layout.header')
-
-<!-- Banner -->
-<!--
-    Note: To show a background image, set the "data-bg" attribute below
-    to the full filename of your image. This is used in each section to set
-    the background image.
--->
-{{--<section id="banner" class="bg-img" data-bg="banner-1.jpg">--}}
-{{--    <div class="inner">--}}
-{{--    </div>--}}
-{{--    <a href="#one" class="more">Learn More</a>--}}
-{{--</section>--}}
-<!-- One -->
 <section id="one" class="wrapper post bg-img" data-bg="banner-2.jpg">
     <div class="inner">
         <article class="box">
@@ -24,14 +11,16 @@
                     }
                 </script>
             @endif
-            @if(count($errors) > 0)
-                @foreach ($errors->all() as $error)
-                    <div class="alert alert-warning">{{$error}}</div>
-                @endforeach
-            @endif
             <header class="rules-wrapper">
                 <h4 class="register-wrapper-title">Please fill in the entry form with real information.</h4>
                 <h5>Please check the information carefully and cancel the qualification if the information is incorrect.</h5>
+                <div class="content-success">
+                    @if(count($errors) > 0)
+                        @foreach ($errors->all() as $error)
+                            <div class="alert alert-warning">{{$error}}</div>
+                        @endforeach
+                    @endif
+                </div>
             </header>
             <div class="content">
                 <form id="top_register_form" method="POST" action="{{ url('/register-en') }}">
@@ -39,11 +28,6 @@
                     <div class="form-group">
                         <select name="area" id="area" class="form-control">
                             <option value="台灣">Taiwan</option>
-                            <option value="大灣區">Guangdong-Hong Kong-Macao Greater Bay Area</option>
-                            <option value="新加坡">Singapore</option>
-                            <option value="印尼">Indonesia</option>
-                            <option value="泰國">Thailand</option>
-                            <option value="越南">Vietnam</option>
                         </select>
                     </div>
                     <div class="form-group">
