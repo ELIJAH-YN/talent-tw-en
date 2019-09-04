@@ -535,4 +535,292 @@ class RegisterController extends Controller
 
         return redirect('th/global-talent-rules')->with('alert', 'ขอบคุณสำหรับการสมัคร');
     }
+
+    /*     MY     */
+    public function registermy(Request $request)
+    {
+        if (!$this->validate($request,[
+            'name' => [
+                'required',
+                'unique:candidates,name',
+                'regex:/^[^\d\s]{2,}$/'
+            ],
+            'birthday' => [
+                'required',
+                'regex:/^\d{4}\-\d{2}\-\d{2}/'
+            ],
+            'gender' => [
+                'required',
+                'regex:/^(male|female)$/'
+            ],
+            'address' => 'required',
+            'email' => 'required',
+            'douyin' => 'required',
+            'facebookid' => 'required',
+            'performance' => 'required',
+        ])) {
+            return Redirect::to('my/global-talent-registration')->withInput();
+        } elseif (!$this->validate($request, [
+            'phone' => [
+                'required',
+                'unique:candidates,phone',
+                'regex:/^09\d{8}$/'
+            ],
+        ])) {
+            return Redirect::to('my/global-talent-registration')->withInput();
+        } elseif (!$this->validate($request, [
+            'email' => [
+                'required',
+                'unique:users,email',
+                'regex:/^[\w\-_+\.]+@[\w\-_]+[\.a-z]{2,}$/'
+            ],
+        ])) {
+            return Redirect::to('my/global-talent-registration')->withInput();
+        } elseif (!$this->validate($request, [
+            'douyin' => [
+                'required',
+                'unique:candidates,douyin',
+                'regex:/^http\:\/\/.+\.tiktok\.com\/.+/'
+            ],
+        ])) {
+            return Redirect::to('my/global-talent-registration')->withInput();
+        }
+
+        $user = User::create([
+                'name'=> $request->input('name'),
+                'password'=> bcrypt($request->input('password')),
+                'email'=> $request->input('email')]
+        );
+
+        Auth::login($user);
+
+        $candidate = new Candidate;
+        $candidate->user_id = $user->id;
+        $candidate->area = $request->input('area');
+        $candidate->name = $request->input('name');
+        $candidate->birthday = $request->input('birthday');
+        $candidate->gender = $request->input('gender');
+        $candidate->phone = $request->input('phone');
+        $candidate->address = $request->input('address');
+        $candidate->douyin = $request->input('douyin');
+        $candidate->facebookid= $request->input('facebookid');
+        $candidate->performance = $request->input('performance');
+        $candidate->save();
+
+        return redirect('my/global-talent-upload');
+    }
+    /*             Read Destroy              */
+    public function getDatamy() {
+        $candidates = Candidate::all();
+        return view('getdb', compact('candidates'));
+    }
+
+    public function getUsermy() {
+        $users = User::all();
+        return view('getuser', compact('users'));
+    }
+
+    public function destroymy($id) {
+        DB::table('candidates')->where('id', $id)->delete();
+        return redirect('getdb')->with('success', 'Stock has been deleted Successfully!');
+    }
+
+    public function destroyusermy($id) {
+        DB::table('users')->where('id', $id)->delete();
+        return redirect('getuser')->with('success', 'Stock has been deleted Successfully!');
+    }
+
+    public function mediamy()
+    {
+        $user = Auth::user();
+        $medias = $user->getMedia();
+        return view('my/global-talent-upload', compact('medias'));
+
+        /*if(Auth::check())
+        {
+
+        }*/
+    }
+
+    public function uploadmy(Request $request)
+    {
+        /*if( ! Auth::check()) return redirect('/');*/
+
+        if (!$request->hasFile('fileToUpload')) {
+            $request->session()->flash('message.content', 'Error! Image to large');
+            return Redirect::to('my/global-talent-upload')->withInput();
+        }
+
+        $file = $request->file('fileToUpload');
+
+        if (empty($file)) {
+            $request->session()->flash('message.content', 'Error!');
+            return Redirect::to('my/global-talent-upload')->withInput();
+        }
+
+        $user = Auth::user();
+
+
+        if (is_array($file)) {
+            $files = $file;
+            foreach ($files as $file) {
+                $user->addMedia($file->getRealPath())
+                    ->usingFileName(sha1(time() . rand(1, 9999)) . '.' . $file->getClientOriginalExtension())
+                    ->toMediaCollection();
+            }
+
+            return redirect('my/global-talent-rules')->with('alert', '感謝您的報名');
+        }
+
+        $user->addMedia($file->getRealPath())
+            ->usingFileName(sha1(time() . rand(1, 9999)) . '.' . $file->getClientOriginalExtension())
+            ->toMediaCollection();
+
+
+        return redirect('my/global-talent-rules')->with('alert', '感謝您的報名');
+    }
+
+    /*     MY     */
+    public function registermyen(Request $request)
+    {
+        if (!$this->validate($request,[
+            'name' => [
+                'required',
+                'unique:candidates,name',
+                'regex:/^[^\d]{2,}$/'
+            ],
+            'birthday' => [
+                'required',
+                'regex:/^\d{4}\-\d{2}\-\d{2}/'
+            ],
+            'gender' => [
+                'required',
+                'regex:/^(male|female)$/'
+            ],
+            'address' => 'required',
+            'email' => 'required',
+            'douyin' => 'required',
+            'facebookid' => 'required',
+            'performance' => 'required',
+        ])) {
+            return Redirect::to('my/en/global-talent-registration')->withInput();
+        } elseif (!$this->validate($request, [
+            'phone' => [
+                'required',
+                'unique:candidates,phone',
+                'regex:/^09\d{8}$/'
+            ],
+        ])) {
+            return Redirect::to('my/en/global-talent-registration')->withInput();
+        } elseif (!$this->validate($request, [
+            'email' => [
+                'required',
+                'unique:users,email',
+                'regex:/^[\w\-_+\.]+@[\w\-_]+[\.a-z]{2,}$/'
+            ],
+        ])) {
+            return Redirect::to('my/en/global-talent-registration')->withInput();
+        } elseif (!$this->validate($request, [
+            'douyin' => [
+                'required',
+                'unique:candidates,douyin',
+                'regex:/^http\:\/\/.+\.tiktok\.com\/.+/'
+            ],
+        ])) {
+            return Redirect::to('my/en/global-talent-registration')->withInput();
+        }
+
+        $user = User::create([
+                'name'=> $request->input('name'),
+                'password'=> bcrypt($request->input('password')),
+                'email'=> $request->input('email')]
+        );
+
+        Auth::login($user);
+
+        $candidate = new Candidate;
+        $candidate->user_id = $user->id;
+        $candidate->area = $request->input('area');
+        $candidate->name = $request->input('name');
+        $candidate->birthday = $request->input('birthday');
+        $candidate->gender = $request->input('gender');
+        $candidate->phone = $request->input('phone');
+        $candidate->address = $request->input('address');
+        $candidate->douyin = $request->input('douyin');
+        $candidate->facebookid= $request->input('facebookid');
+        $candidate->performance = $request->input('performance');
+        $candidate->save();
+
+        return redirect('my/en/global-talent-upload');
+    }
+    /*             Read Destroy              */
+    public function getDatamyen() {
+        $candidates = Candidate::all();
+        return view('getdb', compact('candidates'));
+    }
+
+    public function getUsermyen() {
+        $users = User::all();
+        return view('getuser', compact('users'));
+    }
+
+    public function destroymyen($id) {
+        DB::table('candidates')->where('id', $id)->delete();
+        return redirect('getdb')->with('success', 'Stock has been deleted Successfully!');
+    }
+
+    public function destroyusermyen($id) {
+        DB::table('users')->where('id', $id)->delete();
+        return redirect('getuser')->with('success', 'Stock has been deleted Successfully!');
+    }
+
+    public function mediamyen()
+    {
+        $user = Auth::user();
+        $medias = $user->getMedia();
+        return view('my/en/global-talent-upload', compact('medias'));
+
+        /*if(Auth::check())
+        {
+
+        }*/
+    }
+
+    public function uploadmyen(Request $request)
+    {
+        /*if( ! Auth::check()) return redirect('/');*/
+
+        if (!$request->hasFile('fileToUpload')) {
+            $request->session()->flash('message.content', 'Error! Image to large');
+            return Redirect::to('my/en/global-talent-upload')->withInput();
+        }
+
+        $file = $request->file('fileToUpload');
+
+        if (empty($file)) {
+            $request->session()->flash('message.content', 'Error!');
+            return Redirect::to('my/en/global-talent-upload')->withInput();
+        }
+
+        $user = Auth::user();
+
+
+        if (is_array($file)) {
+            $files = $file;
+            foreach ($files as $file) {
+                $user->addMedia($file->getRealPath())
+                    ->usingFileName(sha1(time() . rand(1, 9999)) . '.' . $file->getClientOriginalExtension())
+                    ->toMediaCollection();
+            }
+
+            return redirect('my/en/global-talent-rules')->with('alert', '感謝您的報名');
+        }
+
+        $user->addMedia($file->getRealPath())
+            ->usingFileName(sha1(time() . rand(1, 9999)) . '.' . $file->getClientOriginalExtension())
+            ->toMediaCollection();
+
+
+        return redirect('my/en/global-talent-rules')->with('alert', '感謝您的報名');
+    }
 }

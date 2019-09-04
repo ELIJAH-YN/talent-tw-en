@@ -85,6 +85,42 @@ Route::get('th/global-talent-rules', function () {
     return view('official-th.storage');
 })->name('th/global-talent-rules');
 
+/*     MY     */
+Route::get('/my', function () {
+    return view('official-my.index');
+})->name('/my');
+
+Route::get('my/global-talent-registration', function () {
+    return view('official-my.register');
+})->name('my/global-talent-registration');
+
+Route::get('my/global-talent-upload', function () {
+    return view('official-my.upload');
+})->name('my/global-talent-upload');
+
+Route::get('my/global-talent-rules', function () {
+    return view('official-my.storage');
+})->name('my/global-talent-rules');
+
+/*     MY-EN     */
+Route::get('/my/en', function () {
+    return view('official-my-en.index');
+})->name('/my/en');
+
+Route::get('my/en/global-talent-registration', function () {
+    return view('official-my-en.register');
+})->name('my/en/global-talent-registration');
+
+Route::get('my/en/global-talent-upload', function () {
+    return view('official-my-en.upload');
+})->name('my/en/global-talent-upload');
+
+Route::get('my/en/global-talent-rules', function () {
+    return view('official-my-en.storage');
+})->name('my/en/global-talent-rules');
+
+
+
 /*     Read Destroy     */
 //Route::get('getdb', 'RegisterController@getData');
 //Route::get('getuser', 'RegisterController@getUser');
@@ -120,3 +156,13 @@ Route::post('/upload-vn', 'RegisterController@uploadvn')->name('upload-vn');
 Route::get('/update-th', 'RegisterController@mediath')->name('mediaupdate-th');
 Route::post('/register-th', 'RegisterController@registerth')->name('registe-th');
 Route::post('/upload-th', 'RegisterController@uploadth')->name('upload-th');
+
+/*   MY   */
+Route::get('/update-my', 'RegisterController@mediamy')->name('mediaupdate-my');
+Route::post('/register-my', 'RegisterController@registermy')->name('register-my');
+Route::post('/upload-my', 'RegisterController@uploadmy')->name('upload-my');
+
+/*   MY-EN   */
+Route::get('/update-my-en', 'RegisterController@mediamyen')->name('mdeiaupdate-my-en');
+Route::post('/register-my-en', 'RegisterController@registermyen')->name('register-my-en');
+Route::post('/upload-my-en', 'RegisterController@uploadmyen')->name('upload-my-en');
