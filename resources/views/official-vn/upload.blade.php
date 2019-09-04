@@ -21,9 +21,6 @@
                     <div class="form-group">
                         <button class="btn btn-block btn-danger m-auto">Tải lên<i class="zmdi zmdi-arrow-right"></i></button>
                     </div>
-{{--                    <a class="btn btn-primary btn-block m-auto" href="/">--}}
-{{--                        我已確認報名完成--}}
-{{--                    </a>--}}
                 </form>
                 <div>
                     @if( !empty($medias) )

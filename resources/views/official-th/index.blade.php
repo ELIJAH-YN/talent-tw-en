@@ -62,7 +62,7 @@
                 </ul>
             </div>
             <footer>
-                <a href="{{  route('register-th') }}" class="button alt">ไปที่การลงทะเบียน</a>
+                <a href="{{  route('th/global-talent-registration') }}" class="button alt">ไปที่การลงทะเบียน</a>
             </footer>
         </article>
     </div>
@@ -176,7 +176,7 @@
                 <li>ผู้อันดับสามด้โบนัสและรางวัลรวมทั้งหมด 200,000 หยวนไต้หวัน</li>
             </ul>
             <footer>
-                <a href="{{ route('register-th') }}" class="button alt">ไปที่การลงทะเบียน</a>
+                <a href="{{ route('th/global-talent-registration') }}" class="button alt">ไปที่การลงทะเบียน</a>
             </footer>
         </article>
     </div>

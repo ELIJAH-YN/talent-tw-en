@@ -61,7 +61,7 @@
                 </ul>
             </div>
             <footer>
-                <a href="{{  route('register-vn') }}" class="button alt">Đi đăng ký</a>
+                <a href="{{  route('vn/global-talent-registration') }}" class="button alt">Đi đăng ký</a>
             </footer>
         </article>
     </div>
@@ -174,7 +174,7 @@
                 <li>Quý quân có thể nhận được số tiền thưởng bao gồm phần thưởng tổng cộng là 200 nghìn Đài tệ.</li>
             </ul>
             <footer>
-                <a href="{{ route('register-vn') }}" class="button alt">Đi đăng ký</a>
+                <a href="{{ route('vn/global-talent-registration') }}" class="button alt">Đi đăng ký</a>
             </footer>
         </article>
     </div>

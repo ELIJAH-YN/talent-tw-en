@@ -4,6 +4,15 @@
 <section id="three" class="wrapper post bg-img" data-bg="banner-4.jpg">
     <div class="inner">
         <article class="box col-md-4">
+            @if(Session::has('alert'))
+                <script>
+                    var msg = '{{Session::get('alert')}}';
+                    var exist = '{{Session::has('alert')}}';
+                    if(exist){
+                        alert(msg);
+                    }
+                </script>
+            @endif
             <header class="review-wrapper">
                 <h3>Đánh giá bầu chọn vòng loại</h3>
             </header>
@@ -55,7 +64,7 @@
                 </ul>
             </div>
             <footer>
-                <a href="{{ route('register') }}" class="button alt">Trở về nhà</a>
+                <a href="{{ route('/vn') }}" class="button alt">Trở về nhà</a>
             </footer>
         </article>
     </div>

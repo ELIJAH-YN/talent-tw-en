@@ -318,7 +318,7 @@ class RegisterController extends Controller
             'email' => [
                 'required',
                 'unique:users,email',
-                'regex:/^[\w\-_+\.]+@[\w\-_]+\.[a-z]{2,}$/'
+                'regex:/^[\w\-_+\.]+@[\w\-_]+[\.a-z]{2,}$/'
             ],
         ])) {
             return Redirect::to('vn/global-talent-registration')->withInput();
@@ -446,7 +446,7 @@ class RegisterController extends Controller
             'email' => [
                 'required',
                 'unique:users,email',
-                'regex:/^[\w\-_+\.]+@[\w\-_]+\.[a-z]{2,}$/'
+                'regex:/^[\w\-_+\.]+@[\w\-_]+[\.a-z]{2,}$/'
             ],
         ])) {
             return Redirect::to('th/global-talent-registration')->withInput();
