@@ -182,7 +182,7 @@
                 <li>Second Place: $NT30,000 equivalent prize and cash.</li>
                 <li>Third Place: $NT20,000 equivalent prize and cash.</li><br>
                 <li>International Final Competition - The top 3 finalist from each region will compete at Parisian Hotel in Macau</li>
-                <li>Date: 12/8</li><br>
+                <li>Date: 12/14</li><br>
                 <li>Competition Content:</li>
                 <li>The top 3 winners from each region will perform on stage and compete for the  championship. The judge panel will score and comment accordingly. The one with the highest score is the Top Talent Champion.</li>
                 <li>Competition Method:  Stage Presentation.  The order of contestant stage presentation is decided by drawing</li>
