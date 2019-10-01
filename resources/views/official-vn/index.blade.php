@@ -77,7 +77,7 @@
             </header>
             <div class="content">
                 <ul>
-                    <li>Ngày tham gia thi đấu: 15/09/2019 -30/09/2019</li>
+                    <li>Ngày tham gia thi đấu: 15/09/2019 -14/10/2019</li>
                     <li>Địa điểm tham gia thi đấu: Cạnh tranh trên mạng</li>
                     <li>Phương thức thi: Yêu cầu người tham gia cuộc thi tải lên Tik Tok một đoạn phim ngắn 15 giây.</li>
                     <li>Nội dung thi: Chủ đề là tùy ý chọn  các Nhà tài trợ, tạo dựng đoạn phim sáng tạo tuyên truyền ra mắt sản phẩm.</li>
@@ -90,7 +90,7 @@
             </header>
             <div class="content">
                 <ul>
-                    <li>Ngày tham gia thi đấu: 01/10/2019 – 18/10/2019</li>
+                    <li>Ngày tham gia thi đấu: 15/10/2019 – 31/10/2019</li>
                     <li>Địa điểm tham gia thi đấu: Cạnh tranh trên mạng</li>
                     <li>Phương thức thi: Yêu cầu người tham gia cuộc thi tải lên Tik Tok một đoạn phim ngắn 15 giây.</li>
                     <li>Nội dung thi: Chỉ định chủ đề là một Nhà tài trợ đơn nhất (2 đoạn phim) và 3 phần Nhà tài trợ (mỗi phần 1 đoạn phim), tạo dựng đoạn phim tuyên truyền ra mắt sản phẩm để tiến hành cuộc thi.</li>
@@ -115,7 +115,7 @@
             </header>
             <div class="content">
                 <ul>
-                    <li>Ngày tham gia thi đấu: 15/11/2019 – 16/11/2019</li>
+                    <li>Ngày tham gia thi đấu: 24/11/2019</li>
                     <li>Địa điểm tham gia thi đấu: Đơn vị tổ chức sẽ thông báo cho người tham gia cuộc thi theo kết quả đánh giá bầu chọn</li>
                 </ul>
             </div>
@@ -166,6 +166,7 @@
                 <h2>Vòng chung kết quốc tế</h2>
             </header>
             <ul class="finial-wrapper">
+                <li>Ngày tham gia thi đấu: 14/12/2019</li>
                 <li>Mỗi một khu vực thi đấu chọn ra 3 người đứng đầu bước vào Rạp hát Người Paris Macao.</li>
                 <li>Bốc thăm lên sân khấu biểu diễn theo thứ tự, và Ban giám khảo tại chỗ đánh giá hạng mục để cho điểm.</li>
                 <li>Người có tổng số điểm cao nhất sẽ là quán quân thế giới của Cuộc thi người tài năng hàng đầu toàn cầu lần thứ nhất.</li>
