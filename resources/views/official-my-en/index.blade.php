@@ -32,7 +32,7 @@
             </header>
             <div class="content">
                 <p>
-                    1. Open Registration:  8/1/2019 – 8/32/2019<br>
+                    1. Open Registration:  8/1/2019 – 8/31/2019<br>
                     2. Qualification: 18 years or older, male or female<br>
                     3. Winner Awards : Champion NT $500,000 equivalent prize and cash.  Second Place NT$300,000 equivalent prize and cash.  Third Place NT$100,000 equivalent prize and cash.<br>
                     4. The results of the competition will be announced at the final competition in Macau.  The results will also be announced on the official Quick-Pi website and Facebook fan club.
@@ -120,7 +120,7 @@
             </header>
             <div class="content">
                 <ul>
-                    <li>Date: 11/1/2019 – 11/2/2019</li>
+                    <li>Date: 11/2/2019</li>
                     <li>Competition Method: 2  PK rounds at a Location to be announced by GTTC. The regional top 3 finalist will be announced at the end of Regional Final.</li>
                 </ul>
             </div>
