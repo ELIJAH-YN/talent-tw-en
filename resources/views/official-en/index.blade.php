@@ -162,12 +162,12 @@
                 <div class="bonus-border"></div>
             </div>
             <div class="bonus-box">
-                <h4>30 Thousand</h4>
+                <h4>300 Thousand</h4>
                 <p>The first runner-up</p>
                 <div class="bonus-border"></div>
             </div>
             <div class="bonus-box">
-                <h4>20 Thousand</h4>
+                <h4>200 Thousand</h4>
                 <p>The second runner-up</p>
                 <div class="bonus-border"></div>
             </div>
