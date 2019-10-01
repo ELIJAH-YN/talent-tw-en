@@ -32,7 +32,7 @@
             </header>
             <div class="content">
                 <p>
-                    1. Open Registration:  8/1/2019 – 8/32/2019<br>
+                    1. Open Registration:  8/1/2019 – 9/14/2019<br>
                     2. Qualification: 18 years or older, male or female<br>
                     3. Winner Awards : Champion NT $500,000 equivalent prize and cash.  Second Place NT$300,000 equivalent prize and cash.  Third Place NT$100,000 equivalent prize and cash.<br>
                     4. The results of the competition will be announced at the final competition in Macau.  The results will also be announced on the official Quick-Pi website and Facebook fan club.
@@ -84,7 +84,7 @@
             </header>
             <div class="content">
                 <ul>
-                    <li>Date: 9/1/2019 – 9/30/2019</li>
+                    <li>Date: 9/15/2019 – 9/30/2019</li>
                     <li>Competition Method: Participant post one or many 15-second short video to Tik Tok</li>
                     <li>Certification Mark: Please hashtag all the following sponsor names, #快拍股份有限公司、#晨悅預防醫學、#菲力斯國際、#H2OHOTEL、#桃園機場捷運、#台灣大車隊、#寶齡富錦生技、#富士康廣告、#創克整合行銷、#Juksy、#Qlive、#好事連播網、＃宅宅新聞、＃國王汽車、＃易珈生技、#原綺醫美集團。</li>
                     <li>Competition Contents: Creative commercial video for any product of GTTC sponsors.</li>
@@ -120,7 +120,7 @@
             </header>
             <div class="content">
                 <ul>
-                    <li>Date: 11/1/2019 – 11/2/2019</li>
+                    <li>Date: 11/2/2019</li>
                     <li>Competition Method: 2  PK rounds at a Location to be announced by GTTC. The regional top 3 finalist will be announced at the end of Regional Final.</li>
                 </ul>
             </div>

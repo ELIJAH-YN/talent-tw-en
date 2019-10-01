@@ -128,7 +128,7 @@
             </header>
             <div class="content">
                 <ul>
-                    <li>參賽日期：2019/11/01 - 2019/11/02</li>
+                    <li>參賽日期：2019/11/02</li>
                     <li>參賽地點：高雄 H2O HOTEL</li>
                 </ul>
             </div>
