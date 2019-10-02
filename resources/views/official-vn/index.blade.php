@@ -82,7 +82,7 @@
                     <li>Phương thức thi: Yêu cầu người tham gia cuộc thi tải lên Tik Tok một đoạn phim ngắn 15 giây.</li>
                     <li>Nội dung thi: Chủ đề là tùy ý chọn  các Nhà tài trợ, tạo dựng đoạn phim sáng tạo tuyên truyền ra mắt sản phẩm.</li>
                     <li>Phương thức tính điểm: Trong thời gian của vòng loại, người tham gia cuộc thi không hạn chế số lượng đoạn phim, tính điểm theo tổng số trái tim và đánh giá đoạn phim.</li>
-                    <li>Phương thức chứng nhận đoạn phim cạnh tranh: Danh sách hashtag Nhà tài trợ，#快拍股份有限公司、#晨悅預防醫學、#菲力斯國際、#H2OHOTEL、#桃園機場捷運、#台灣大車隊、#寶齡富錦生技、#富士康廣告、#創克整合行銷、#Juksy、#Qlive、#好事連播網、＃宅宅新聞、＃國王汽車、＃易珈生技、#原綺醫美集團。</li>
+                    <li>Phương thức chứng nhận đoạn phim cạnh tranh: Danh sách hashtag Nhà tài trợ，#快拍股份有限公司、#晨悅預防醫學、#菲力斯國際、#H2OHOTEL、#桃園機場捷運、#台灣大車隊、#寶齡富錦生技、#富士康廣告、#創克整合行銷、#Juksy、#Qlive、#好事聯播網、＃宅宅新聞、＃國王汽車、＃易珈生技、#原綺醫美集團。</li>
                 </ul>
             </div>
             <header class="review-wrapper">
@@ -95,7 +95,7 @@
                     <li>Phương thức thi: Yêu cầu người tham gia cuộc thi tải lên Tik Tok một đoạn phim ngắn 15 giây.</li>
                     <li>Nội dung thi: Chỉ định chủ đề là một Nhà tài trợ đơn nhất (2 đoạn phim) và 3 phần Nhà tài trợ (mỗi phần 1 đoạn phim), tạo dựng đoạn phim tuyên truyền ra mắt sản phẩm để tiến hành cuộc thi.</li>
                     <li>Phương thức tính điểm: Trong thời gian chỉ định, người tham gia cuộc thi giới hạn tải lên 5 đoạn phim, tính điểm theo tổng số trái tim và đánh giá đoạn phim.</li>
-                    <li>Phương thức chứng nhận đoạn phim cạnh tranh: Danh sách hashtag Nhà tài trợ，#快拍股份有限公司、#晨悅預防醫學、#菲力斯國際、#H2OHOTEL、#桃園機場捷運、#台灣大車隊、#寶齡富錦生技、#富士康廣告、#創克整合行銷、#Juksy、#Qlive、#好事連播網、＃宅宅新聞、＃國王汽車、＃易珈生技、#原綺醫美集團。</li>
+                    <li>Phương thức chứng nhận đoạn phim cạnh tranh: Danh sách hashtag Nhà tài trợ，#快拍股份有限公司、#晨悅預防醫學、#菲力斯國際、#H2OHOTEL、#桃園機場捷運、#台灣大車隊、#寶齡富錦生技、#富士康廣告、#創克整合行銷、#Juksy、#Qlive、#好事聯播網、＃宅宅新聞、＃國王汽車、＃易珈生技、#原綺醫美集團。</li>
                 </ul>
             </div>
         </article>
