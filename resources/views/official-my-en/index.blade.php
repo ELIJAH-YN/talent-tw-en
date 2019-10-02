@@ -86,7 +86,7 @@
                 <ul>
                     <li>Date: 9/1/2019 – 9/30/2019</li>
                     <li>Competition Method: Participant post one or many 15-second short video to Tik Tok</li>
-                    <li>Certification Mark: Please hashtag all the following sponsor names, #快拍股份有限公司、#晨悅預防醫學、#菲力斯國際、#H2OHOTEL、#桃園機場捷運、#台灣大車隊、#寶齡富錦生技、#富士康廣告、#創克整合行銷、#Juksy、#Qlive、#好事聯播網、＃宅宅新聞、＃國王汽車、＃易珈生技、#原綺醫美集團。</li>
+                    <li>Certification Mark: Please hashtag all the following sponsor names, #快拍股份有限公司、#晨悅預防醫學、#菲力斯國際、#H2OHOTEL、#桃園機場捷運、#台灣大車隊、#寶齡富錦生技、#富士康廣告、#創克整合行銷、#Juksy、#Qlive、#好事聯播網、＃宅宅新聞、＃卡卡洛普、＃國王汽車、＃易珈生技、#原綺醫美集團。</li>
                     <li>Competition Contents: Creative commercial video for any product of GTTC sponsors.</li>
                     <li>Scoring Method: By the total number of loves of the films and judge score by 9/30/2019</li>
                 </ul>
@@ -98,7 +98,7 @@
                 <ul>
                     <li>Date: 10/1/2019 – 10/18/2019</li>
                     <li>Competition Method: Participant post five 15-second short video to Tik Tok</li>
-                    <li>Certification Mark: Please hashtag all the following sponsor names, #快拍股份有限公司、#晨悅預防醫學、#菲力斯國際、#H2OHOTEL、#桃園機場捷運、#台灣大車隊、#寶齡富錦生技、#富士康廣告、#創克整合行銷、#Juksy、#Qlive、#好事聯播網、＃宅宅新聞、＃國王汽車、＃易珈生技、#原綺醫美集團。</li>
+                    <li>Certification Mark: Please hashtag all the following sponsor names, #快拍股份有限公司、#晨悅預防醫學、#菲力斯國際、#H2OHOTEL、#桃園機場捷運、#台灣大車隊、#寶齡富錦生技、#富士康廣告、#創克整合行銷、#Juksy、#Qlive、#好事聯播網、＃宅宅新聞、＃卡卡洛普、＃國王汽車、＃易珈生技、#原綺醫美集團。</li>
                     <li>Competition Contents:  2 films for main sponsors.  1 film for each of the 3 other sponsors.</li>
                     <li>Scoring Method: By the total number of loves of the films and judge score by 10/31/2019</li>
                 </ul>
