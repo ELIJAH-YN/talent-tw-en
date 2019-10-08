@@ -43,7 +43,7 @@
             <li><a href="{{ route('/my') }}">首頁</a></li>
             <li><a href="{{ route('/my') }}">報名規則</a></li>
             <li><a href="{{ route('my/global-talent-registration') }}">前往報名</a></li>
-            <li><a href="{{ route('/my/en') }}">英文</a></li>
+            <li><a href="{{ route('/my/en') }}">English</a></li>
     </nav>
 
 

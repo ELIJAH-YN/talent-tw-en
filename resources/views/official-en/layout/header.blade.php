@@ -31,7 +31,7 @@
             <li><a href="{{ route('/en') }}">Home</a></li>
             <li><a href="{{ route('/en') }}">Rules</a></li>
             <li><a href="{{ route('en/global-talent-registration') }}">Apply</a></li>
-            <li><a href="/">繁體</a></li>
+            <li><a href="/">Tradition Chinese</a></li>
     </nav>
 
 
