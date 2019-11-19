@@ -22,7 +22,7 @@
     <div class="inner">
         <article class="box">
             <div class="content-wrapper">
-                <p>Global Top Talent Contest (GTTC) is the premier online talent competition sponsored by a renowned online media company Quick Pi based in Taiwan.  The contest  select top 3 talents from each of the 10 cities which include Beijing, Shanghai, Taipei, Wuhan, Chengdu, Hangzhou, Ho Chi Minh City, Bangkok,  Kuala Lumpur, and Hong Kong.  The final competition will be held at Parisian Hotel in Macau December 2019.</p>
+                <p>Global Top Talent Contest (GTTC) is the premier online talent competition sponsored by a renowned online media company Quick Pi based in Taiwan.  The contest  select top 3 talents from each of the 10 cities which include Beijing, Shanghai, Taipei, Wuhan, Chengdu, Hangzhou, Ho Chi Minh City, Bangkok,  Kuala Lumpur, and Hong Kong.  The final competition will be held at SANDS COTAI THEATRE in Macau December 2019.</p>
             </div>
             <div class="content-wrapper">
                 <p>We welcome individuals who are looking for opportunity to demonstrate your unique talents to the world.  Take the chance to and let your talent shine at this exciting competition!!</p>
